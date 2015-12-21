@@ -1,2 +1,2 @@
-# SUS_on_S
-SUS on order parameter: S
+# SUS_3D
+The Successive umbrella sampling for 3D rods
