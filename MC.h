@@ -40,9 +40,13 @@ class MC
         const vector<HR>& getURodlist() const;
 
     	// ******** Other Functianality *******//
-        void Add(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
-        void Del(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
-    	array<double,100000> MCSUS(); 
+        // void Add(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
+        // void Del(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
+        void Add(Cells &s,double &prob,double &proba);
+        void Del(Cells &s,double &prob,double &probd, double &size);
+
+    	
+        array<double,100000> MCSUS(); 
 };
 
 #endif /* MC_H */
