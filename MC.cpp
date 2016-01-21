@@ -253,7 +253,7 @@ array<double,100000> MC::MCSUS()
 	double tho; // the density 
 	double size;
 	double V = double(n0*n1*n2);    // the total lattice size
-	double S = 0;
+	double S = -1;
 
 	srand(time(NULL));
 	long int i = 0; // counter for each window
@@ -267,7 +267,7 @@ array<double,100000> MC::MCSUS()
 	array<double,100000> PL_w;
 
     // ============= Do a GCMC to reach the initial state where S is in [0,deltaS] ==========
-	while (S <= 0 || S>DeltaS)
+	while (S < 0 || S>DeltaS)
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
 		addordel = rand()%2 ; 
@@ -295,13 +295,13 @@ array<double,100000> MC::MCSUS()
 				Del(s,prob,probd,size);
 			}
 		}
-		cout << S << endl;			
+		// cout << S << endl;			
 	}
 	// cout << "LOL" << endl;
 	//================================Start my SUS_MC simulation=================================
     // Weights WF = [(s=0.0005),(s=0.001),(s=0.0015),(s=0.002) ... , (s=0.5)] ---> say 0.5/0.0005 = 1000 components
     // Windows = [{(s=0.0005),(s=0.001)}; {(s=0.001),(s=0.0015)};...;{(s=0.4995),(s=0.5)}] ---> 0.4995/0.0005 = 999 windows
-    // !! the while loop start from a state that when S is in [0,deltaS] !!
+    // !! the while loop start from a state that when S is in [0,deltaS] !! NOT EMPTY!!!
 	//===========================================================================================
 
 	// ================================== THE SUS on S simulation starts ==================================
@@ -318,10 +318,8 @@ array<double,100000> MC::MCSUS()
 			addordel = rand()%2;
 		    double size = nv+nh+nu;
 		    double N = int(size);
-		    if(nu+nv+nh != 0)
-		    {
-				S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
-		    } 
+
+
 			prob = ((double) rand() / (RAND_MAX)); 
 
 	        // ===========================Addition ===================================
@@ -335,7 +333,12 @@ array<double,100000> MC::MCSUS()
 				Del(s,prob,probd,size);	
 			}	
 
-			if ((w/2.0)*DeltaS <= S && S < (w+1.0)*DeltaS/2.0) // update the fu after each step.
+			S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
+
+			// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+			// if ((w-1.0)*DeltaS/2.0<= S && S <= (w+1.0)*DeltaS/2.0)
+			// {
+			if ((w/2.0)*DeltaS <= S && S <= (w+1.0)*DeltaS/2.0) // update the fu after each step.
 			{
 				fu++; // if at the upper window, update fu
 				PH_w[N]++; // update the distribution/histogram of PH;
@@ -347,6 +350,20 @@ array<double,100000> MC::MCSUS()
 				PL_w[N]++; // update the distribution/histogram of PL;
 				cout << "??"<<endl;
 			}	
+			// }
+			else
+			{
+				
+				if(addordel == 0) 
+				{
+					Add_redo();
+				}
+				// ============================Deletion=============================
+				else 
+				{
+					Del_redo();
+				}	
+			} // the case that S is outside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
 		}
 		// =======================  if fu and fl != 0 Update the upper window side ================================
         if (fu!=0 && fl != 0)
