@@ -42,8 +42,11 @@ class MC
     	// ******** Other Functianality *******//
         // void Add(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
         // void Del(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
-        void Add(Cells &s,double &prob,double &proba);
-        void Del(Cells &s,double &prob,double &probd, double &size);
+        std::tuple<int,int,int,int> Add(Cells &s,double &prob,double &proba);
+        void Add_redo(Cells &s,std::tuple<int,int,int,int> Ad);
+
+        std::tuple<int,int,int,int> Del(Cells &s,double &prob,double &probd, double &size);
+        void Del_redo(Cells &s,std::tuple<int,int,int,int> De);
 
     	
         array<double,100000> MCSUS(); 

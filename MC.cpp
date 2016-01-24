@@ -43,7 +43,7 @@ const vector<HR>& MC::getURodlist() const
 }
 
 
-void MC::Add(Cells &s,double &prob,double &proba)
+std::tuple<int,int,int,int> MC::Add(Cells &s,double &prob,double &proba)
 {
 	int x,y,z,o; // pick a random position and orientation for the HR to be added;
 	x = rand()%n0; // x range[0,n0-1]
@@ -84,7 +84,8 @@ void MC::Add(Cells &s,double &prob,double &proba)
 					for (int i = 0; i < length; i++)
 					{	
 						s.getSquare(x,(y+i)%n1,z).setStatus(1);
-					}					
+					}
+				    return std::make_tuple(x,y,z,o);					
 				}		
 			}									
 		}
@@ -117,6 +118,7 @@ void MC::Add(Cells &s,double &prob,double &proba)
 					{
 						s.getSquare((x+i)%n0,y,z).setStatus(1);
 					}
+				    return std::make_tuple(x,y,z,o);
 				}
 			}
 		}
@@ -148,30 +150,80 @@ void MC::Add(Cells &s,double &prob,double &proba)
 					{
 						s.getSquare(x,y,(z+i)%n2).setStatus(1);
 					}
+				    return std::make_tuple(x,y,z,o);
 				}
 			}							
 		}
     }
+    return std::make_tuple(-1,-1,-1,-1);
+}
+void MC::Add_redo(Cells &s, std::tuple<int,int,int,int> Ad)
+{
+	int x,y,z,o;
+	x = std::get<0>(Ad);
+	y = std::get<1>(Ad);
+	z = std::get<2>(Ad);
+	o = std::get<3>(Ad);
+	// delete the rod we just added;
+	if(o == 0)
+	{
+		// --------------------- it's a vertical rod -----------------------
+		for(int i = 0; i<length; i++)
+		{
+			// update the new config of cells
+			s.getSquare(x,(y+i)%n1,z).setStatus(0);
+		}
+		// remove the target rod from the vector Rodlist;
+		VRodlist.pop_back();
+		av--;
+		nv--;// cancel the earlier accumulate the # of ver rod;
+	}
+	
+	else if (o == 1)
+	{
+		// --------------------- it's a horizontal rod -----------------------
+
+		for(int i = 0; i<length; i++)
+		{
+			// update the new config of cells
+			s.getSquare((x+i)%n0,y,z).setStatus(0);
+		}
+		// remove the target rod from the vector Rodlist;
+		HRodlist.pop_back();		
+		ah--;
+		nh--;// cancel the earlier accumulate the # of hor rod;
+	}
+	else
+	{
+		// --------------------- it's a up rod -----------------------
+		for(int i = 0; i<length; i++)
+		{
+			// update the new config of cells
+			s.getSquare(x,y,(z+i)%n2).setStatus(0);
+		}
+		// remove the target rod from the vector Rodlist;
+		URodlist.pop_back();
+		au--;
+		nu--;// cancel the earlier accumulate the # of hor rod;
+	}	
 }
 
-void MC::Del(Cells &s,double &prob,double &probd, double &size)
-{
+std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double &size)
+{		
+	int x,y,z,indx;// the position of the target on the cells;
+	x=y=z=indx=0;
 
 	if(nv + nh + nu >0)// make sure there are Vertical rod;
-	{
-		int indx; // pick a random index from the Rodlist;
-		indx = rand()%int(nv+nh+nu);
-
-		//remove Rodlist[indx];
-		int x,y,z;// the position of the target on the cells;
-
+	{	
 		if(prob <= probd)
-		{					
-			if(indx < nv)
+		{
+			indx = rand()%int(nv+nh+nu);; // pick a random index from the Rodlist;
+			if(indx < nv && nv !=0)
 			{
 				x = VRodlist[indx].getX();
 				y = VRodlist[indx].getY();
 				z = VRodlist[indx].getZ();	
+
 				// --------------------- it's a vertical rod -----------------------
 
 				for(int i = 0; i<VRodlist[indx].getLength(); i++)
@@ -185,11 +237,12 @@ void MC::Del(Cells &s,double &prob,double &probd, double &size)
 				dv++;
 			}
 			
-			else if (indx < nv + nh)
+			else if (indx < nv + nh && nh !=0)
 			{
 				x = HRodlist[indx - nv].getX();
 				y = HRodlist[indx - nv].getY();
 				z = HRodlist[indx - nv].getZ();	
+
 				// --------------------- it's a horizontal rod -----------------------
 
 				for(int i = 0; i<HRodlist[indx-nv].getLength(); i++)
@@ -201,12 +254,14 @@ void MC::Del(Cells &s,double &prob,double &probd, double &size)
 				HRodlist.erase(HRodlist.begin() + indx - nv);
 				nh--;// substract the # of ver rod;
 				dh++;
+
 			}
-			else
+			else if(nu !=0)
 			{
 				x = URodlist[indx - nv - nh].getX();
 				y = URodlist[indx - nv - nh].getY();
 				z = URodlist[indx - nv - nh].getZ();	
+
 				// --------------------- it's a up rod -----------------------
 				for(int i = 0; i<URodlist[indx-nv-nh].getLength(); i++)
 				{
@@ -216,10 +271,74 @@ void MC::Del(Cells &s,double &prob,double &probd, double &size)
 				// remove the target rod from the vector Rodlist;
 				URodlist.erase(URodlist.begin()+indx-nv-nh);
 				nu--;// substract the # of ver rod;
-				du++;
+				du++;	
 			}
+			return std::make_tuple(x,y,z,indx);					
 		}
-	}	
+		return std::make_tuple(-1,-1,-1,-1);
+	}
+}
+
+void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
+{
+	int x,y,z,indx,o;
+	x = std::get<0>(De);
+	y = std::get<1>(De);
+	z = std::get<2>(De);
+	indx = std::get<3>(De);
+
+	if(indx < nv)
+	{
+		o = 0;
+		HR rod(x,y,z,length,o);		
+	//======================== Vertical ===============================
+		// Do addition to put the deleted rod back;
+		// push the rod back into the VRodlist;
+		VRodlist.insert(VRodlist.begin() + indx,rod);
+		// VRodlist.push_back(rod);
+		nv++;
+		dv--;
+		// update new N, E and new config;
+		for (int i = 0; i < length; i++)
+		{	
+			s.getSquare(x,(y+i)%n1,z).setStatus(1);
+		}													
+	}
+
+	else if(indx < nv + nh)
+	{
+		o = 1;
+		HR rod(x,y,z,length,o);		
+    //======================= Horizontal  ============================
+		// Do addition to put the deleted rod back;
+		// push the rod into the HRodlist;
+		HRodlist.insert(HRodlist.begin() + indx - nv,rod);
+		// HRodlist.push_back(rod);
+		nh++;
+		dh--;
+		// update new N, E and new config;
+		for (int i = 0; i < length; i++)
+		{
+			s.getSquare((x+i)%n0,y,z).setStatus(1);
+		}
+	}
+	else 
+	{
+		o = 2;
+		HR rod(x,y,z,length,o);		
+    //======================= Up  ============================
+		// Do addition to put the deleted rod back;
+		// push the rod into the URodlist;
+		URodlist.insert(URodlist.begin()+indx-nv-nh,rod);
+		// URodlist.push_back(rod);
+		nu++;
+		du--;
+		// update new N, E and new config;
+		for (int i = 0; i < length; i++)
+		{
+			s.getSquare(x,y,(z+i)%n2).setStatus(1);
+		}						
+	}
 }
 
 /*
@@ -267,7 +386,7 @@ array<double,100000> MC::MCSUS()
 	array<double,100000> PL_w;
 
     // ============= Do a GCMC to reach the initial state where S is in [0,deltaS] ==========
-	while (S < 0 || S>DeltaS)
+	while (S <= 0 || S>DeltaS )
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
 		addordel = rand()%2 ; 
@@ -303,7 +422,9 @@ array<double,100000> MC::MCSUS()
     // Windows = [{(s=0.0005),(s=0.001)}; {(s=0.001),(s=0.0015)};...;{(s=0.4995),(s=0.5)}] ---> 0.4995/0.0005 = 999 windows
     // !! the while loop start from a state that when S is in [0,deltaS] !! NOT EMPTY!!!
 	//===========================================================================================
-
+	std::tuple<int,int,int,int> Ad;
+	std::tuple<int,int,int,int> De;
+    
 	// ================================== THE SUS on S simulation starts ==================================
 	while (w <= N_window)// the while loop terminates when finish simulating the last window: window[V/K]; !!!for rods: window[0.8*V/K]
 	{
@@ -316,21 +437,24 @@ array<double,100000> MC::MCSUS()
 			i++;
 			// generate a random probability to decide either add or del;
 			addordel = rand()%2;
-		    double size = nv+nh+nu;
-		    double N = int(size);
-
+		    size = nv+nh+nu;
 
 			prob = ((double) rand() / (RAND_MAX)); 
 
 	        // ===========================Addition ===================================
 			if(addordel == 0) 
 			{
-				Add(s,prob,proba);
+				Ad = Add(s,prob,proba);
+				// cout << (nu-(nv+nh)*0.5)/(nu+nv+nh)<<endl;
 			}
 			// ============================Deletion=============================
 			else 
 			{
-				Del(s,prob,probd,size);	
+				if (size != 0) // make sure there are rods to be del;
+				{
+					De = Del(s,prob,probd,size);	
+					// cout << std::get<0>(De) <<"  "<<std::get<1>(De)<<"  "<< std::get<2>(De)<<"  "<<std::get<3>(De)<<endl;
+				}
 			}	
 
 			S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
@@ -341,29 +465,32 @@ array<double,100000> MC::MCSUS()
 			if ((w/2.0)*DeltaS <= S && S <= (w+1.0)*DeltaS/2.0) // update the fu after each step.
 			{
 				fu++; // if at the upper window, update fu
-				PH_w[N]++; // update the distribution/histogram of PH;
-				cout << "!!" <<nv<<"   "<<nh<<"   "<<nu<<"     "<<S<<endl;
+				PH_w[size]++; // update the distribution/histogram of PH;
 			}
 			else if ((w-1.0)*DeltaS/2.0 <= S && S < (w/2.0)*DeltaS)  // update the fl after each step.
 			{
 				fl++;//if at the lower window, update fl
-				PL_w[N]++; // update the distribution/histogram of PL;
-				cout << "??"<<endl;
+				PL_w[size]++; // update the distribution/histogram of PL;
 			}	
 			// }
 			else
-			{
-				
+			{	
+				// the case that S is outside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
 				if(addordel == 0) 
 				{
-					Add_redo();
+					if(std::get<0>(Ad) !=-1 && std::get<1>(Ad) !=-1 && std::get<2>(Ad) !=-1 && std::get<3>(Ad) !=-1)
+					{
+						Add_redo(s,Ad);
+					}
 				}
-				// ============================Deletion=============================
 				else 
 				{
-					Del_redo();
+					if(std::get<0>(De) !=-1 && std::get<1>(De) !=-1 && std::get<2>(De) !=-1 && std::get<3>(De) !=-1)
+					{
+						Del_redo(s,De);
+					}
 				}	
-			} // the case that S is outside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+			} 
 		}
 		// =======================  if fu and fl != 0 Update the upper window side ================================
         if (fu!=0 && fl != 0)
