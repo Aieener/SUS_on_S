@@ -9,7 +9,6 @@
 *
 */
 
-
 #include "MC.h"
 
 MC::MC(long int ST, int LEN, int N0, int N1, int N2, double Z)
@@ -353,11 +352,14 @@ void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
 * then 2nd: DeltaS/2 <= S < 3/2*(DeltaS)
 * ...  ith: (i-1)*DeltaS/2 <= S < (i+1)*DeltaS/2 
 *
+* At the end, for Window i: we should have P_wi(N) = P_H_wi(N)+P_L_wi+1(N)
+* and we obtained the P(N) by P(N) = C*sum_w1->wmax{P_wi(N)*exp{WF(i)}}
+*
 * According to R.L.C.Vink's paper, Delta S = 0.001 to 0.002 gives good result
 *********************************************************************************
 */	
 
-array<double,100000> MC::MCSUS()
+array<double,2000> MC::MCSUS()
 {
 	Cells s(n0,n1,n2,EMPTY,length);  //  setting the lattice;
 	//================= declare instance variables ============================= 
@@ -380,12 +382,24 @@ array<double,100000> MC::MCSUS()
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
 	double N_window = 0.5*1/(0.5*DeltaS);
-    array<double,100000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!
-	array<double,100000> P_w; // 
-	array<double,100000> PH_w;
-	array<double,100000> PL_w;
+    array<double,2000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
+    // -----------------------The rest arrays are 2D arrays ------------------------------//
+	vector<vector<double>> P_w; // an array that stores the histogram/distribution of ave # of N
+	vector<vector<double>> PH_w; // an array that stores the histogram/distribution of Higher window in terms of # of N
+	vector<vector<double>> PL_w; // an array that stores the histogram/distribution of Lower window in terms of # of N
+	PH_w.resize(2000);
+	PL_w.resize(2000);
+	P_w.resize(2000);
 
-    // ============= Do a GCMC to reach the initial state where S is in [0,deltaS] ==========
+	for(int i =0; i<2000; i++)
+	{
+		PH_w[i].resize(n0*n1*n2/length);
+		PL_w[i].resize(n0*n1*n2/length);
+		P_w[i].resize(n0*n1*n2/length);
+		// cout<< "LOL: "<<i<<endl;
+	}
+
+    // ============= Do a GCMC to reach a initial state where S is in [0,deltaS] ==========
 	while (S <= 0 || S>DeltaS )
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
@@ -416,7 +430,6 @@ array<double,100000> MC::MCSUS()
 		}
 		// cout << S << endl;			
 	}
-	// cout << "LOL" << endl;
 	//================================Start my SUS_MC simulation=================================
     // Weights WF = [(s=0.0005),(s=0.001),(s=0.0015),(s=0.002) ... , (s=0.5)] ---> say 0.5/0.0005 = 1000 components
     // Windows = [{(s=0.0005),(s=0.001)}; {(s=0.001),(s=0.0015)};...;{(s=0.4995),(s=0.5)}] ---> 0.4995/0.0005 = 999 windows
@@ -465,12 +478,12 @@ array<double,100000> MC::MCSUS()
 			if ((w/2.0)*DeltaS <= S && S <= (w+1.0)*DeltaS/2.0) // update the fu after each step.
 			{
 				fu++; // if at the upper window, update fu
-				PH_w[size]++; // update the distribution/histogram of PH;
+				PH_w[w][size]++; // update the distribution/histogram of PH;
 			}
 			else if ((w-1.0)*DeltaS/2.0 <= S && S < (w/2.0)*DeltaS)  // update the fl after each step.
 			{
 				fl++;//if at the lower window, update fl
-				PL_w[size]++; // update the distribution/histogram of PL;
+				PL_w[w][size]++; // update the distribution/histogram of PL;
 			}	
 			// }
 			else
@@ -498,13 +511,17 @@ array<double,100000> MC::MCSUS()
 		    WF[w] = WF[w] + log(fu/fl);
 	        // "linearly extrapolate" for WF[w+1] by using W[w] and WF[w-1]
 	        WF[w+1] = WF[w];
-	        // WF[w+1] = 2*WF[w] - WF[w-1];
 
-	        cout << nu<<"  "<<nh <<" " <<nv <<"  "<<(nu-(nv+nh)*0.5)/(nu+(nv+nh)*0.5)<<endl;
+			// Store the distribution of PH_w(N) and PL_w(N) and update P_w(N)
+			for(int i =0;i<n0*n1*n2/length; i++)
+			{
+				P_w[w][i]= PL_w[w][i] + PH_w[w-1][i];
+			}
+	        cout << nu<<"  "<<nh <<" " <<nv <<"  "<<S<<endl;
 			// ======================= Print out the data into terminal =============================================		
 			cout <<"Window: "<< w <<" : "<<"W("<<w<<" : lower) = "<< WF[w-1]<<" "<<"W("<<w<<" : Upper) = "<< WF[w] << endl;
 			// initial config determine the intial value of fu and fl
-			// Store the distribution of PH_w(N) and PL_w(N)
+
 		    w++; // switch into the next window
         }
         // else do nothing and reset fu and fl and repeat the window simulation
@@ -517,18 +534,27 @@ array<double,100000> MC::MCSUS()
 	// 	ph<<P_w[k]<<endl;
 	// }
 
-	for(int i = 0; i< N_window+1; i++) 
+	for(int i = 1; i< N_window+1; i++) 
 	{
+		for(int k = 0; k<n0*n1*n2/length; k++)
+		{
+			ph<< P_w[i][k] <<" ";
+		}
+		ph<<endl;
+
 		sh<<WF[i]<<endl;
 	}
 
 	ofstream myfile ("SUSWeight_function.txt");
+	ofstream myfile2("P_w.txt");
+	myfile2.precision(20);
 	myfile.precision(20);
+	string data3 = ph.str();
 	string data2 = sh.str();
-	// string data3 = ph.str();
 	myfile << data2;
-	// <<"   "<<data3;
+	myfile2 << data3;
 	myfile.close();
+	myfile2.close();
 
 	return WF;  
 }

@@ -49,7 +49,7 @@ class MC
         void Del_redo(Cells &s,std::tuple<int,int,int,int> De);
 
     	
-        array<double,100000> MCSUS(); 
+        array<double,2000> MCSUS(); 
 };
 
 #endif /* MC_H */
