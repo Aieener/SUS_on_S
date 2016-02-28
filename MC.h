@@ -49,7 +49,9 @@ class MC
         void Del_redo(Cells &s,std::tuple<int,int,int,int> De);
 
     	
-        array<double,2000> MCSUS(); 
+        // array<double,2000> MCSUS(); 
+        void MCSUS();
+        // std::tuple<array<double,2000>,vector<vector<double>>> MCSUS();
 };
 
 #endif /* MC_H */

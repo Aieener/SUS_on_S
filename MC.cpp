@@ -359,7 +359,11 @@ void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
 *********************************************************************************
 */	
 
-array<double,2000> MC::MCSUS()
+// change to return a tuple:<WF,P_w(a two dimensional array that stores pi(N))>
+
+// array<double,2000> MC::MCSUS()
+void MC::MCSUS()
+// std::tuple<array<double,2000>,vector<vector<double>>> MC::MCSUS()
 {
 	Cells s(n0,n1,n2,EMPTY,length);  //  setting the lattice;
 	//================= declare instance variables ============================= 
@@ -381,10 +385,13 @@ array<double,2000> MC::MCSUS()
 	double w = 1.0; // a counter that keep track of the index of window
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
-	double N_window = 0.5*1/(0.5*DeltaS);
+	double N_window = 0.8*1/(0.5*DeltaS);
     array<double,2000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
+    vector<double> P_N;
+    P_N.resize(n0*n1*n2/length);
     // -----------------------The rest arrays are 2D arrays ------------------------------//
 	vector<vector<double>> P_w; // an array that stores the histogram/distribution of ave # of N
+	                            // where P_w^{i}(N) = PH_w^{i}(N) + PL_w^{i+1}(N);
 	vector<vector<double>> PH_w; // an array that stores the histogram/distribution of Higher window in terms of # of N
 	vector<vector<double>> PL_w; // an array that stores the histogram/distribution of Lower window in terms of # of N
 	PH_w.resize(2000);
@@ -517,7 +524,7 @@ array<double,2000> MC::MCSUS()
 			// Store the distribution of PH_w(N) and PL_w(N) and update P_w(N)
 			for(int i =0;i<n0*n1*n2/length; i++)
 			{
-				P_w[w][i]= PL_w[w][i] + PH_w[w-1][i];
+				P_w[w-1][i]= PL_w[w][i] + PH_w[w-1][i];
 			}
 	        cout << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
 	        data_s << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
@@ -533,42 +540,76 @@ array<double,2000> MC::MCSUS()
         // else do nothing and reset fu and fl and repeat the window simulation
 	}
 
-	//accumulate the distribution PH_w(N) and PL_w(N) into the total distribution of P_w(N);
-	// for(int k = 0; k< V/int(length) + 1;k++)
-	// {
-	// 	P_w[k] = PH_w[k] + PL_w[k+1]; 
-	// 	ph<<P_w[k]<<endl;
-	// }
+	double C=0.0; // the normalization constant for P_N
 
-	for(int i = 1; i< N_window+1; i++) 
+	for(int k = 0; k<n0*n1*n2/length;k++) 
 	{
-		for(int k = 0; k<n0*n1*n2/length; k++)
+		// Now calc the final P_N by using WF and P_w;
+		for (int i = 1; i< N_window+1; i++)
 		{
-			ph<< P_w[i][k] <<" ";
+	        P_N[k] += P_w[i][k]*exp(WF[i]);
 		}
-		ph<<endl;
+        C+=P_N[k];
 
-		sh<<WF[i]<<endl;
+
+        //==========================================
+		// for(int k = 0; k<n0*n1*n2/length; k++)
+		// {
+		// 	ph<< P_w[i][k] <<" ";
+		// }
+		// ph<<endl;
+		//==========================================
+		// ph<<P_N[k]<<endl;
+
+	}
+	for (int i = 1; i< N_window+1; i++)
+	{
+		sh<<WF[i]<<endl; // record WF into a text file;
+	}
+
+
+	for (int i =0; i<n0*n1*n2/length; i++)
+	{
+		P_N[i]=P_N[i]/C;
+		ph<<P_N[i]<<endl;
 	}
 
 	ofstream myfile ("SUSWeight_function.txt");
 	ofstream data ("Data.txt");
-	ofstream myfile2("P_w.txt");
-	myfile2.precision(20);
+	// ofstream myfile2("P_w.txt");
+	ofstream myfile3("P_N.txt");
+
+	// myfile2.precision(20);
+	myfile3.precision(20);
 	data.precision(20);
 	myfile.precision(20);
+
 	string data4 = data_s.str();
-	string data3 = ph.str();
+	// string data3 = ph.str();
+	string data5 = ph.str();
 	string data2 = sh.str();
+
 	data << data4;
 	myfile << data2;
-	myfile2 << data3;
+	// myfile2 << data3;
+	myfile3 << data5;
+
 	myfile.close();
-	myfile2.close();
+	// myfile2.close();
+	myfile3.close();
 	data.close();
 
-	return WF;  
+	// for(int i = 0; i<)
+
+
+	return ;  
+	// return std::make_tuple(WF,P_w);
 }
+
+
+
+
+
 
 
 
