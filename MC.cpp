@@ -274,7 +274,7 @@ std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double 
 			}
 			return std::make_tuple(x,y,z,indx);					
 		}
-		return std::make_tuple(-1,-1,-1,-1);
+		return std::make_tuple(-1,-1,-1,-1); // if delesion failed, return -1,-1,-1,-1
 	}
 }
 
@@ -363,7 +363,7 @@ array<double,2000> MC::MCSUS()
 {
 	Cells s(n0,n1,n2,EMPTY,length);  //  setting the lattice;
 	//================= declare instance variables ============================= 
-	stringstream sh,ph;
+	stringstream sh,ph,data_s;
 	sh.precision(20);
 	ph.precision(20);
 	double addordel;           // the prob to decide either add or del;
@@ -492,7 +492,8 @@ array<double,2000> MC::MCSUS()
 				if(addordel == 0) 
 				{
 					if(std::get<0>(Ad) !=-1 && std::get<1>(Ad) !=-1 && std::get<2>(Ad) !=-1 && std::get<3>(Ad) !=-1)
-					{
+					{ 
+						//make sure we did Add successfully before;
 						Add_redo(s,Ad);
 					}
 				}
@@ -500,6 +501,7 @@ array<double,2000> MC::MCSUS()
 				{
 					if(std::get<0>(De) !=-1 && std::get<1>(De) !=-1 && std::get<2>(De) !=-1 && std::get<3>(De) !=-1)
 					{
+						//make sure we did Del successfully before;
 						Del_redo(s,De);
 					}
 				}	
@@ -517,9 +519,13 @@ array<double,2000> MC::MCSUS()
 			{
 				P_w[w][i]= PL_w[w][i] + PH_w[w-1][i];
 			}
-	        cout << nu<<"  "<<nh <<" " <<nv <<"  "<<S<<endl;
+	        cout << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
+	        data_s << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
+
 			// ======================= Print out the data into terminal =============================================		
 			cout <<"Window: "<< w <<" : "<<"W("<<w<<" : lower) = "<< WF[w-1]<<" "<<"W("<<w<<" : Upper) = "<< WF[w] << endl;
+			data_s <<"Window: "<< w <<" : "<<"W("<<w<<" : lower) = "<< WF[w-1]<<" "<<"W("<<w<<" : Upper) = "<< WF[w] << endl;
+
 			// initial config determine the intial value of fu and fl
 
 		    w++; // switch into the next window
@@ -546,15 +552,20 @@ array<double,2000> MC::MCSUS()
 	}
 
 	ofstream myfile ("SUSWeight_function.txt");
+	ofstream data ("Data.txt");
 	ofstream myfile2("P_w.txt");
 	myfile2.precision(20);
+	data.precision(20);
 	myfile.precision(20);
+	string data4 = data_s.str();
 	string data3 = ph.str();
 	string data2 = sh.str();
+	data << data4;
 	myfile << data2;
 	myfile2 << data3;
 	myfile.close();
 	myfile2.close();
+	data.close();
 
 	return WF;  
 }

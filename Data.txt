@@ -1,0 +1,2000 @@
+# of Up rod: 1076  # of Hor rod: 1098 # of Ver rod: 1052  S = 0.000309981
+Window: 1 : W(1 : lower) = 0 W(1 : Upper) = -0.511926
+# of Up rod: 1649  # of Hor rod: 1647 # of Ver rod: 1642  S = 0.0009113
+Window: 2 : W(2 : lower) = -0.511926 W(2 : Upper) = -0.569538
+# of Up rod: 2069  # of Hor rod: 2064 # of Ver rod: 2061  S = 0.0010494
+Window: 3 : W(3 : lower) = -0.569538 W(3 : Upper) = -0.842847
+# of Up rod: 2250  # of Hor rod: 2250 # of Ver rod: 2228  S = 0.00163496
+Window: 4 : W(4 : lower) = -0.842847 W(4 : Upper) = -0.361359
+# of Up rod: 2528  # of Hor rod: 2543 # of Ver rod: 2480  S = 0.00218514
+Window: 5 : W(5 : lower) = -0.361359 W(5 : Upper) = -0.411167
+# of Up rod: 2556  # of Hor rod: 2570 # of Ver rod: 2492  S = 0.0032817
+Window: 6 : W(6 : lower) = -0.411167 W(6 : Upper) = 0.12105
+# of Up rod: 2780  # of Hor rod: 2794 # of Ver rod: 2703  S = 0.00380573
+Window: 7 : W(7 : lower) = 0.12105 W(7 : Upper) = -0.381848
+# of Up rod: 2974  # of Hor rod: 2967 # of Ver rod: 2903  S = 0.00440977
+Window: 8 : W(8 : lower) = -0.381848 W(8 : Upper) = -0.366064
+# of Up rod: 3137  # of Hor rod: 3143 # of Ver rod: 3053  S = 0.00417872
+Window: 9 : W(9 : lower) = -0.366064 W(9 : Upper) = -1.1077
+# of Up rod: 3208  # of Hor rod: 3213 # of Ver rod: 3109  S = 0.00493179
+Window: 10 : W(10 : lower) = -1.1077 W(10 : Upper) = -1.71228
+# of Up rod: 3371  # of Hor rod: 3370 # of Ver rod: 3269  S = 0.00514486
+Window: 11 : W(11 : lower) = -1.71228 W(11 : Upper) = -2.20605
+# of Up rod: 3462  # of Hor rod: 3449 # of Ver rod: 3358  S = 0.00569676
+Window: 12 : W(12 : lower) = -2.20605 W(12 : Upper) = -2.88859
+# of Up rod: 3549  # of Hor rod: 3537 # of Ver rod: 3423  S = 0.0065658
+Window: 13 : W(13 : lower) = -2.88859 W(13 : Upper) = -4.15513
+# of Up rod: 3657  # of Hor rod: 3644 # of Ver rod: 3522  S = 0.00683729
+Window: 14 : W(14 : lower) = -4.15513 W(14 : Upper) = -5.26357
+# of Up rod: 3726  # of Hor rod: 3717 # of Ver rod: 3580  S = 0.00703075
+Window: 15 : W(15 : lower) = -5.26357 W(15 : Upper) = -8.18169
+# of Up rod: 3757  # of Hor rod: 3736 # of Ver rod: 3611  S = 0.00751981
+Window: 16 : W(16 : lower) = -8.18169 W(16 : Upper) = -10.0693
+# of Up rod: 3819  # of Hor rod: 3788 # of Ver rod: 3652  S = 0.00879297
+Window: 17 : W(17 : lower) = -10.0693 W(17 : Upper) = -9.714
+# of Up rod: 3895  # of Hor rod: 3868 # of Ver rod: 3712  S = 0.00915033
+Window: 18 : W(18 : lower) = -9.714 W(18 : Upper) = -9.77363
+# of Up rod: 3968  # of Hor rod: 3949 # of Ver rod: 3771  S = 0.00924025
+Window: 19 : W(19 : lower) = -9.77363 W(19 : Upper) = -10.4713
+# of Up rod: 3975  # of Hor rod: 3949 # of Ver rod: 3769  S = 0.00992047
+Window: 20 : W(20 : lower) = -10.4713 W(20 : Upper) = -12.3808
+# of Up rod: 4031  # of Hor rod: 3994 # of Ver rod: 3821  S = 0.0104255
+Window: 21 : W(21 : lower) = -12.3808 W(21 : Upper) = -16.289
+# of Up rod: 4078  # of Hor rod: 4053 # of Ver rod: 3851  S = 0.0105158
+Window: 22 : W(22 : lower) = -16.289 W(22 : Upper) = -17.8551
+# of Up rod: 4142  # of Hor rod: 4117 # of Ver rod: 3895  S = 0.0111897
+Window: 23 : W(23 : lower) = -17.8551 W(23 : Upper) = -18.7138
+# of Up rod: 4188  # of Hor rod: 4140 # of Ver rod: 3933  S = 0.0123563
+Window: 24 : W(24 : lower) = -18.7138 W(24 : Upper) = -17.7419
+# of Up rod: 4243  # of Hor rod: 4185 # of Ver rod: 3998  S = 0.0121922
+Window: 25 : W(25 : lower) = -17.7419 W(25 : Upper) = -17.7303
+# of Up rod: 4290  # of Hor rod: 4231 # of Ver rod: 4028  S = 0.0127899
+Window: 26 : W(26 : lower) = -17.7303 W(26 : Upper) = -18.3233
+# of Up rod: 4341  # of Hor rod: 4275 # of Ver rod: 4061  S = 0.0136468
+Window: 27 : W(27 : lower) = -18.3233 W(27 : Upper) = -18.73
+# of Up rod: 4398  # of Hor rod: 4318 # of Ver rod: 4117  S = 0.0140653
+Window: 28 : W(28 : lower) = -18.73 W(28 : Upper) = -19.256
+# of Up rod: 4449  # of Hor rod: 4365 # of Ver rod: 4152  S = 0.0146923
+Window: 29 : W(29 : lower) = -19.256 W(29 : Upper) = -18.1625
+# of Up rod: 4499  # of Hor rod: 4418 # of Ver rod: 4198  S = 0.0145635
+Window: 30 : W(30 : lower) = -18.1625 W(30 : Upper) = -17.9081
+# of Up rod: 4539  # of Hor rod: 4447 # of Ver rod: 4213  S = 0.0158345
+Window: 31 : W(31 : lower) = -17.9081 W(31 : Upper) = -17.5277
+# of Up rod: 4579  # of Hor rod: 4477 # of Ver rod: 4259  S = 0.0158468
+Window: 32 : W(32 : lower) = -17.5277 W(32 : Upper) = -17.9728
+# of Up rod: 4630  # of Hor rod: 4516 # of Ver rod: 4292  S = 0.016818
+Window: 33 : W(33 : lower) = -17.9728 W(33 : Upper) = -16.8852
+# of Up rod: 4649  # of Hor rod: 4539 # of Ver rod: 4313  S = 0.0165173
+Window: 34 : W(34 : lower) = -16.8852 W(34 : Upper) = -17.0544
+# of Up rod: 4686  # of Hor rod: 4558 # of Ver rod: 4331  S = 0.0177901
+Window: 35 : W(35 : lower) = -17.0544 W(35 : Upper) = -17.1206
+# of Up rod: 4705  # of Hor rod: 4573 # of Ver rod: 4352  S = 0.0177916
+Window: 36 : W(36 : lower) = -17.1206 W(36 : Upper) = -19.6979
+# of Up rod: 4738  # of Hor rod: 4602 # of Ver rod: 4365  S = 0.0185699
+Window: 37 : W(37 : lower) = -19.6979 W(37 : Upper) = -19.7619
+# of Up rod: 4762  # of Hor rod: 4617 # of Ver rod: 4389  S = 0.0188117
+Window: 38 : W(38 : lower) = -19.7619 W(38 : Upper) = -19.5917
+# of Up rod: 4795  # of Hor rod: 4632 # of Ver rod: 4408  S = 0.0198771
+Window: 39 : W(39 : lower) = -19.5917 W(39 : Upper) = -20.6433
+# of Up rod: 4820  # of Hor rod: 4659 # of Ver rod: 4428  S = 0.0198821
+Window: 40 : W(40 : lower) = -20.6433 W(40 : Upper) = -21.704
+# of Up rod: 4834  # of Hor rod: 4669 # of Ver rod: 4435  S = 0.0202325
+Window: 41 : W(41 : lower) = -21.704 W(41 : Upper) = -24.2192
+# of Up rod: 4863  # of Hor rod: 4690 # of Ver rod: 4458  S = 0.0206267
+Window: 42 : W(42 : lower) = -24.2192 W(42 : Upper) = -24.1865
+# of Up rod: 4904  # of Hor rod: 4716 # of Ver rod: 4475  S = 0.0218872
+Window: 43 : W(43 : lower) = -24.1865 W(43 : Upper) = -23.7716
+# of Up rod: 4933  # of Hor rod: 4739 # of Ver rod: 4510  S = 0.0217529
+Window: 44 : W(44 : lower) = -23.7716 W(44 : Upper) = -22.6633
+# of Up rod: 4945  # of Hor rod: 4742 # of Ver rod: 4516  S = 0.0222488
+Window: 45 : W(45 : lower) = -22.6633 W(45 : Upper) = -27.4361
+# of Up rod: 4966  # of Hor rod: 4754 # of Ver rod: 4528  S = 0.0228102
+Window: 46 : W(46 : lower) = -27.4361 W(46 : Upper) = -31.7824
+# of Up rod: 4998  # of Hor rod: 4791 # of Ver rod: 4538  S = 0.0232777
+Window: 47 : W(47 : lower) = -31.7824 W(47 : Upper) = -34.2517
+# of Up rod: 5011  # of Hor rod: 4784 # of Ver rod: 4543  S = 0.0242363
+Window: 48 : W(48 : lower) = -34.2517 W(48 : Upper) = -35.13
+# of Up rod: 5027  # of Hor rod: 4802 # of Ver rod: 4553  S = 0.0243012
+Window: 49 : W(49 : lower) = -35.13 W(49 : Upper) = -33.5977
+# of Up rod: 5052  # of Hor rod: 4825 # of Ver rod: 4550  S = 0.0252651
+Window: 50 : W(50 : lower) = -33.5977 W(50 : Upper) = -34.6666
+# of Up rod: 5064  # of Hor rod: 4838 # of Ver rod: 4562  S = 0.0251659
+Window: 51 : W(51 : lower) = -34.6666 W(51 : Upper) = -38.4514
+# of Up rod: 5077  # of Hor rod: 4833 # of Ver rod: 4564  S = 0.0261503
+Window: 52 : W(52 : lower) = -38.4514 W(52 : Upper) = -38.3824
+# of Up rod: 5089  # of Hor rod: 4845 # of Ver rod: 4564  S = 0.0265209
+Window: 53 : W(53 : lower) = -38.3824 W(53 : Upper) = -39.9397
+# of Up rod: 5107  # of Hor rod: 4865 # of Ver rod: 4577  S = 0.026531
+Window: 54 : W(54 : lower) = -39.9397 W(54 : Upper) = -40.1623
+# of Up rod: 5131  # of Hor rod: 4870 # of Ver rod: 4592  S = 0.0274104
+Window: 55 : W(55 : lower) = -40.1623 W(55 : Upper) = -41.952
+# of Up rod: 5133  # of Hor rod: 4864 # of Ver rod: 4579  S = 0.0282313
+Window: 56 : W(56 : lower) = -41.952 W(56 : Upper) = -42.4948
+# of Up rod: 5161  # of Hor rod: 4897 # of Ver rod: 4591  S = 0.0284661
+Window: 57 : W(57 : lower) = -42.4948 W(57 : Upper) = -44.0983
+# of Up rod: 5167  # of Hor rod: 4885 # of Ver rod: 4597  S = 0.0290805
+Window: 58 : W(58 : lower) = -44.0983 W(58 : Upper) = -47.8809
+# of Up rod: 5185  # of Hor rod: 4908 # of Ver rod: 4603  S = 0.0292256
+Window: 59 : W(59 : lower) = -47.8809 W(59 : Upper) = -46.8976
+# of Up rod: 5196  # of Hor rod: 4919 # of Ver rod: 4601  S = 0.0296276
+Window: 60 : W(60 : lower) = -46.8976 W(60 : Upper) = -51.0865
+# of Up rod: 5225  # of Hor rod: 4936 # of Ver rod: 4610  S = 0.0306005
+Window: 61 : W(61 : lower) = -51.0865 W(61 : Upper) = -52.9128
+# of Up rod: 5253  # of Hor rod: 4943 # of Ver rod: 4639  S = 0.0311426
+Window: 62 : W(62 : lower) = -52.9128 W(62 : Upper) = -53.2398
+# of Up rod: 5274  # of Hor rod: 4958 # of Ver rod: 4648  S = 0.0316532
+Window: 63 : W(63 : lower) = -53.2398 W(63 : Upper) = -53.4214
+# of Up rod: 5294  # of Hor rod: 4963 # of Ver rod: 4666  S = 0.0321316
+Window: 64 : W(64 : lower) = -53.4214 W(64 : Upper) = -52.1623
+# of Up rod: 5301  # of Hor rod: 4964 # of Ver rod: 4655  S = 0.0329424
+Window: 65 : W(65 : lower) = -52.1623 W(65 : Upper) = -53.0867
+# of Up rod: 5303  # of Hor rod: 4964 # of Ver rod: 4644  S = 0.0334652
+Window: 66 : W(66 : lower) = -53.0867 W(66 : Upper) = -51.1327
+# of Up rod: 5305  # of Hor rod: 4969 # of Ver rod: 4650  S = 0.0332016
+Window: 67 : W(67 : lower) = -51.1327 W(67 : Upper) = -49.7082
+# of Up rod: 5325  # of Hor rod: 4969 # of Ver rod: 4655  S = 0.0343167
+Window: 68 : W(68 : lower) = -49.7082 W(68 : Upper) = -50.0782
+# of Up rod: 5329  # of Hor rod: 4975 # of Ver rod: 4652  S = 0.0344678
+Window: 69 : W(69 : lower) = -50.0782 W(69 : Upper) = -49.4683
+# of Up rod: 5349  # of Hor rod: 4983 # of Ver rod: 4658  S = 0.0352568
+Window: 70 : W(70 : lower) = -49.4683 W(70 : Upper) = -50.0756
+# of Up rod: 5371  # of Hor rod: 4995 # of Ver rod: 4666  S = 0.0359566
+Window: 71 : W(71 : lower) = -50.0756 W(71 : Upper) = -49.8123
+# of Up rod: 5372  # of Hor rod: 5009 # of Ver rod: 4659  S = 0.0357713
+Window: 72 : W(72 : lower) = -49.8123 W(72 : Upper) = -54.0725
+# of Up rod: 5393  # of Hor rod: 5014 # of Ver rod: 4665  S = 0.0367237
+Window: 73 : W(73 : lower) = -54.0725 W(73 : Upper) = -53.8902
+# of Up rod: 5401  # of Hor rod: 5028 # of Ver rod: 4669  S = 0.0365943
+Window: 74 : W(74 : lower) = -53.8902 W(74 : Upper) = -58.5225
+# of Up rod: 5418  # of Hor rod: 5032 # of Ver rod: 4670  S = 0.0375
+Window: 75 : W(75 : lower) = -58.5225 W(75 : Upper) = -61.0827
+# of Up rod: 5426  # of Hor rod: 5032 # of Ver rod: 4661  S = 0.0383293
+Window: 76 : W(76 : lower) = -61.0827 W(76 : Upper) = -61.9607
+# of Up rod: 5424  # of Hor rod: 5027 # of Ver rod: 4660  S = 0.0384157
+Window: 77 : W(77 : lower) = -61.9607 W(77 : Upper) = -62.7145
+# of Up rod: 5429  # of Hor rod: 5028 # of Ver rod: 4653  S = 0.0389477
+Window: 78 : W(78 : lower) = -62.7145 W(78 : Upper) = -62.9754
+# of Up rod: 5432  # of Hor rod: 5035 # of Ver rod: 4640  S = 0.0393526
+Window: 79 : W(79 : lower) = -62.9754 W(79 : Upper) = -63.255
+# of Up rod: 5445  # of Hor rod: 5038 # of Ver rod: 4632  S = 0.0403573
+Window: 80 : W(80 : lower) = -63.255 W(80 : Upper) = -63.1333
+# of Up rod: 5451  # of Hor rod: 5032 # of Ver rod: 4646  S = 0.0404521
+Window: 81 : W(81 : lower) = -63.1333 W(81 : Upper) = -62.3844
+# of Up rod: 5461  # of Hor rod: 5037 # of Ver rod: 4636  S = 0.0412647
+Window: 82 : W(82 : lower) = -62.3844 W(82 : Upper) = -62.8158
+# of Up rod: 5475  # of Hor rod: 5052 # of Ver rod: 4643  S = 0.0413645
+Window: 83 : W(83 : lower) = -62.8158 W(83 : Upper) = -66.6226
+# of Up rod: 5498  # of Hor rod: 5053 # of Ver rod: 4674  S = 0.0416749
+Window: 84 : W(84 : lower) = -66.6226 W(84 : Upper) = -66.2983
+# of Up rod: 5515  # of Hor rod: 5052 # of Ver rod: 4673  S = 0.042815
+Window: 85 : W(85 : lower) = -66.2983 W(85 : Upper) = -65.7067
+# of Up rod: 5515  # of Hor rod: 5044 # of Ver rod: 4673  S = 0.0431001
+Window: 86 : W(86 : lower) = -65.7067 W(86 : Upper) = -67.7076
+# of Up rod: 5519  # of Hor rod: 5040 # of Ver rod: 4683  S = 0.0431374
+Window: 87 : W(87 : lower) = -67.7076 W(87 : Upper) = -71.5718
+# of Up rod: 5529  # of Hor rod: 5045 # of Ver rod: 4675  S = 0.0438717
+Window: 88 : W(88 : lower) = -71.5718 W(88 : Upper) = -71.9743
+# of Up rod: 5531  # of Hor rod: 5041 # of Ver rod: 4660  S = 0.0446757
+Window: 89 : W(89 : lower) = -71.9743 W(89 : Upper) = -72.1054
+# of Up rod: 5525  # of Hor rod: 5039 # of Ver rod: 4645  S = 0.0449076
+Window: 90 : W(90 : lower) = -72.1054 W(90 : Upper) = -72.3093
+# of Up rod: 5526  # of Hor rod: 5040 # of Ver rod: 4636  S = 0.0452572
+Window: 91 : W(91 : lower) = -72.3093 W(91 : Upper) = -72.6933
+# of Up rod: 5530  # of Hor rod: 5036 # of Ver rod: 4634  S = 0.0457237
+Window: 92 : W(92 : lower) = -72.6933 W(92 : Upper) = -73.6517
+# of Up rod: 5550  # of Hor rod: 5043 # of Ver rod: 4635  S = 0.0466903
+Window: 93 : W(93 : lower) = -73.6517 W(93 : Upper) = -73.862
+# of Up rod: 5547  # of Hor rod: 5041 # of Ver rod: 4634  S = 0.0466102
+Window: 94 : W(94 : lower) = -73.862 W(94 : Upper) = -78.7313
+# of Up rod: 5554  # of Hor rod: 5049 # of Ver rod: 4623  S = 0.0471562
+Window: 95 : W(95 : lower) = -78.7313 W(95 : Upper) = -82.2135
+# of Up rod: 5569  # of Hor rod: 5062 # of Ver rod: 4607  S = 0.0482019
+Window: 96 : W(96 : lower) = -82.2135 W(96 : Upper) = -81.6925
+# of Up rod: 5564  # of Hor rod: 5053 # of Ver rod: 4612  S = 0.0480334
+Window: 97 : W(97 : lower) = -81.6925 W(97 : Upper) = -85.0441
+# of Up rod: 5581  # of Hor rod: 5048 # of Ver rod: 4617  S = 0.0490948
+Window: 98 : W(98 : lower) = -85.0441 W(98 : Upper) = -85.0605
+# of Up rod: 5583  # of Hor rod: 5040 # of Ver rod: 4624  S = 0.0492556
+Window: 99 : W(99 : lower) = -85.0605 W(99 : Upper) = -86.5386
+# of Up rod: 5601  # of Hor rod: 5053 # of Ver rod: 4624  S = 0.0499084
+Window: 100 : W(100 : lower) = -86.5386 W(100 : Upper) = -87.2695
+# of Up rod: 5609  # of Hor rod: 5047 # of Ver rod: 4618  S = 0.050838
+Window: 101 : W(101 : lower) = -87.2695 W(101 : Upper) = -86.655
+# of Up rod: 5620  # of Hor rod: 5064 # of Ver rod: 4617  S = 0.0509444
+Window: 102 : W(102 : lower) = -86.655 W(102 : Upper) = -87.7733
+# of Up rod: 5635  # of Hor rod: 5073 # of Ver rod: 4622  S = 0.0513699
+Window: 103 : W(103 : lower) = -87.7733 W(103 : Upper) = -88.104
+# of Up rod: 5645  # of Hor rod: 5098 # of Ver rod: 4607  S = 0.0516287
+Window: 104 : W(104 : lower) = -88.104 W(104 : Upper) = -87.7062
+# of Up rod: 5653  # of Hor rod: 5100 # of Ver rod: 4607  S = 0.0520508
+Window: 105 : W(105 : lower) = -87.7062 W(105 : Upper) = -90.4481
+# of Up rod: 5667  # of Hor rod: 5075 # of Ver rod: 4632  S = 0.052914
+Window: 106 : W(106 : lower) = -90.4481 W(106 : Upper) = -94.2549
+# of Up rod: 5679  # of Hor rod: 5082 # of Ver rod: 4632  S = 0.0534009
+Window: 107 : W(107 : lower) = -94.2549 W(107 : Upper) = -95.2203
+# of Up rod: 5678  # of Hor rod: 5091 # of Ver rod: 4616  S = 0.0535912
+Window: 108 : W(108 : lower) = -95.2203 W(108 : Upper) = -96.7556
+# of Up rod: 5689  # of Hor rod: 5099 # of Ver rod: 4615  S = 0.0540155
+Window: 109 : W(109 : lower) = -96.7556 W(109 : Upper) = -98.2766
+# of Up rod: 5701  # of Hor rod: 5102 # of Ver rod: 4614  S = 0.0546799
+Window: 110 : W(110 : lower) = -98.2766 W(110 : Upper) = -101.266
+# of Up rod: 5709  # of Hor rod: 5099 # of Ver rod: 4619  S = 0.0550982
+Window: 111 : W(111 : lower) = -101.266 W(111 : Upper) = -105.657
+# of Up rod: 5717  # of Hor rod: 5092 # of Ver rod: 4620  S = 0.055804
+Window: 112 : W(112 : lower) = -105.657 W(112 : Upper) = -104.912
+# of Up rod: 5720  # of Hor rod: 5098 # of Ver rod: 4612  S = 0.0560596
+Window: 113 : W(113 : lower) = -104.912 W(113 : Upper) = -105.705
+# of Up rod: 5733  # of Hor rod: 5092 # of Ver rod: 4603  S = 0.0573956
+Window: 114 : W(114 : lower) = -105.705 W(114 : Upper) = -104.961
+# of Up rod: 5734  # of Hor rod: 5099 # of Ver rod: 4592  S = 0.0576013
+Window: 115 : W(115 : lower) = -104.961 W(115 : Upper) = -104.729
+# of Up rod: 5737  # of Hor rod: 5085 # of Ver rod: 4596  S = 0.0581463
+Window: 116 : W(116 : lower) = -104.729 W(116 : Upper) = -104.615
+# of Up rod: 5749  # of Hor rod: 5095 # of Ver rod: 4605  S = 0.0581915
+Window: 117 : W(117 : lower) = -104.615 W(117 : Upper) = -104.13
+# of Up rod: 5762  # of Hor rod: 5101 # of Ver rod: 4601  S = 0.058911
+Window: 118 : W(118 : lower) = -104.13 W(118 : Upper) = -104.791
+# of Up rod: 5786  # of Hor rod: 5119 # of Ver rod: 4600  S = 0.0597549
+Window: 119 : W(119 : lower) = -104.791 W(119 : Upper) = -104.304
+# of Up rod: 5790  # of Hor rod: 5123 # of Ver rod: 4607  S = 0.0596005
+Window: 120 : W(120 : lower) = -104.304 W(120 : Upper) = -104.852
+# of Up rod: 5800  # of Hor rod: 5126 # of Ver rod: 4606  S = 0.0601339
+Window: 121 : W(121 : lower) = -104.852 W(121 : Upper) = -106.281
+# of Up rod: 5811  # of Hor rod: 5125 # of Ver rod: 4593  S = 0.0613047
+Window: 122 : W(122 : lower) = -106.281 W(122 : Upper) = -106.171
+# of Up rod: 5817  # of Hor rod: 5119 # of Ver rod: 4597  S = 0.0617395
+Window: 123 : W(123 : lower) = -106.171 W(123 : Upper) = -104.155
+# of Up rod: 5814  # of Hor rod: 5101 # of Ver rod: 4609  S = 0.0617753
+Window: 124 : W(124 : lower) = -104.155 W(124 : Upper) = -105.838
+# of Up rod: 5836  # of Hor rod: 5086 # of Ver rod: 4634  S = 0.0627411
+Window: 125 : W(125 : lower) = -105.838 W(125 : Upper) = -106.167
+# of Up rod: 5834  # of Hor rod: 5082 # of Ver rod: 4638  S = 0.0626205
+Window: 126 : W(126 : lower) = -106.167 W(126 : Upper) = -104.688
+# of Up rod: 5854  # of Hor rod: 5079 # of Ver rod: 4649  S = 0.0635348
+Window: 127 : W(127 : lower) = -104.688 W(127 : Upper) = -105.149
+# of Up rod: 5861  # of Hor rod: 5072 # of Ver rod: 4649  S = 0.0642087
+Window: 128 : W(128 : lower) = -105.149 W(128 : Upper) = -104.712
+# of Up rod: 5855  # of Hor rod: 5063 # of Ver rod: 4651  S = 0.0641017
+Window: 129 : W(129 : lower) = -104.712 W(129 : Upper) = -108.141
+# of Up rod: 5858  # of Hor rod: 5059 # of Ver rod: 4639  S = 0.0648624
+Window: 130 : W(130 : lower) = -108.141 W(130 : Upper) = -112.098
+# of Up rod: 5873  # of Hor rod: 5051 # of Ver rod: 4642  S = 0.065945
+Window: 131 : W(131 : lower) = -112.098 W(131 : Upper) = -112.156
+# of Up rod: 5871  # of Hor rod: 5045 # of Ver rod: 4641  S = 0.0660796
+Window: 132 : W(132 : lower) = -112.156 W(132 : Upper) = -112.154
+# of Up rod: 5872  # of Hor rod: 5039 # of Ver rod: 4645  S = 0.0662124
+Window: 133 : W(133 : lower) = -112.154 W(133 : Upper) = -115.638
+# of Up rod: 5886  # of Hor rod: 5038 # of Ver rod: 4649  S = 0.0669428
+Window: 134 : W(134 : lower) = -115.638 W(134 : Upper) = -116.302
+# of Up rod: 5900  # of Hor rod: 5040 # of Ver rod: 4648  S = 0.0677444
+Window: 135 : W(135 : lower) = -116.302 W(135 : Upper) = -115.477
+# of Up rod: 5907  # of Hor rod: 5051 # of Ver rod: 4645  S = 0.0678716
+Window: 136 : W(136 : lower) = -115.477 W(136 : Upper) = -114.83
+# of Up rod: 5904  # of Hor rod: 5066 # of Ver rod: 4619  S = 0.0680929
+Window: 137 : W(137 : lower) = -114.83 W(137 : Upper) = -119.848
+# of Up rod: 5915  # of Hor rod: 5074 # of Ver rod: 4600  S = 0.0691513
+Window: 138 : W(138 : lower) = -119.848 W(138 : Upper) = -118.116
+# of Up rod: 5927  # of Hor rod: 5065 # of Ver rod: 4613  S = 0.0697212
+Window: 139 : W(139 : lower) = -118.116 W(139 : Upper) = -120.112
+# of Up rod: 5929  # of Hor rod: 5085 # of Ver rod: 4601  S = 0.0695485
+Window: 140 : W(140 : lower) = -120.112 W(140 : Upper) = -120.812
+# of Up rod: 5930  # of Hor rod: 5083 # of Ver rod: 4586  S = 0.0702289
+Window: 141 : W(141 : lower) = -120.812 W(141 : Upper) = -124.102
+# of Up rod: 5937  # of Hor rod: 5078 # of Ver rod: 4581  S = 0.0710118
+Window: 142 : W(142 : lower) = -124.102 W(142 : Upper) = -126.004
+# of Up rod: 5942  # of Hor rod: 5077 # of Ver rod: 4586  S = 0.0711631
+Window: 143 : W(143 : lower) = -126.004 W(143 : Upper) = -128.793
+# of Up rod: 5966  # of Hor rod: 5090 # of Ver rod: 4587  S = 0.072077
+Window: 144 : W(144 : lower) = -128.793 W(144 : Upper) = -130.549
+# of Up rod: 5956  # of Hor rod: 5091 # of Ver rod: 4570  S = 0.0720689
+Window: 145 : W(145 : lower) = -130.549 W(145 : Upper) = -130.696
+# of Up rod: 5955  # of Hor rod: 5092 # of Ver rod: 4537  S = 0.073184
+Window: 146 : W(146 : lower) = -130.696 W(146 : Upper) = -131.078
+# of Up rod: 5961  # of Hor rod: 5093 # of Ver rod: 4549  S = 0.0730629
+Window: 147 : W(147 : lower) = -131.078 W(147 : Upper) = -133.212
+# of Up rod: 5977  # of Hor rod: 5084 # of Ver rod: 4553  S = 0.0741962
+Window: 148 : W(148 : lower) = -133.212 W(148 : Upper) = -135.732
+# of Up rod: 5987  # of Hor rod: 5111 # of Ver rod: 4547  S = 0.0740173
+Window: 149 : W(149 : lower) = -135.732 W(149 : Upper) = -134.99
+# of Up rod: 6005  # of Hor rod: 5116 # of Ver rod: 4544  S = 0.075008
+Window: 150 : W(150 : lower) = -134.99 W(150 : Upper) = -136.133
+# of Up rod: 6017  # of Hor rod: 5118 # of Ver rod: 4542  S = 0.075716
+Window: 151 : W(151 : lower) = -136.133 W(151 : Upper) = -135.333
+# of Up rod: 6031  # of Hor rod: 5132 # of Ver rod: 4546  S = 0.0758801
+Window: 152 : W(152 : lower) = -135.333 W(152 : Upper) = -134.437
+# of Up rod: 6027  # of Hor rod: 5123 # of Ver rod: 4535  S = 0.0763787
+Window: 153 : W(153 : lower) = -134.437 W(153 : Upper) = -134.819
+# of Up rod: 6037  # of Hor rod: 5112 # of Ver rod: 4535  S = 0.0773718
+Window: 154 : W(154 : lower) = -134.819 W(154 : Upper) = -137.048
+# of Up rod: 6019  # of Hor rod: 5097 # of Ver rod: 4528  S = 0.0771222
+Window: 155 : W(155 : lower) = -137.048 W(155 : Upper) = -137.831
+# of Up rod: 6028  # of Hor rod: 5097 # of Ver rod: 4522  S = 0.0778744
+Window: 156 : W(156 : lower) = -137.831 W(156 : Upper) = -137.061
+# of Up rod: 6031  # of Hor rod: 5090 # of Ver rod: 4530  S = 0.0780142
+Window: 157 : W(157 : lower) = -137.061 W(157 : Upper) = -139.599
+# of Up rod: 6038  # of Hor rod: 5083 # of Ver rod: 4525  S = 0.07887
+Window: 158 : W(158 : lower) = -139.599 W(158 : Upper) = -141.702
+# of Up rod: 6041  # of Hor rod: 5092 # of Ver rod: 4514  S = 0.0791206
+Window: 159 : W(159 : lower) = -141.702 W(159 : Upper) = -144.652
+# of Up rod: 6056  # of Hor rod: 5081 # of Ver rod: 4512  S = 0.0804844
+Window: 160 : W(160 : lower) = -144.652 W(160 : Upper) = -145.165
+# of Up rod: 6071  # of Hor rod: 5084 # of Ver rod: 4531  S = 0.0805495
+Window: 161 : W(161 : lower) = -145.165 W(161 : Upper) = -146.271
+# of Up rod: 6070  # of Hor rod: 5064 # of Ver rod: 4529  S = 0.0813063
+Window: 162 : W(162 : lower) = -146.271 W(162 : Upper) = -145.723
+# of Up rod: 6070  # of Hor rod: 5066 # of Ver rod: 4532  S = 0.0811208
+Window: 163 : W(163 : lower) = -145.723 W(163 : Upper) = -147.997
+# of Up rod: 6085  # of Hor rod: 5052 # of Ver rod: 4557  S = 0.0815917
+Window: 164 : W(164 : lower) = -147.997 W(164 : Upper) = -147.71
+# of Up rod: 6091  # of Hor rod: 5055 # of Ver rod: 4544  S = 0.0823136
+Window: 165 : W(165 : lower) = -147.71 W(165 : Upper) = -148.389
+# of Up rod: 6118  # of Hor rod: 5069 # of Ver rod: 4549  S = 0.0831851
+Window: 166 : W(166 : lower) = -148.389 W(166 : Upper) = -147.811
+# of Up rod: 6120  # of Hor rod: 5074 # of Ver rod: 4547  S = 0.0831904
+Window: 167 : W(167 : lower) = -147.811 W(167 : Upper) = -149.334
+# of Up rod: 6135  # of Hor rod: 5083 # of Ver rod: 4531  S = 0.0843228
+Window: 168 : W(168 : lower) = -149.334 W(168 : Upper) = -149.241
+# of Up rod: 6122  # of Hor rod: 5063 # of Ver rod: 4539  S = 0.0840117
+Window: 169 : W(169 : lower) = -149.241 W(169 : Upper) = -150.253
+# of Up rod: 6137  # of Hor rod: 5062 # of Ver rod: 4535  S = 0.0850705
+Window: 170 : W(170 : lower) = -150.253 W(170 : Upper) = -153.193
+# of Up rod: 6153  # of Hor rod: 5057 # of Ver rod: 4545  S = 0.085814
+Window: 171 : W(171 : lower) = -153.193 W(171 : Upper) = -153.861
+# of Up rod: 6155  # of Hor rod: 5060 # of Ver rod: 4553  S = 0.0855213
+Window: 172 : W(172 : lower) = -153.861 W(172 : Upper) = -156.327
+# of Up rod: 6168  # of Hor rod: 5060 # of Ver rod: 4539  S = 0.0867952
+Window: 173 : W(173 : lower) = -156.327 W(173 : Upper) = -156.015
+# of Up rod: 6166  # of Hor rod: 5036 # of Ver rod: 4545  S = 0.08735
+Window: 174 : W(174 : lower) = -156.015 W(174 : Upper) = -156.8
+# of Up rod: 6173  # of Hor rod: 5040 # of Ver rod: 4547  S = 0.0875317
+Window: 175 : W(175 : lower) = -156.8 W(175 : Upper) = -153.617
+# of Up rod: 6172  # of Hor rod: 5041 # of Ver rod: 4535  S = 0.0878842
+Window: 176 : W(176 : lower) = -153.617 W(176 : Upper) = -154.226
+# of Up rod: 6191  # of Hor rod: 5063 # of Ver rod: 4533  S = 0.0882372
+Window: 177 : W(177 : lower) = -154.226 W(177 : Upper) = -153.483
+# of Up rod: 6220  # of Hor rod: 5073 # of Ver rod: 4547  S = 0.0890152
+Window: 178 : W(178 : lower) = -153.483 W(178 : Upper) = -153.82
+# of Up rod: 6229  # of Hor rod: 5068 # of Ver rod: 4559  S = 0.0892722
+Window: 179 : W(179 : lower) = -153.82 W(179 : Upper) = -154.312
+# of Up rod: 6239  # of Hor rod: 5064 # of Ver rod: 4557  S = 0.0900694
+Window: 180 : W(180 : lower) = -154.312 W(180 : Upper) = -153.606
+# of Up rod: 6238  # of Hor rod: 5065 # of Ver rod: 4552  S = 0.0901608
+Window: 181 : W(181 : lower) = -153.606 W(181 : Upper) = -156.233
+# of Up rod: 6240  # of Hor rod: 5056 # of Ver rod: 4540  S = 0.0910583
+Window: 182 : W(182 : lower) = -156.233 W(182 : Upper) = -157.04
+# of Up rod: 6241  # of Hor rod: 5057 # of Ver rod: 4534  S = 0.0913024
+Window: 183 : W(183 : lower) = -157.04 W(183 : Upper) = -160.066
+# of Up rod: 6233  # of Hor rod: 5051 # of Ver rod: 4519  S = 0.0916282
+Window: 184 : W(184 : lower) = -160.066 W(184 : Upper) = -163.447
+# of Up rod: 6232  # of Hor rod: 5044 # of Ver rod: 4509  S = 0.0922078
+Window: 185 : W(185 : lower) = -163.447 W(185 : Upper) = -166.493
+# of Up rod: 6246  # of Hor rod: 5047 # of Ver rod: 4506  S = 0.0930122
+Window: 186 : W(186 : lower) = -166.493 W(186 : Upper) = -166.907
+# of Up rod: 6252  # of Hor rod: 5037 # of Ver rod: 4520  S = 0.0932064
+Window: 187 : W(187 : lower) = -166.907 W(187 : Upper) = -167.703
+# of Up rod: 6260  # of Hor rod: 5036 # of Ver rod: 4515  S = 0.0938903
+Window: 188 : W(188 : lower) = -167.703 W(188 : Upper) = -171.016
+# of Up rod: 6277  # of Hor rod: 5036 # of Ver rod: 4513  S = 0.0949387
+Window: 189 : W(189 : lower) = -171.016 W(189 : Upper) = -170.957
+# of Up rod: 6289  # of Hor rod: 5032 # of Ver rod: 4526  S = 0.0952862
+Window: 190 : W(190 : lower) = -170.957 W(190 : Upper) = -170.241
+# of Up rod: 6307  # of Hor rod: 5040 # of Ver rod: 4527  S = 0.0959745
+Window: 191 : W(191 : lower) = -170.241 W(191 : Upper) = -170.325
+# of Up rod: 6314  # of Hor rod: 5046 # of Ver rod: 4525  S = 0.0962229
+Window: 192 : W(192 : lower) = -170.325 W(192 : Upper) = -168.697
+# of Up rod: 6322  # of Hor rod: 5048 # of Ver rod: 4530  S = 0.0964151
+Window: 193 : W(193 : lower) = -168.697 W(193 : Upper) = -168.641
+# of Up rod: 6334  # of Hor rod: 5049 # of Ver rod: 4524  S = 0.0972842
+Window: 194 : W(194 : lower) = -168.641 W(194 : Upper) = -169.19
+# of Up rod: 6327  # of Hor rod: 5045 # of Ver rod: 4513  S = 0.0974504
+Window: 195 : W(195 : lower) = -169.19 W(195 : Upper) = -168.103
+# of Up rod: 6315  # of Hor rod: 5038 # of Ver rod: 4495  S = 0.0977095
+Window: 196 : W(196 : lower) = -168.103 W(196 : Upper) = -171.187
+# of Up rod: 6319  # of Hor rod: 5024 # of Ver rod: 4495  S = 0.0984657
+Window: 197 : W(197 : lower) = -171.187 W(197 : Upper) = -172.142
+# of Up rod: 6331  # of Hor rod: 5029 # of Ver rod: 4498  S = 0.098846
+Window: 198 : W(198 : lower) = -172.142 W(198 : Upper) = -173.977
+# of Up rod: 6337  # of Hor rod: 5014 # of Ver rod: 4501  S = 0.0996404
+Window: 199 : W(199 : lower) = -173.977 W(199 : Upper) = -173.785
+# of Up rod: 6345  # of Hor rod: 5005 # of Ver rod: 4502  S = 0.100397
+Window: 200 : W(200 : lower) = -173.785 W(200 : Upper) = -173.114
+# of Up rod: 6346  # of Hor rod: 5030 # of Ver rod: 4488  S = 0.100038
+Window: 201 : W(201 : lower) = -173.114 W(201 : Upper) = -175.034
+# of Up rod: 6348  # of Hor rod: 5025 # of Ver rod: 4474  S = 0.100871
+Window: 202 : W(202 : lower) = -175.034 W(202 : Upper) = -177.036
+# of Up rod: 6359  # of Hor rod: 5018 # of Ver rod: 4472  S = 0.101836
+Window: 203 : W(203 : lower) = -177.036 W(203 : Upper) = -177.375
+# of Up rod: 6342  # of Hor rod: 5003 # of Ver rod: 4461  S = 0.10186
+Window: 204 : W(204 : lower) = -177.375 W(204 : Upper) = -177.131
+# of Up rod: 6352  # of Hor rod: 4996 # of Ver rod: 4457  S = 0.102847
+Window: 205 : W(205 : lower) = -177.131 W(205 : Upper) = -177.862
+# of Up rod: 6355  # of Hor rod: 5000 # of Ver rod: 4462  S = 0.102674
+Window: 206 : W(206 : lower) = -177.862 W(206 : Upper) = -177.976
+# of Up rod: 6355  # of Hor rod: 4992 # of Ver rod: 4460  S = 0.103056
+Window: 207 : W(207 : lower) = -177.976 W(207 : Upper) = -181.388
+# of Up rod: 6365  # of Hor rod: 4984 # of Ver rod: 4451  S = 0.104272
+Window: 208 : W(208 : lower) = -181.388 W(208 : Upper) = -181.643
+# of Up rod: 6360  # of Hor rod: 4971 # of Ver rod: 4461  S = 0.104103
+Window: 209 : W(209 : lower) = -181.643 W(209 : Upper) = -184.545
+# of Up rod: 6378  # of Hor rod: 4964 # of Ver rod: 4460  S = 0.10543
+Window: 210 : W(210 : lower) = -184.545 W(210 : Upper) = -183.928
+# of Up rod: 6383  # of Hor rod: 4962 # of Ver rod: 4471  S = 0.105368
+Window: 211 : W(211 : lower) = -183.928 W(211 : Upper) = -184.683
+# of Up rod: 6392  # of Hor rod: 4956 # of Ver rod: 4467  S = 0.10626
+Window: 212 : W(212 : lower) = -184.683 W(212 : Upper) = -184.827
+# of Up rod: 6391  # of Hor rod: 4946 # of Ver rod: 4466  S = 0.106625
+Window: 213 : W(213 : lower) = -184.827 W(213 : Upper) = -184.63
+# of Up rod: 6396  # of Hor rod: 4950 # of Ver rod: 4467  S = 0.106716
+Window: 214 : W(214 : lower) = -184.63 W(214 : Upper) = -186.845
+# of Up rod: 6410  # of Hor rod: 4947 # of Ver rod: 4461  S = 0.107852
+Window: 215 : W(215 : lower) = -186.845 W(215 : Upper) = -185.228
+# of Up rod: 6408  # of Hor rod: 4947 # of Ver rod: 4454  S = 0.108008
+Window: 216 : W(216 : lower) = -185.228 W(216 : Upper) = -190.743
+# of Up rod: 6434  # of Hor rod: 4950 # of Ver rod: 4487  S = 0.10809
+Window: 217 : W(217 : lower) = -190.743 W(217 : Upper) = -191.606
+# of Up rod: 6446  # of Hor rod: 4945 # of Ver rod: 4481  S = 0.109186
+Window: 218 : W(218 : lower) = -191.606 W(218 : Upper) = -191.207
+# of Up rod: 6452  # of Hor rod: 4953 # of Ver rod: 4471  S = 0.109599
+Window: 219 : W(219 : lower) = -191.207 W(219 : Upper) = -191.982
+# of Up rod: 6456  # of Hor rod: 4936 # of Ver rod: 4480  S = 0.110131
+Window: 220 : W(220 : lower) = -191.982 W(220 : Upper) = -193.63
+# of Up rod: 6461  # of Hor rod: 4936 # of Ver rod: 4481  S = 0.110373
+Window: 221 : W(221 : lower) = -193.63 W(221 : Upper) = -193.271
+# of Up rod: 6469  # of Hor rod: 4932 # of Ver rod: 4479  S = 0.111052
+Window: 222 : W(222 : lower) = -193.271 W(222 : Upper) = -193.222
+# of Up rod: 6484  # of Hor rod: 4940 # of Ver rod: 4471  S = 0.111891
+Window: 223 : W(223 : lower) = -193.222 W(223 : Upper) = -194.179
+# of Up rod: 6482  # of Hor rod: 4939 # of Ver rod: 4477  S = 0.111586
+Window: 224 : W(224 : lower) = -194.179 W(224 : Upper) = -193.127
+# of Up rod: 6481  # of Hor rod: 4927 # of Ver rod: 4457  S = 0.112764
+Window: 225 : W(225 : lower) = -193.127 W(225 : Upper) = -193.874
+# of Up rod: 6484  # of Hor rod: 4935 # of Ver rod: 4459  S = 0.112546
+Window: 226 : W(226 : lower) = -193.874 W(226 : Upper) = -195.927
+# of Up rod: 6500  # of Hor rod: 4944 # of Ver rod: 4453  S = 0.113323
+Window: 227 : W(227 : lower) = -195.927 W(227 : Upper) = -195.949
+# of Up rod: 6504  # of Hor rod: 4946 # of Ver rod: 4448  S = 0.113662
+Window: 228 : W(228 : lower) = -195.949 W(228 : Upper) = -196.076
+# of Up rod: 6509  # of Hor rod: 4940 # of Ver rod: 4437  S = 0.114598
+Window: 229 : W(229 : lower) = -196.076 W(229 : Upper) = -195.774
+# of Up rod: 6518  # of Hor rod: 4939 # of Ver rod: 4436  S = 0.115176
+Window: 230 : W(230 : lower) = -195.774 W(230 : Upper) = -194.678
+# of Up rod: 6508  # of Hor rod: 4930 # of Ver rod: 4435  S = 0.115007
+Window: 231 : W(231 : lower) = -194.678 W(231 : Upper) = -196.474
+# of Up rod: 6520  # of Hor rod: 4917 # of Ver rod: 4431  S = 0.116335
+Window: 232 : W(232 : lower) = -196.474 W(232 : Upper) = -195.967
+# of Up rod: 6532  # of Hor rod: 4922 # of Ver rod: 4434  S = 0.116692
+Window: 233 : W(233 : lower) = -195.967 W(233 : Upper) = -193.741
+# of Up rod: 6553  # of Hor rod: 4942 # of Ver rod: 4431  S = 0.117198
+Window: 234 : W(234 : lower) = -193.741 W(234 : Upper) = -194.277
+# of Up rod: 6558  # of Hor rod: 4949 # of Ver rod: 4428  S = 0.11732
+Window: 235 : W(235 : lower) = -194.277 W(235 : Upper) = -195.181
+# of Up rod: 6556  # of Hor rod: 4949 # of Ver rod: 4420  S = 0.11752
+Window: 236 : W(236 : lower) = -195.181 W(236 : Upper) = -197.638
+# of Up rod: 6570  # of Hor rod: 4958 # of Ver rod: 4414  S = 0.118178
+Window: 237 : W(237 : lower) = -197.638 W(237 : Upper) = -201.021
+# of Up rod: 6572  # of Hor rod: 4964 # of Ver rod: 4399  S = 0.118638
+Window: 238 : W(238 : lower) = -201.021 W(238 : Upper) = -206.486
+# of Up rod: 6567  # of Hor rod: 4961 # of Ver rod: 4384  S = 0.119061
+Window: 239 : W(239 : lower) = -206.486 W(239 : Upper) = -208.801
+# of Up rod: 6574  # of Hor rod: 4944 # of Ver rod: 4377  S = 0.120384
+Window: 240 : W(240 : lower) = -208.801 W(240 : Upper) = -207.535
+# of Up rod: 6579  # of Hor rod: 4946 # of Ver rod: 4367  S = 0.120973
+Window: 241 : W(241 : lower) = -207.535 W(241 : Upper) = -207.503
+# of Up rod: 6576  # of Hor rod: 4934 # of Ver rod: 4379  S = 0.120807
+Window: 242 : W(242 : lower) = -207.503 W(242 : Upper) = -208.162
+# of Up rod: 6581  # of Hor rod: 4922 # of Ver rod: 4385  S = 0.121318
+Window: 243 : W(243 : lower) = -208.162 W(243 : Upper) = -210.656
+# of Up rod: 6577  # of Hor rod: 4901 # of Ver rod: 4385  S = 0.121919
+Window: 244 : W(244 : lower) = -210.656 W(244 : Upper) = -215.747
+# of Up rod: 6592  # of Hor rod: 4908 # of Ver rod: 4392  S = 0.1222
+Window: 245 : W(245 : lower) = -215.747 W(245 : Upper) = -217.605
+# of Up rod: 6599  # of Hor rod: 4900 # of Ver rod: 4397  S = 0.122704
+Window: 246 : W(246 : lower) = -217.605 W(246 : Upper) = -223.709
+# of Up rod: 6608  # of Hor rod: 4896 # of Ver rod: 4392  S = 0.123553
+Window: 247 : W(247 : lower) = -223.709 W(247 : Upper) = -226.886
+# of Up rod: 6613  # of Hor rod: 4896 # of Ver rod: 4400  S = 0.123515
+Window: 248 : W(248 : lower) = -226.886 W(248 : Upper) = -228.882
+# of Up rod: 6614  # of Hor rod: 4908 # of Ver rod: 4377  S = 0.124002
+Window: 249 : W(249 : lower) = -228.882 W(249 : Upper) = -230.985
+# of Up rod: 6628  # of Hor rod: 4904 # of Ver rod: 4369  S = 0.125244
+Window: 250 : W(250 : lower) = -230.985 W(250 : Upper) = -233.082
+# of Up rod: 6642  # of Hor rod: 4901 # of Ver rod: 4384  S = 0.125542
+Window: 251 : W(251 : lower) = -233.082 W(251 : Upper) = -234.601
+# of Up rod: 6635  # of Hor rod: 4892 # of Ver rod: 4371  S = 0.126022
+Window: 252 : W(252 : lower) = -234.601 W(252 : Upper) = -235.111
+# of Up rod: 6649  # of Hor rod: 4913 # of Ver rod: 4370  S = 0.126004
+Window: 253 : W(253 : lower) = -235.111 W(253 : Upper) = -237.24
+# of Up rod: 6655  # of Hor rod: 4913 # of Ver rod: 4363  S = 0.126608
+Window: 254 : W(254 : lower) = -237.24 W(254 : Upper) = -238.235
+# of Up rod: 6662  # of Hor rod: 4908 # of Ver rod: 4349  S = 0.12774
+Window: 255 : W(255 : lower) = -238.235 W(255 : Upper) = -237.834
+# of Up rod: 6677  # of Hor rod: 4897 # of Ver rod: 4362  S = 0.128483
+Window: 256 : W(256 : lower) = -237.834 W(256 : Upper) = -237.007
+# of Up rod: 6685  # of Hor rod: 4906 # of Ver rod: 4362  S = 0.128565
+Window: 257 : W(257 : lower) = -237.007 W(257 : Upper) = -237.161
+# of Up rod: 6693  # of Hor rod: 4917 # of Ver rod: 4342  S = 0.129357
+Window: 258 : W(258 : lower) = -237.161 W(258 : Upper) = -238.546
+# of Up rod: 6678  # of Hor rod: 4902 # of Ver rod: 4340  S = 0.129209
+Window: 259 : W(259 : lower) = -238.546 W(259 : Upper) = -239.192
+# of Up rod: 6688  # of Hor rod: 4901 # of Ver rod: 4332  S = 0.130111
+Window: 260 : W(260 : lower) = -239.192 W(260 : Upper) = -238.232
+# of Up rod: 6712  # of Hor rod: 4899 # of Ver rod: 4346  S = 0.130946
+Window: 261 : W(261 : lower) = -238.232 W(261 : Upper) = -238.104
+# of Up rod: 6718  # of Hor rod: 4898 # of Ver rod: 4352  S = 0.131075
+Window: 262 : W(262 : lower) = -238.104 W(262 : Upper) = -239.361
+# of Up rod: 6717  # of Hor rod: 4896 # of Ver rod: 4354  S = 0.13102
+Window: 263 : W(263 : lower) = -239.361 W(263 : Upper) = -243.352
+# of Up rod: 6745  # of Hor rod: 4925 # of Ver rod: 4329  S = 0.132383
+Window: 264 : W(264 : lower) = -243.352 W(264 : Upper) = -243.479
+# of Up rod: 6750  # of Hor rod: 4931 # of Ver rod: 4331  S = 0.132338
+Window: 265 : W(265 : lower) = -243.479 W(265 : Upper) = -242.36
+# of Up rod: 6772  # of Hor rod: 4950 # of Ver rod: 4314  S = 0.13345
+Window: 266 : W(266 : lower) = -242.36 W(266 : Upper) = -242.649
+# of Up rod: 6768  # of Hor rod: 4946 # of Ver rod: 4304  S = 0.133787
+Window: 267 : W(267 : lower) = -242.649 W(267 : Upper) = -239.542
+# of Up rod: 6764  # of Hor rod: 4952 # of Ver rod: 4295  S = 0.133689
+Window: 268 : W(268 : lower) = -239.542 W(268 : Upper) = -242.317
+# of Up rod: 6780  # of Hor rod: 4980 # of Ver rod: 4273  S = 0.134317
+Window: 269 : W(269 : lower) = -242.317 W(269 : Upper) = -243.239
+# of Up rod: 6788  # of Hor rod: 4975 # of Ver rod: 4281  S = 0.13463
+Window: 270 : W(270 : lower) = -243.239 W(270 : Upper) = -243.629
+# of Up rod: 6789  # of Hor rod: 4967 # of Ver rod: 4274  S = 0.135278
+Window: 271 : W(271 : lower) = -243.629 W(271 : Upper) = -247.846
+# of Up rod: 6786  # of Hor rod: 4956 # of Ver rod: 4271  S = 0.135671
+Window: 272 : W(272 : lower) = -247.846 W(272 : Upper) = -251.879
+# of Up rod: 6803  # of Hor rod: 4955 # of Ver rod: 4269  S = 0.136707
+Window: 273 : W(273 : lower) = -251.879 W(273 : Upper) = -252.658
+# of Up rod: 6804  # of Hor rod: 4959 # of Ver rod: 4255  S = 0.137158
+Window: 274 : W(274 : lower) = -252.658 W(274 : Upper) = -253.108
+# of Up rod: 6802  # of Hor rod: 4952 # of Ver rod: 4257  S = 0.137249
+Window: 275 : W(275 : lower) = -253.108 W(275 : Upper) = -255.697
+# of Up rod: 6799  # of Hor rod: 4943 # of Ver rod: 4247  S = 0.137845
+Window: 276 : W(276 : lower) = -255.697 W(276 : Upper) = -257.674
+# of Up rod: 6793  # of Hor rod: 4936 # of Ver rod: 4240  S = 0.13808
+Window: 277 : W(277 : lower) = -257.674 W(277 : Upper) = -260.106
+# of Up rod: 6813  # of Hor rod: 4947 # of Ver rod: 4225  S = 0.139318
+Window: 278 : W(278 : lower) = -260.106 W(278 : Upper) = -260.035
+# of Up rod: 6813  # of Hor rod: 4939 # of Ver rod: 4235  S = 0.139238
+Window: 279 : W(279 : lower) = -260.035 W(279 : Upper) = -261.519
+# of Up rod: 6824  # of Hor rod: 4939 # of Ver rod: 4238  S = 0.13971
+Window: 280 : W(280 : lower) = -261.519 W(280 : Upper) = -264.359
+# of Up rod: 6839  # of Hor rod: 4925 # of Ver rod: 4243  S = 0.140876
+Window: 281 : W(281 : lower) = -264.359 W(281 : Upper) = -265.015
+# of Up rod: 6847  # of Hor rod: 4937 # of Ver rod: 4251  S = 0.140505
+Window: 282 : W(282 : lower) = -265.015 W(282 : Upper) = -266.409
+# of Up rod: 6869  # of Hor rod: 4950 # of Ver rod: 4255  S = 0.141004
+Window: 283 : W(283 : lower) = -266.409 W(283 : Upper) = -267.474
+# of Up rod: 6889  # of Hor rod: 4968 # of Ver rod: 4244  S = 0.141792
+Window: 284 : W(284 : lower) = -267.474 W(284 : Upper) = -269.774
+# of Up rod: 6889  # of Hor rod: 4952 # of Ver rod: 4246  S = 0.142351
+Window: 285 : W(285 : lower) = -269.774 W(285 : Upper) = -273.152
+# of Up rod: 6900  # of Hor rod: 4957 # of Ver rod: 4240  S = 0.142977
+Window: 286 : W(286 : lower) = -273.152 W(286 : Upper) = -275.508
+# of Up rod: 6908  # of Hor rod: 4943 # of Ver rod: 4248  S = 0.143642
+Window: 287 : W(287 : lower) = -275.508 W(287 : Upper) = -277.925
+# of Up rod: 6914  # of Hor rod: 4932 # of Ver rod: 4248  S = 0.144402
+Window: 288 : W(288 : lower) = -277.925 W(288 : Upper) = -278.199
+# of Up rod: 6906  # of Hor rod: 4920 # of Ver rod: 4241  S = 0.144738
+Window: 289 : W(289 : lower) = -278.199 W(289 : Upper) = -277.804
+# of Up rod: 6921  # of Hor rod: 4910 # of Ver rod: 4256  S = 0.145335
+Window: 290 : W(290 : lower) = -277.804 W(290 : Upper) = -277.783
+# of Up rod: 6913  # of Hor rod: 4901 # of Ver rod: 4258  S = 0.14519
+Window: 291 : W(291 : lower) = -277.783 W(291 : Upper) = -279.651
+# of Up rod: 6907  # of Hor rod: 4881 # of Ver rod: 4255  S = 0.145796
+Window: 292 : W(292 : lower) = -279.651 W(292 : Upper) = -280.206
+# of Up rod: 6911  # of Hor rod: 4882 # of Ver rod: 4250  S = 0.14617
+Window: 293 : W(293 : lower) = -280.206 W(293 : Upper) = -284.242
+# of Up rod: 6916  # of Hor rod: 4882 # of Ver rod: 4238  S = 0.146919
+Window: 294 : W(294 : lower) = -284.242 W(294 : Upper) = -291.801
+# of Up rod: 6923  # of Hor rod: 4875 # of Ver rod: 4245  S = 0.147292
+Window: 295 : W(295 : lower) = -291.801 W(295 : Upper) = -295.877
+# of Up rod: 6909  # of Hor rod: 4850 # of Ver rod: 4240  S = 0.147759
+Window: 296 : W(296 : lower) = -295.877 W(296 : Upper) = -296.106
+# of Up rod: 6919  # of Hor rod: 4852 # of Ver rod: 4234  S = 0.148454
+Window: 297 : W(297 : lower) = -296.106 W(297 : Upper) = -296.564
+# of Up rod: 6934  # of Hor rod: 4854 # of Ver rod: 4227  S = 0.149454
+Window: 298 : W(298 : lower) = -296.564 W(298 : Upper) = -298.426
+# of Up rod: 6931  # of Hor rod: 4853 # of Ver rod: 4213  S = 0.149903
+Window: 299 : W(299 : lower) = -298.426 W(299 : Upper) = -299.183
+# of Up rod: 6914  # of Hor rod: 4844 # of Ver rod: 4209  S = 0.149527
+Window: 300 : W(300 : lower) = -299.183 W(300 : Upper) = -300.782
+# of Up rod: 6916  # of Hor rod: 4850 # of Ver rod: 4191  S = 0.150122
+Window: 301 : W(301 : lower) = -300.782 W(301 : Upper) = -303.325
+# of Up rod: 6917  # of Hor rod: 4855 # of Ver rod: 4176  S = 0.150583
+Window: 302 : W(302 : lower) = -303.325 W(302 : Upper) = -303.295
+# of Up rod: 6917  # of Hor rod: 4845 # of Ver rod: 4172  S = 0.151155
+Window: 303 : W(303 : lower) = -303.295 W(303 : Upper) = -305.277
+# of Up rod: 6932  # of Hor rod: 4837 # of Ver rod: 4171  S = 0.152321
+Window: 304 : W(304 : lower) = -305.277 W(304 : Upper) = -306.987
+# of Up rod: 6931  # of Hor rod: 4831 # of Ver rod: 4171  S = 0.152514
+Window: 305 : W(305 : lower) = -306.987 W(305 : Upper) = -306.776
+# of Up rod: 6951  # of Hor rod: 4846 # of Ver rod: 4172  S = 0.152921
+Window: 306 : W(306 : lower) = -306.776 W(306 : Upper) = -309.81
+# of Up rod: 6956  # of Hor rod: 4842 # of Ver rod: 4177  S = 0.153146
+Window: 307 : W(307 : lower) = -309.81 W(307 : Upper) = -310.859
+# of Up rod: 6971  # of Hor rod: 4836 # of Ver rod: 4184  S = 0.153899
+Window: 308 : W(308 : lower) = -310.859 W(308 : Upper) = -313.431
+# of Up rod: 6972  # of Hor rod: 4825 # of Ver rod: 4177  S = 0.154689
+Window: 309 : W(309 : lower) = -313.431 W(309 : Upper) = -314.491
+# of Up rod: 6978  # of Hor rod: 4833 # of Ver rod: 4179  S = 0.154597
+Window: 310 : W(310 : lower) = -314.491 W(310 : Upper) = -315.937
+# of Up rod: 6982  # of Hor rod: 4822 # of Ver rod: 4173  S = 0.155505
+Window: 311 : W(311 : lower) = -315.937 W(311 : Upper) = -317.729
+# of Up rod: 6988  # of Hor rod: 4815 # of Ver rod: 4168  S = 0.156315
+Window: 312 : W(312 : lower) = -317.729 W(312 : Upper) = -319.897
+# of Up rod: 6993  # of Hor rod: 4815 # of Ver rod: 4170  S = 0.156496
+Window: 313 : W(313 : lower) = -319.897 W(313 : Upper) = -322.419
+# of Up rod: 6984  # of Hor rod: 4812 # of Ver rod: 4155  S = 0.156761
+Window: 314 : W(314 : lower) = -322.419 W(314 : Upper) = -325.213
+# of Up rod: 6989  # of Hor rod: 4804 # of Ver rod: 4147  S = 0.157685
+Window: 315 : W(315 : lower) = -325.213 W(315 : Upper) = -323.703
+# of Up rod: 6999  # of Hor rod: 4812 # of Ver rod: 4154  S = 0.157595
+Window: 316 : W(316 : lower) = -323.703 W(316 : Upper) = -323.621
+# of Up rod: 7007  # of Hor rod: 4793 # of Ver rod: 4162  S = 0.15847
+Window: 317 : W(317 : lower) = -323.621 W(317 : Upper) = -325.075
+# of Up rod: 7017  # of Hor rod: 4796 # of Ver rod: 4157  S = 0.15908
+Window: 318 : W(318 : lower) = -325.075 W(318 : Upper) = -325.731
+# of Up rod: 7025  # of Hor rod: 4813 # of Ver rod: 4150  S = 0.159088
+Window: 319 : W(319 : lower) = -325.731 W(319 : Upper) = -330.408
+# of Up rod: 7035  # of Hor rod: 4818 # of Ver rod: 4143  S = 0.159696
+Window: 320 : W(320 : lower) = -330.408 W(320 : Upper) = -333.064
+# of Up rod: 7045  # of Hor rod: 4811 # of Ver rod: 4148  S = 0.160304
+Window: 321 : W(321 : lower) = -333.064 W(321 : Upper) = -335.21
+# of Up rod: 7057  # of Hor rod: 4829 # of Ver rod: 4131  S = 0.160892
+Window: 322 : W(322 : lower) = -335.21 W(322 : Upper) = -337.382
+# of Up rod: 7060  # of Hor rod: 4826 # of Ver rod: 4131  S = 0.161173
+Window: 323 : W(323 : lower) = -337.382 W(323 : Upper) = -337.855
+# of Up rod: 7074  # of Hor rod: 4829 # of Ver rod: 4128  S = 0.161905
+Window: 324 : W(324 : lower) = -337.855 W(324 : Upper) = -339.883
+# of Up rod: 7077  # of Hor rod: 4829 # of Ver rod: 4127  S = 0.162103
+Window: 325 : W(325 : lower) = -339.883 W(325 : Upper) = -343.581
+# of Up rod: 7083  # of Hor rod: 4830 # of Ver rod: 4109  S = 0.163119
+Window: 326 : W(326 : lower) = -343.581 W(326 : Upper) = -345.81
+# of Up rod: 7081  # of Hor rod: 4827 # of Ver rod: 4093  S = 0.163802
+Window: 327 : W(327 : lower) = -345.81 W(327 : Upper) = -346.991
+# of Up rod: 7082  # of Hor rod: 4831 # of Ver rod: 4095  S = 0.163606
+Window: 328 : W(328 : lower) = -346.991 W(328 : Upper) = -348.319
+# of Up rod: 7087  # of Hor rod: 4822 # of Ver rod: 4097  S = 0.164157
+Window: 329 : W(329 : lower) = -348.319 W(329 : Upper) = -349.11
+# of Up rod: 7088  # of Hor rod: 4815 # of Ver rod: 4087  S = 0.164916
+Window: 330 : W(330 : lower) = -349.11 W(330 : Upper) = -347.39
+# of Up rod: 7101  # of Hor rod: 4799 # of Ver rod: 4101  S = 0.165677
+Window: 331 : W(331 : lower) = -347.39 W(331 : Upper) = -349.438
+# of Up rod: 7111  # of Hor rod: 4820 # of Ver rod: 4088  S = 0.165866
+Window: 332 : W(332 : lower) = -349.438 W(332 : Upper) = -350.625
+# of Up rod: 7121  # of Hor rod: 4812 # of Ver rod: 4094  S = 0.166469
+Window: 333 : W(333 : lower) = -350.625 W(333 : Upper) = -353.621
+# of Up rod: 7136  # of Hor rod: 4807 # of Ver rod: 4097  S = 0.167332
+Window: 334 : W(334 : lower) = -353.621 W(334 : Upper) = -352.849
+# of Up rod: 7145  # of Hor rod: 4813 # of Ver rod: 4099  S = 0.167466
+Window: 335 : W(335 : lower) = -352.849 W(335 : Upper) = -354.157
+# of Up rod: 7146  # of Hor rod: 4799 # of Ver rod: 4098  S = 0.168142
+Window: 336 : W(336 : lower) = -354.157 W(336 : Upper) = -354.537
+# of Up rod: 7158  # of Hor rod: 4818 # of Ver rod: 4093  S = 0.168181
+Window: 337 : W(337 : lower) = -354.537 W(337 : Upper) = -357.528
+# of Up rod: 7169  # of Hor rod: 4812 # of Ver rod: 4091  S = 0.169083
+Window: 338 : W(338 : lower) = -357.528 W(338 : Upper) = -357.976
+# of Up rod: 7169  # of Hor rod: 4803 # of Ver rod: 4089  S = 0.169541
+Window: 339 : W(339 : lower) = -357.976 W(339 : Upper) = -358.329
+# of Up rod: 7176  # of Hor rod: 4795 # of Ver rod: 4092  S = 0.170111
+Window: 340 : W(340 : lower) = -358.329 W(340 : Upper) = -359.537
+# of Up rod: 7158  # of Hor rod: 4775 # of Ver rod: 4092  S = 0.170016
+Window: 341 : W(341 : lower) = -359.537 W(341 : Upper) = -364.849
+# of Up rod: 7161  # of Hor rod: 4763 # of Ver rod: 4096  S = 0.170506
+Window: 342 : W(342 : lower) = -364.849 W(342 : Upper) = -372.174
+# of Up rod: 7172  # of Hor rod: 4757 # of Ver rod: 4096  S = 0.171326
+Window: 343 : W(343 : lower) = -372.174 W(343 : Upper) = -375.589
+# of Up rod: 7176  # of Hor rod: 4753 # of Ver rod: 4098  S = 0.171617
+Window: 344 : W(344 : lower) = -375.589 W(344 : Upper) = -382.157
+# of Up rod: 7191  # of Hor rod: 4749 # of Ver rod: 4098  S = 0.172559
+Window: 345 : W(345 : lower) = -382.157 W(345 : Upper) = -383.601
+# of Up rod: 7201  # of Hor rod: 4758 # of Ver rod: 4094  S = 0.172865
+Window: 346 : W(346 : lower) = -383.601 W(346 : Upper) = -388.308
+# of Up rod: 7213  # of Hor rod: 4749 # of Ver rod: 4105  S = 0.173399
+Window: 347 : W(347 : lower) = -388.308 W(347 : Upper) = -393.239
+# of Up rod: 7223  # of Hor rod: 4741 # of Ver rod: 4120  S = 0.17362
+Window: 348 : W(348 : lower) = -393.239 W(348 : Upper) = -394.139
+# of Up rod: 7219  # of Hor rod: 4726 # of Ver rod: 4117  S = 0.174169
+Window: 349 : W(349 : lower) = -394.139 W(349 : Upper) = -398.645
+# of Up rod: 7223  # of Hor rod: 4727 # of Ver rod: 4107  S = 0.174752
+Window: 350 : W(350 : lower) = -398.645 W(350 : Upper) = -399.598
+# of Up rod: 7228  # of Hor rod: 4709 # of Ver rod: 4123  S = 0.175093
+Window: 351 : W(351 : lower) = -399.598 W(351 : Upper) = -403.004
+# of Up rod: 7246  # of Hor rod: 4726 # of Ver rod: 4104  S = 0.176101
+Window: 352 : W(352 : lower) = -403.004 W(352 : Upper) = -403.012
+# of Up rod: 7243  # of Hor rod: 4705 # of Ver rod: 4108  S = 0.176663
+Window: 353 : W(353 : lower) = -403.012 W(353 : Upper) = -404.581
+# of Up rod: 7258  # of Hor rod: 4713 # of Ver rod: 4099  S = 0.177474
+Window: 354 : W(354 : lower) = -404.581 W(354 : Upper) = -405.295
+# of Up rod: 7257  # of Hor rod: 4706 # of Ver rod: 4103  S = 0.177549
+Window: 355 : W(355 : lower) = -405.295 W(355 : Upper) = -405.419
+# of Up rod: 7273  # of Hor rod: 4709 # of Ver rod: 4098  S = 0.178451
+Window: 356 : W(356 : lower) = -405.419 W(356 : Upper) = -406.622
+# of Up rod: 7265  # of Hor rod: 4707 # of Ver rod: 4097  S = 0.178169
+Window: 357 : W(357 : lower) = -406.622 W(357 : Upper) = -411.046
+# of Up rod: 7264  # of Hor rod: 4692 # of Ver rod: 4090  S = 0.179048
+Window: 358 : W(358 : lower) = -411.046 W(358 : Upper) = -412.483
+# of Up rod: 7260  # of Hor rod: 4697 # of Ver rod: 4081  S = 0.179012
+Window: 359 : W(359 : lower) = -412.483 W(359 : Upper) = -413.894
+# of Up rod: 7264  # of Hor rod: 4700 # of Ver rod: 4067  S = 0.179683
+Window: 360 : W(360 : lower) = -413.894 W(360 : Upper) = -418.867
+# of Up rod: 7274  # of Hor rod: 4689 # of Ver rod: 4071  S = 0.180491
+Window: 361 : W(361 : lower) = -418.867 W(361 : Upper) = -422.178
+# of Up rod: 7281  # of Hor rod: 4696 # of Ver rod: 4065  S = 0.180807
+Window: 362 : W(362 : lower) = -422.178 W(362 : Upper) = -423.243
+# of Up rod: 7282  # of Hor rod: 4685 # of Ver rod: 4057  S = 0.181665
+Window: 363 : W(363 : lower) = -423.243 W(363 : Upper) = -426.664
+# of Up rod: 7296  # of Hor rod: 4707 # of Ver rod: 4052  S = 0.181657
+Window: 364 : W(364 : lower) = -426.664 W(364 : Upper) = -428.322
+# of Up rod: 7310  # of Hor rod: 4705 # of Ver rod: 4048  S = 0.182625
+Window: 365 : W(365 : lower) = -428.322 W(365 : Upper) = -427.597
+# of Up rod: 7324  # of Hor rod: 4724 # of Ver rod: 4043  S = 0.182742
+Window: 366 : W(366 : lower) = -427.597 W(366 : Upper) = -428.949
+# of Up rod: 7327  # of Hor rod: 4709 # of Ver rod: 4033  S = 0.183957
+Window: 367 : W(367 : lower) = -428.949 W(367 : Upper) = -429.439
+# of Up rod: 7334  # of Hor rod: 4712 # of Ver rod: 4035  S = 0.184099
+Window: 368 : W(368 : lower) = -429.439 W(368 : Upper) = -429.439
+# of Up rod: 7359  # of Hor rod: 4719 # of Ver rod: 4041  S = 0.184813
+Window: 369 : W(369 : lower) = -429.439 W(369 : Upper) = -428.944
+# of Up rod: 7376  # of Hor rod: 4726 # of Ver rod: 4045  S = 0.185205
+Window: 370 : W(370 : lower) = -428.944 W(370 : Upper) = -428.872
+# of Up rod: 7369  # of Hor rod: 4724 # of Ver rod: 4033  S = 0.185446
+Window: 371 : W(371 : lower) = -428.872 W(371 : Upper) = -428.813
+# of Up rod: 7381  # of Hor rod: 4704 # of Ver rod: 4058  S = 0.185839
+Window: 372 : W(372 : lower) = -428.813 W(372 : Upper) = -429.792
+# of Up rod: 7386  # of Hor rod: 4702 # of Ver rod: 4042  S = 0.186857
+Window: 373 : W(373 : lower) = -429.792 W(373 : Upper) = -431.041
+# of Up rod: 7399  # of Hor rod: 4723 # of Ver rod: 4039  S = 0.186746
+Window: 374 : W(374 : lower) = -431.041 W(374 : Upper) = -433.337
+# of Up rod: 7415  # of Hor rod: 4725 # of Ver rod: 4035  S = 0.187635
+Window: 375 : W(375 : lower) = -433.337 W(375 : Upper) = -434.899
+# of Up rod: 7424  # of Hor rod: 4721 # of Ver rod: 4034  S = 0.1883
+Window: 376 : W(376 : lower) = -434.899 W(376 : Upper) = -435.308
+# of Up rod: 7412  # of Hor rod: 4719 # of Ver rod: 4024  S = 0.188208
+Window: 377 : W(377 : lower) = -435.308 W(377 : Upper) = -437.411
+# of Up rod: 7430  # of Hor rod: 4730 # of Ver rod: 4011  S = 0.189197
+Window: 378 : W(378 : lower) = -437.411 W(378 : Upper) = -438.374
+# of Up rod: 7415  # of Hor rod: 4716 # of Ver rod: 4001  S = 0.189468
+Window: 379 : W(379 : lower) = -438.374 W(379 : Upper) = -440.072
+# of Up rod: 7404  # of Hor rod: 4692 # of Ver rod: 4006  S = 0.189728
+Window: 380 : W(380 : lower) = -440.072 W(380 : Upper) = -443.22
+# of Up rod: 7423  # of Hor rod: 4689 # of Ver rod: 4011  S = 0.190597
+Window: 381 : W(381 : lower) = -443.22 W(381 : Upper) = -443.862
+# of Up rod: 7430  # of Hor rod: 4691 # of Ver rod: 4006  S = 0.191077
+Window: 382 : W(382 : lower) = -443.862 W(382 : Upper) = -446.321
+# of Up rod: 7423  # of Hor rod: 4677 # of Ver rod: 4008  S = 0.19124
+Window: 383 : W(383 : lower) = -446.321 W(383 : Upper) = -451.228
+# of Up rod: 7431  # of Hor rod: 4667 # of Ver rod: 4011  S = 0.191942
+Window: 384 : W(384 : lower) = -451.228 W(384 : Upper) = -450.192
+# of Up rod: 7442  # of Hor rod: 4660 # of Ver rod: 4007  S = 0.192967
+Window: 385 : W(385 : lower) = -450.192 W(385 : Upper) = -448.002
+# of Up rod: 7444  # of Hor rod: 4653 # of Ver rod: 4007  S = 0.193368
+Window: 386 : W(386 : lower) = -448.002 W(386 : Upper) = -447.9
+# of Up rod: 7433  # of Hor rod: 4666 # of Ver rod: 3989  S = 0.193032
+Window: 387 : W(387 : lower) = -447.9 W(387 : Upper) = -450.212
+# of Up rod: 7440  # of Hor rod: 4664 # of Ver rod: 3973  S = 0.194159
+Window: 388 : W(388 : lower) = -450.212 W(388 : Upper) = -451.482
+# of Up rod: 7437  # of Hor rod: 4658 # of Ver rod: 3979  S = 0.194009
+Window: 389 : W(389 : lower) = -451.482 W(389 : Upper) = -454.706
+# of Up rod: 7473  # of Hor rod: 4677 # of Ver rod: 3971  S = 0.195335
+Window: 390 : W(390 : lower) = -454.706 W(390 : Upper) = -452.076
+# of Up rod: 7477  # of Hor rod: 4677 # of Ver rod: 3973  S = 0.195449
+Window: 391 : W(391 : lower) = -452.076 W(391 : Upper) = -453.419
+# of Up rod: 7464  # of Hor rod: 4655 # of Ver rod: 3963  S = 0.196182
+Window: 392 : W(392 : lower) = -453.419 W(392 : Upper) = -454.289
+# of Up rod: 7467  # of Hor rod: 4657 # of Ver rod: 3956  S = 0.196549
+Window: 393 : W(393 : lower) = -454.289 W(393 : Upper) = -455.507
+# of Up rod: 7478  # of Hor rod: 4666 # of Ver rod: 3953  S = 0.196838
+Window: 394 : W(394 : lower) = -455.507 W(394 : Upper) = -455.427
+# of Up rod: 7484  # of Hor rod: 4670 # of Ver rod: 3952  S = 0.197007
+Window: 395 : W(395 : lower) = -455.427 W(395 : Upper) = -458.751
+# of Up rod: 7493  # of Hor rod: 4677 # of Ver rod: 3933  S = 0.197976
+Window: 396 : W(396 : lower) = -458.751 W(396 : Upper) = -460.827
+# of Up rod: 7514  # of Hor rod: 4676 # of Ver rod: 3939  S = 0.198803
+Window: 397 : W(397 : lower) = -460.827 W(397 : Upper) = -461.386
+# of Up rod: 7521  # of Hor rod: 4665 # of Ver rod: 3949  S = 0.199194
+Window: 398 : W(398 : lower) = -461.386 W(398 : Upper) = -461.734
+# of Up rod: 7539  # of Hor rod: 4662 # of Ver rod: 3957  S = 0.19987
+Window: 399 : W(399 : lower) = -461.734 W(399 : Upper) = -461.587
+# of Up rod: 7514  # of Hor rod: 4655 # of Ver rod: 3939  S = 0.199714
+Window: 400 : W(400 : lower) = -461.587 W(400 : Upper) = -465.572
+# of Up rod: 7528  # of Hor rod: 4655 # of Ver rod: 3931  S = 0.200757
+Window: 401 : W(401 : lower) = -465.572 W(401 : Upper) = -468.144
+# of Up rod: 7545  # of Hor rod: 4655 # of Ver rod: 3942  S = 0.201121
+Window: 402 : W(402 : lower) = -468.144 W(402 : Upper) = -470.398
+# of Up rod: 7552  # of Hor rod: 4654 # of Ver rod: 3947  S = 0.201294
+Window: 403 : W(403 : lower) = -470.398 W(403 : Upper) = -473.351
+# of Up rod: 7567  # of Hor rod: 4660 # of Ver rod: 3938  S = 0.202165
+Window: 404 : W(404 : lower) = -473.351 W(404 : Upper) = -474.822
+# of Up rod: 7558  # of Hor rod: 4653 # of Ver rod: 3938  S = 0.202025
+Window: 405 : W(405 : lower) = -474.822 W(405 : Upper) = -477.652
+# of Up rod: 7563  # of Hor rod: 4643 # of Ver rod: 3926  S = 0.20323
+Window: 406 : W(406 : lower) = -477.652 W(406 : Upper) = -477.179
+# of Up rod: 7574  # of Hor rod: 4659 # of Ver rod: 3922  S = 0.20325
+Window: 407 : W(407 : lower) = -477.179 W(407 : Upper) = -478.553
+# of Up rod: 7592  # of Hor rod: 4662 # of Ver rod: 3923  S = 0.203962
+Window: 408 : W(408 : lower) = -478.553 W(408 : Upper) = -481.42
+# of Up rod: 7582  # of Hor rod: 4649 # of Ver rod: 3922  S = 0.20408
+Window: 409 : W(409 : lower) = -481.42 W(409 : Upper) = -485.041
+# of Up rod: 7595  # of Hor rod: 4633 # of Ver rod: 3930  S = 0.205069
+Window: 410 : W(410 : lower) = -485.041 W(410 : Upper) = -484.812
+# of Up rod: 7584  # of Hor rod: 4629 # of Ver rod: 3914  S = 0.205401
+Window: 411 : W(411 : lower) = -484.812 W(411 : Upper) = -487.699
+# of Up rod: 7583  # of Hor rod: 4621 # of Ver rod: 3905  S = 0.206096
+Window: 412 : W(412 : lower) = -487.699 W(412 : Upper) = -488.318
+# of Up rod: 7593  # of Hor rod: 4629 # of Ver rod: 3904  S = 0.206282
+Window: 413 : W(413 : lower) = -488.318 W(413 : Upper) = -490.841
+# of Up rod: 7597  # of Hor rod: 4630 # of Ver rod: 3900  S = 0.20661
+Window: 414 : W(414 : lower) = -490.841 W(414 : Upper) = -491.021
+# of Up rod: 7599  # of Hor rod: 4633 # of Ver rod: 3887  S = 0.207147
+Window: 415 : W(415 : lower) = -491.021 W(415 : Upper) = -495.955
+# of Up rod: 7606  # of Hor rod: 4636 # of Ver rod: 3879  S = 0.20771
+Window: 416 : W(416 : lower) = -495.955 W(416 : Upper) = -496.766
+# of Up rod: 7614  # of Hor rod: 4638 # of Ver rod: 3867  S = 0.208543
+Window: 417 : W(417 : lower) = -496.766 W(417 : Upper) = -498.951
+# of Up rod: 7607  # of Hor rod: 4629 # of Ver rod: 3865  S = 0.208683
+Window: 418 : W(418 : lower) = -498.951 W(418 : Upper) = -501.711
+# of Up rod: 7607  # of Hor rod: 4608 # of Ver rod: 3863  S = 0.209696
+Window: 419 : W(419 : lower) = -501.711 W(419 : Upper) = -502.121
+# of Up rod: 7616  # of Hor rod: 4617 # of Ver rod: 3861  S = 0.20983
+Window: 420 : W(420 : lower) = -502.121 W(420 : Upper) = -505.213
+# of Up rod: 7622  # of Hor rod: 4603 # of Ver rod: 3867  S = 0.210477
+Window: 421 : W(421 : lower) = -505.213 W(421 : Upper) = -507.182
+# of Up rod: 7617  # of Hor rod: 4607 # of Ver rod: 3852  S = 0.210718
+Window: 422 : W(422 : lower) = -507.182 W(422 : Upper) = -510.363
+# of Up rod: 7636  # of Hor rod: 4596 # of Ver rod: 3867  S = 0.211473
+Window: 423 : W(423 : lower) = -510.363 W(423 : Upper) = -513.11
+# of Up rod: 7627  # of Hor rod: 4578 # of Ver rod: 3871  S = 0.211651
+Window: 424 : W(424 : lower) = -513.11 W(424 : Upper) = -517.785
+# of Up rod: 7637  # of Hor rod: 4561 # of Ver rod: 3878  S = 0.212584
+Window: 425 : W(425 : lower) = -517.785 W(425 : Upper) = -521.648
+# of Up rod: 7644  # of Hor rod: 4564 # of Ver rod: 3878  S = 0.212794
+Window: 426 : W(426 : lower) = -521.648 W(426 : Upper) = -526.517
+# of Up rod: 7655  # of Hor rod: 4568 # of Ver rod: 3866  S = 0.213686
+Window: 427 : W(427 : lower) = -526.517 W(427 : Upper) = -526
+# of Up rod: 7677  # of Hor rod: 4567 # of Ver rod: 3878  S = 0.214272
+Window: 428 : W(428 : lower) = -526 W(428 : Upper) = -527.112
+# of Up rod: 7671  # of Hor rod: 4554 # of Ver rod: 3875  S = 0.214689
+Window: 429 : W(429 : lower) = -527.112 W(429 : Upper) = -528.076
+# of Up rod: 7679  # of Hor rod: 4565 # of Ver rod: 3869  S = 0.214858
+Window: 430 : W(430 : lower) = -528.076 W(430 : Upper) = -528.869
+# of Up rod: 7703  # of Hor rod: 4570 # of Ver rod: 3877  S = 0.215449
+Window: 431 : W(431 : lower) = -528.869 W(431 : Upper) = -529.695
+# of Up rod: 7700  # of Hor rod: 4556 # of Ver rod: 3874  S = 0.216057
+Window: 432 : W(432 : lower) = -529.695 W(432 : Upper) = -531.221
+# of Up rod: 7709  # of Hor rod: 4554 # of Ver rod: 3873  S = 0.216627
+Window: 433 : W(433 : lower) = -531.221 W(433 : Upper) = -532.36
+# of Up rod: 7712  # of Hor rod: 4560 # of Ver rod: 3869  S = 0.216684
+Window: 434 : W(434 : lower) = -532.36 W(434 : Upper) = -534.075
+# of Up rod: 7707  # of Hor rod: 4544 # of Ver rod: 3872  S = 0.217019
+Window: 435 : W(435 : lower) = -534.075 W(435 : Upper) = -538.529
+# of Up rod: 7725  # of Hor rod: 4563 # of Ver rod: 3855  S = 0.217803
+Window: 436 : W(436 : lower) = -538.529 W(436 : Upper) = -540.93
+# of Up rod: 7719  # of Hor rod: 4571 # of Ver rod: 3836  S = 0.218002
+Window: 437 : W(437 : lower) = -540.93 W(437 : Upper) = -542.075
+# of Up rod: 7723  # of Hor rod: 4560 # of Ver rod: 3834  S = 0.218775
+Window: 438 : W(438 : lower) = -542.075 W(438 : Upper) = -544.354
+# of Up rod: 7722  # of Hor rod: 4553 # of Ver rod: 3828  S = 0.219307
+Window: 439 : W(439 : lower) = -544.354 W(439 : Upper) = -544.947
+# of Up rod: 7724  # of Hor rod: 4552 # of Ver rod: 3821  S = 0.219761
+Window: 440 : W(440 : lower) = -544.947 W(440 : Upper) = -547.102
+# of Up rod: 7736  # of Hor rod: 4552 # of Ver rod: 3821  S = 0.220343
+Window: 441 : W(441 : lower) = -547.102 W(441 : Upper) = -554.902
+# of Up rod: 7750  # of Hor rod: 4555 # of Ver rod: 3822  S = 0.220841
+Window: 442 : W(442 : lower) = -554.902 W(442 : Upper) = -556.623
+# of Up rod: 7758  # of Hor rod: 4559 # of Ver rod: 3817  S = 0.221272
+Window: 443 : W(443 : lower) = -556.623 W(443 : Upper) = -559.248
+# of Up rod: 7745  # of Hor rod: 4550 # of Ver rod: 3802  S = 0.221718
+Window: 444 : W(444 : lower) = -559.248 W(444 : Upper) = -562.111
+# of Up rod: 7761  # of Hor rod: 4546 # of Ver rod: 3806  S = 0.222491
+Window: 445 : W(445 : lower) = -562.111 W(445 : Upper) = -560.951
+# of Up rod: 7770  # of Hor rod: 4548 # of Ver rod: 3813  S = 0.222522
+Window: 446 : W(446 : lower) = -560.951 W(446 : Upper) = -564.544
+# of Up rod: 7791  # of Hor rod: 4557 # of Ver rod: 3801  S = 0.223667
+Window: 447 : W(447 : lower) = -564.544 W(447 : Upper) = -564.161
+# of Up rod: 7819  # of Hor rod: 4561 # of Ver rod: 3812  S = 0.224339
+Window: 448 : W(448 : lower) = -564.161 W(448 : Upper) = -564.379
+# of Up rod: 7825  # of Hor rod: 4573 # of Ver rod: 3811  S = 0.224135
+Window: 449 : W(449 : lower) = -564.379 W(449 : Upper) = -566.573
+# of Up rod: 7829  # of Hor rod: 4560 # of Ver rod: 3811  S = 0.224907
+Window: 450 : W(450 : lower) = -566.573 W(450 : Upper) = -566.27
+# of Up rod: 7820  # of Hor rod: 4544 # of Ver rod: 3815  S = 0.225014
+Window: 451 : W(451 : lower) = -566.27 W(451 : Upper) = -569.916
+# of Up rod: 7840  # of Hor rod: 4550 # of Ver rod: 3814  S = 0.225747
+Window: 452 : W(452 : lower) = -569.916 W(452 : Upper) = -573.059
+# of Up rod: 7863  # of Hor rod: 4549 # of Ver rod: 3827  S = 0.226307
+Window: 453 : W(453 : lower) = -573.059 W(453 : Upper) = -575.781
+# of Up rod: 7860  # of Hor rod: 4550 # of Ver rod: 3807  S = 0.227015
+Window: 454 : W(454 : lower) = -575.781 W(454 : Upper) = -576.729
+# of Up rod: 7863  # of Hor rod: 4548 # of Ver rod: 3809  S = 0.227158
+Window: 455 : W(455 : lower) = -576.729 W(455 : Upper) = -576.571
+# of Up rod: 7868  # of Hor rod: 4546 # of Ver rod: 3807  S = 0.227575
+Window: 456 : W(456 : lower) = -576.571 W(456 : Upper) = -578.514
+# of Up rod: 7876  # of Hor rod: 4558 # of Ver rod: 3791  S = 0.228136
+Window: 457 : W(457 : lower) = -578.514 W(457 : Upper) = -580.013
+# of Up rod: 7881  # of Hor rod: 4556 # of Ver rod: 3782  S = 0.228867
+Window: 458 : W(458 : lower) = -580.013 W(458 : Upper) = -582.122
+# of Up rod: 7888  # of Hor rod: 4551 # of Ver rod: 3773  S = 0.22983
+Window: 459 : W(459 : lower) = -582.122 W(459 : Upper) = -583.001
+# of Up rod: 7904  # of Hor rod: 4556 # of Ver rod: 3781  S = 0.230004
+Window: 460 : W(460 : lower) = -583.001 W(460 : Upper) = -584.084
+# of Up rod: 7904  # of Hor rod: 4545 # of Ver rod: 3778  S = 0.230634
+Window: 461 : W(461 : lower) = -584.084 W(461 : Upper) = -585.485
+# of Up rod: 7904  # of Hor rod: 4543 # of Ver rod: 3769  S = 0.23113
+Window: 462 : W(462 : lower) = -585.485 W(462 : Upper) = -586.308
+# of Up rod: 7891  # of Hor rod: 4530 # of Ver rod: 3763  S = 0.23137
+Window: 463 : W(463 : lower) = -586.308 W(463 : Upper) = -588.106
+# of Up rod: 7880  # of Hor rod: 4537 # of Ver rod: 3740  S = 0.231571
+Window: 464 : W(464 : lower) = -588.106 W(464 : Upper) = -589.775
+# of Up rod: 7897  # of Hor rod: 4537 # of Ver rod: 3740  S = 0.232379
+Window: 465 : W(465 : lower) = -589.775 W(465 : Upper) = -592.363
+# of Up rod: 7913  # of Hor rod: 4554 # of Ver rod: 3736  S = 0.23255
+Window: 466 : W(466 : lower) = -592.363 W(466 : Upper) = -595.613
+# of Up rod: 7941  # of Hor rod: 4556 # of Ver rod: 3738  S = 0.233693
+Window: 467 : W(467 : lower) = -595.613 W(467 : Upper) = -596.556
+# of Up rod: 7958  # of Hor rod: 4565 # of Ver rod: 3733  S = 0.234313
+Window: 468 : W(468 : lower) = -596.556 W(468 : Upper) = -597.142
+# of Up rod: 7948  # of Hor rod: 4563 # of Ver rod: 3726  S = 0.234249
+Window: 469 : W(469 : lower) = -597.142 W(469 : Upper) = -598.272
+# of Up rod: 7960  # of Hor rod: 4574 # of Ver rod: 3716  S = 0.234769
+Window: 470 : W(470 : lower) = -598.272 W(470 : Upper) = -599.881
+# of Up rod: 7978  # of Hor rod: 4583 # of Ver rod: 3714  S = 0.2353
+Window: 471 : W(471 : lower) = -599.881 W(471 : Upper) = -602.188
+# of Up rod: 7999  # of Hor rod: 4590 # of Ver rod: 3703  S = 0.236466
+Window: 472 : W(472 : lower) = -602.188 W(472 : Upper) = -603.452
+# of Up rod: 8007  # of Hor rod: 4600 # of Ver rod: 3705  S = 0.236298
+Window: 473 : W(473 : lower) = -603.452 W(473 : Upper) = -605.169
+# of Up rod: 8009  # of Hor rod: 4594 # of Ver rod: 3696  S = 0.23707
+Window: 474 : W(474 : lower) = -605.169 W(474 : Upper) = -604.042
+# of Up rod: 8003  # of Hor rod: 4594 # of Ver rod: 3689  S = 0.237105
+Window: 475 : W(475 : lower) = -604.042 W(475 : Upper) = -605.925
+# of Up rod: 8002  # of Hor rod: 4578 # of Ver rod: 3688  S = 0.237829
+Window: 476 : W(476 : lower) = -605.925 W(476 : Upper) = -608.219
+# of Up rod: 8014  # of Hor rod: 4573 # of Ver rod: 3686  S = 0.238708
+Window: 477 : W(477 : lower) = -608.219 W(477 : Upper) = -609.639
+# of Up rod: 8010  # of Hor rod: 4570 # of Ver rod: 3673  S = 0.239248
+Window: 478 : W(478 : lower) = -609.639 W(478 : Upper) = -609.378
+# of Up rod: 8006  # of Hor rod: 4570 # of Ver rod: 3666  S = 0.239379
+Window: 479 : W(479 : lower) = -609.378 W(479 : Upper) = -610.102
+# of Up rod: 8002  # of Hor rod: 4565 # of Ver rod: 3657  S = 0.23983
+Window: 480 : W(480 : lower) = -610.102 W(480 : Upper) = -614.064
+# of Up rod: 8018  # of Hor rod: 4567 # of Ver rod: 3661  S = 0.240305
+Window: 481 : W(481 : lower) = -614.064 W(481 : Upper) = -613.753
+# of Up rod: 8042  # of Hor rod: 4568 # of Ver rod: 3660  S = 0.241426
+Window: 482 : W(482 : lower) = -613.753 W(482 : Upper) = -614.465
+# of Up rod: 8050  # of Hor rod: 4559 # of Ver rod: 3668  S = 0.241844
+Window: 483 : W(483 : lower) = -614.465 W(483 : Upper) = -614.903
+# of Up rod: 8033  # of Hor rod: 4548 # of Ver rod: 3663  S = 0.241782
+Window: 484 : W(484 : lower) = -614.903 W(484 : Upper) = -617.123
+# of Up rod: 8030  # of Hor rod: 4539 # of Ver rod: 3659  S = 0.242236
+Window: 485 : W(485 : lower) = -617.123 W(485 : Upper) = -620.809
+# of Up rod: 8062  # of Hor rod: 4550 # of Ver rod: 3656  S = 0.243361
+Window: 486 : W(486 : lower) = -620.809 W(486 : Upper) = -622.902
+# of Up rod: 8058  # of Hor rod: 4540 # of Ver rod: 3663  S = 0.243312
+Window: 487 : W(487 : lower) = -622.902 W(487 : Upper) = -622.251
+# of Up rod: 8046  # of Hor rod: 4511 # of Ver rod: 3656  S = 0.244403
+Window: 488 : W(488 : lower) = -622.251 W(488 : Upper) = -621.064
+# of Up rod: 8057  # of Hor rod: 4508 # of Ver rod: 3664  S = 0.244685
+Window: 489 : W(489 : lower) = -621.064 W(489 : Upper) = -621.814
+# of Up rod: 8090  # of Hor rod: 4519 # of Ver rod: 3681  S = 0.244936
+Window: 490 : W(490 : lower) = -621.814 W(490 : Upper) = -623.94
+# of Up rod: 8098  # of Hor rod: 4515 # of Ver rod: 3681  S = 0.245489
+Window: 491 : W(491 : lower) = -623.94 W(491 : Upper) = -629.182
+# of Up rod: 8098  # of Hor rod: 4512 # of Ver rod: 3680  S = 0.245672
+Window: 492 : W(492 : lower) = -629.182 W(492 : Upper) = -630.766
+# of Up rod: 8095  # of Hor rod: 4486 # of Ver rod: 3682  S = 0.246633
+Window: 493 : W(493 : lower) = -630.766 W(493 : Upper) = -633.669
+# of Up rod: 8092  # of Hor rod: 4470 # of Ver rod: 3682  S = 0.24723
+Window: 494 : W(494 : lower) = -633.669 W(494 : Upper) = -632.361
+# of Up rod: 8081  # of Hor rod: 4468 # of Ver rod: 3677  S = 0.247042
+Window: 495 : W(495 : lower) = -632.361 W(495 : Upper) = -637.282
+# of Up rod: 8069  # of Hor rod: 4457 # of Ver rod: 3654  S = 0.248053
+Window: 496 : W(496 : lower) = -637.282 W(496 : Upper) = -635.621
+# of Up rod: 8088  # of Hor rod: 4473 # of Ver rod: 3647  S = 0.248519
+Window: 497 : W(497 : lower) = -635.621 W(497 : Upper) = -635.304
+# of Up rod: 8085  # of Hor rod: 4480 # of Ver rod: 3634  S = 0.248657
+Window: 498 : W(498 : lower) = -635.304 W(498 : Upper) = -639.089
+# of Up rod: 8103  # of Hor rod: 4479 # of Ver rod: 3643  S = 0.249122
+Window: 499 : W(499 : lower) = -639.089 W(499 : Upper) = -640.646
+# of Up rod: 8118  # of Hor rod: 4491 # of Ver rod: 3634  S = 0.249677
+Window: 500 : W(500 : lower) = -640.646 W(500 : Upper) = -645.169
+# of Up rod: 8116  # of Hor rod: 4492 # of Ver rod: 3624  S = 0.25
+Window: 501 : W(501 : lower) = -645.169 W(501 : Upper) = -644.893
+# of Up rod: 8127  # of Hor rod: 4478 # of Ver rod: 3627  S = 0.251017
+Window: 502 : W(502 : lower) = -644.893 W(502 : Upper) = -644.878
+# of Up rod: 8126  # of Hor rod: 4471 # of Ver rod: 3631  S = 0.251109
+Window: 503 : W(503 : lower) = -644.878 W(503 : Upper) = -644.964
+# of Up rod: 8144  # of Hor rod: 4467 # of Ver rod: 3628  S = 0.252263
+Window: 504 : W(504 : lower) = -644.964 W(504 : Upper) = -644.026
+# of Up rod: 8148  # of Hor rod: 4464 # of Ver rod: 3625  S = 0.252725
+Window: 505 : W(505 : lower) = -644.026 W(505 : Upper) = -644.251
+# of Up rod: 8150  # of Hor rod: 4446 # of Ver rod: 3633  S = 0.253281
+Window: 506 : W(506 : lower) = -644.251 W(506 : Upper) = -645.411
+# of Up rod: 8152  # of Hor rod: 4447 # of Ver rod: 3639  S = 0.253048
+Window: 507 : W(507 : lower) = -645.411 W(507 : Upper) = -647.506
+# of Up rod: 8177  # of Hor rod: 4455 # of Ver rod: 3632  S = 0.25415
+Window: 508 : W(508 : lower) = -647.506 W(508 : Upper) = -647.089
+# of Up rod: 8190  # of Hor rod: 4453 # of Ver rod: 3637  S = 0.254607
+Window: 509 : W(509 : lower) = -647.089 W(509 : Upper) = -647.279
+# of Up rod: 8203  # of Hor rod: 4456 # of Ver rod: 3635  S = 0.255155
+Window: 510 : W(510 : lower) = -647.279 W(510 : Upper) = -645.168
+# of Up rod: 8196  # of Hor rod: 4453 # of Ver rod: 3623  S = 0.255531
+Window: 511 : W(511 : lower) = -645.168 W(511 : Upper) = -646.262
+# of Up rod: 8205  # of Hor rod: 4454 # of Ver rod: 3628  S = 0.255664
+Window: 512 : W(512 : lower) = -646.262 W(512 : Upper) = -648.324
+# of Up rod: 8202  # of Hor rod: 4445 # of Ver rod: 3625  S = 0.256084
+Window: 513 : W(513 : lower) = -648.324 W(513 : Upper) = -651.108
+# of Up rod: 8219  # of Hor rod: 4440 # of Ver rod: 3628  S = 0.256953
+Window: 514 : W(514 : lower) = -651.108 W(514 : Upper) = -650.149
+# of Up rod: 8207  # of Hor rod: 4437 # of Ver rod: 3616  S = 0.257103
+Window: 515 : W(515 : lower) = -650.149 W(515 : Upper) = -651.299
+# of Up rod: 8204  # of Hor rod: 4417 # of Ver rod: 3611  S = 0.258132
+Window: 516 : W(516 : lower) = -651.299 W(516 : Upper) = -652.8
+# of Up rod: 8212  # of Hor rod: 4412 # of Ver rod: 3607  S = 0.258918
+Window: 517 : W(517 : lower) = -652.8 W(517 : Upper) = -654.712
+# of Up rod: 8214  # of Hor rod: 4416 # of Ver rod: 3607  S = 0.258822
+Window: 518 : W(518 : lower) = -654.712 W(518 : Upper) = -655.186
+# of Up rod: 8220  # of Hor rod: 4415 # of Ver rod: 3593  S = 0.259798
+Window: 519 : W(519 : lower) = -655.186 W(519 : Upper) = -654.148
+# of Up rod: 8221  # of Hor rod: 4402 # of Ver rod: 3601  S = 0.260078
+Window: 520 : W(520 : lower) = -654.148 W(520 : Upper) = -654.862
+# of Up rod: 8229  # of Hor rod: 4397 # of Ver rod: 3597  S = 0.260864
+Window: 521 : W(521 : lower) = -654.862 W(521 : Upper) = -657.047
+# of Up rod: 8227  # of Hor rod: 4380 # of Ver rod: 3606  S = 0.261148
+Window: 522 : W(522 : lower) = -657.047 W(522 : Upper) = -657.053
+# of Up rod: 8246  # of Hor rod: 4403 # of Ver rod: 3593  S = 0.261544
+Window: 523 : W(523 : lower) = -657.053 W(523 : Upper) = -657.401
+# of Up rod: 8254  # of Hor rod: 4410 # of Ver rod: 3587  S = 0.261861
+Window: 524 : W(524 : lower) = -657.401 W(524 : Upper) = -659.729
+# of Up rod: 8260  # of Hor rod: 4406 # of Ver rod: 3584  S = 0.262462
+Window: 525 : W(525 : lower) = -659.729 W(525 : Upper) = -661.375
+# of Up rod: 8258  # of Hor rod: 4407 # of Ver rod: 3580  S = 0.262512
+Window: 526 : W(526 : lower) = -661.375 W(526 : Upper) = -662.031
+# of Up rod: 8261  # of Hor rod: 4401 # of Ver rod: 3573  S = 0.263258
+Window: 527 : W(527 : lower) = -662.031 W(527 : Upper) = -665.182
+# of Up rod: 8275  # of Hor rod: 4412 # of Ver rod: 3567  S = 0.263658
+Window: 528 : W(528 : lower) = -665.182 W(528 : Upper) = -667.532
+# of Up rod: 8298  # of Hor rod: 4415 # of Ver rod: 3571  S = 0.26437
+Window: 529 : W(529 : lower) = -667.532 W(529 : Upper) = -668.142
+# of Up rod: 8310  # of Hor rod: 4409 # of Ver rod: 3575  S = 0.265006
+Window: 530 : W(530 : lower) = -668.142 W(530 : Upper) = -671.121
+# of Up rod: 8313  # of Hor rod: 4407 # of Ver rod: 3579  S = 0.265047
+Window: 531 : W(531 : lower) = -671.121 W(531 : Upper) = -674.054
+# of Up rod: 8318  # of Hor rod: 4414 # of Ver rod: 3565  S = 0.265601
+Window: 532 : W(532 : lower) = -674.054 W(532 : Upper) = -674.962
+# of Up rod: 8310  # of Hor rod: 4402 # of Ver rod: 3558  S = 0.266134
+Window: 533 : W(533 : lower) = -674.962 W(533 : Upper) = -676.398
+# of Up rod: 8325  # of Hor rod: 4398 # of Ver rod: 3550  S = 0.267375
+Window: 534 : W(534 : lower) = -676.398 W(534 : Upper) = -678.47
+# of Up rod: 8344  # of Hor rod: 4409 # of Ver rod: 3562  S = 0.267147
+Window: 535 : W(535 : lower) = -678.47 W(535 : Upper) = -681.356
+# of Up rod: 8343  # of Hor rod: 4410 # of Ver rod: 3551  S = 0.267572
+Window: 536 : W(536 : lower) = -681.356 W(536 : Upper) = -682.14
+# of Up rod: 8343  # of Hor rod: 4396 # of Ver rod: 3540  S = 0.268751
+Window: 537 : W(537 : lower) = -682.14 W(537 : Upper) = -682.776
+# of Up rod: 8343  # of Hor rod: 4401 # of Ver rod: 3536  S = 0.268704
+Window: 538 : W(538 : lower) = -682.776 W(538 : Upper) = -683.064
+# of Up rod: 8354  # of Hor rod: 4406 # of Ver rod: 3531  S = 0.269198
+Window: 539 : W(539 : lower) = -683.064 W(539 : Upper) = -684.053
+# of Up rod: 8387  # of Hor rod: 4424 # of Ver rod: 3520  S = 0.270345
+Window: 540 : W(540 : lower) = -684.053 W(540 : Upper) = -684.861
+# of Up rod: 8401  # of Hor rod: 4418 # of Ver rod: 3527  S = 0.270923
+Window: 541 : W(541 : lower) = -684.861 W(541 : Upper) = -684.812
+# of Up rod: 8410  # of Hor rod: 4431 # of Ver rod: 3516  S = 0.271229
+Window: 542 : W(542 : lower) = -684.812 W(542 : Upper) = -682.97
+# of Up rod: 8416  # of Hor rod: 4434 # of Ver rod: 3511  S = 0.271591
+Window: 543 : W(543 : lower) = -682.97 W(543 : Upper) = -685.787
+# of Up rod: 8413  # of Hor rod: 4422 # of Ver rod: 3515  S = 0.271835
+Window: 544 : W(544 : lower) = -685.787 W(544 : Upper) = -686.89
+# of Up rod: 8428  # of Hor rod: 4407 # of Ver rod: 3520  S = 0.272975
+Window: 545 : W(545 : lower) = -686.89 W(545 : Upper) = -687.929
+# of Up rod: 8413  # of Hor rod: 4406 # of Ver rod: 3510  S = 0.272827
+Window: 546 : W(546 : lower) = -687.929 W(546 : Upper) = -690.725
+# of Up rod: 8415  # of Hor rod: 4393 # of Ver rod: 3502  S = 0.273912
+Window: 547 : W(547 : lower) = -690.725 W(547 : Upper) = -691.34
+# of Up rod: 8413  # of Hor rod: 4388 # of Ver rod: 3495  S = 0.274392
+Window: 548 : W(548 : lower) = -691.34 W(548 : Upper) = -692.939
+# of Up rod: 8413  # of Hor rod: 4394 # of Ver rod: 3497  S = 0.274013
+Window: 549 : W(549 : lower) = -692.939 W(549 : Upper) = -693.208
+# of Up rod: 8423  # of Hor rod: 4387 # of Ver rod: 3491  S = 0.275075
+Window: 550 : W(550 : lower) = -693.208 W(550 : Upper) = -694.635
+# of Up rod: 8456  # of Hor rod: 4388 # of Ver rod: 3510  S = 0.27559
+Window: 551 : W(551 : lower) = -694.635 W(551 : Upper) = -696.005
+# of Up rod: 8447  # of Hor rod: 4378 # of Ver rod: 3503  S = 0.275998
+Window: 552 : W(552 : lower) = -696.005 W(552 : Upper) = -700.214
+# of Up rod: 8431  # of Hor rod: 4356 # of Ver rod: 3503  S = 0.276335
+Window: 553 : W(553 : lower) = -700.214 W(553 : Upper) = -701.097
+# of Up rod: 8440  # of Hor rod: 4352 # of Ver rod: 3505  S = 0.27683
+Window: 554 : W(554 : lower) = -701.097 W(554 : Upper) = -702.505
+# of Up rod: 8444  # of Hor rod: 4347 # of Ver rod: 3495  S = 0.277723
+Window: 555 : W(555 : lower) = -702.505 W(555 : Upper) = -703.48
+# of Up rod: 8452  # of Hor rod: 4341 # of Ver rod: 3493  S = 0.27846
+Window: 556 : W(556 : lower) = -703.48 W(556 : Upper) = -703.488
+# of Up rod: 8457  # of Hor rod: 4343 # of Ver rod: 3495  S = 0.27849
+Window: 557 : W(557 : lower) = -703.488 W(557 : Upper) = -704.483
+# of Up rod: 8473  # of Hor rod: 4345 # of Ver rod: 3498  S = 0.278959
+Window: 558 : W(558 : lower) = -704.483 W(558 : Upper) = -705.508
+# of Up rod: 8474  # of Hor rod: 4344 # of Ver rod: 3496  S = 0.279147
+Window: 559 : W(559 : lower) = -705.508 W(559 : Upper) = -707.139
+# of Up rod: 8482  # of Hor rod: 4347 # of Ver rod: 3482  S = 0.280026
+Window: 560 : W(560 : lower) = -707.139 W(560 : Upper) = -709.261
+# of Up rod: 8493  # of Hor rod: 4351 # of Ver rod: 3486  S = 0.280129
+Window: 561 : W(561 : lower) = -709.261 W(561 : Upper) = -712.649
+# of Up rod: 8498  # of Hor rod: 4350 # of Ver rod: 3470  S = 0.281162
+Window: 562 : W(562 : lower) = -712.649 W(562 : Upper) = -711.46
+# of Up rod: 8514  # of Hor rod: 4366 # of Ver rod: 3461  S = 0.281531
+Window: 563 : W(563 : lower) = -711.46 W(563 : Upper) = -712.527
+# of Up rod: 8508  # of Hor rod: 4355 # of Ver rod: 3458  S = 0.281937
+Window: 564 : W(564 : lower) = -712.527 W(564 : Upper) = -715.073
+# of Up rod: 8524  # of Hor rod: 4356 # of Ver rod: 3470  S = 0.282018
+Window: 565 : W(565 : lower) = -715.073 W(565 : Upper) = -717.806
+# of Up rod: 8555  # of Hor rod: 4376 # of Ver rod: 3468  S = 0.282517
+Window: 566 : W(566 : lower) = -717.806 W(566 : Upper) = -720.261
+# of Up rod: 8568  # of Hor rod: 4369 # of Ver rod: 3462  S = 0.283706
+Window: 567 : W(567 : lower) = -720.261 W(567 : Upper) = -723.206
+# of Up rod: 8587  # of Hor rod: 4372 # of Ver rod: 3460  S = 0.284487
+Window: 568 : W(568 : lower) = -723.206 W(568 : Upper) = -722.061
+# of Up rod: 8574  # of Hor rod: 4372 # of Ver rod: 3458  S = 0.284016
+Window: 569 : W(569 : lower) = -722.061 W(569 : Upper) = -722.81
+# of Up rod: 8587  # of Hor rod: 4373 # of Ver rod: 3449  S = 0.284966
+Window: 570 : W(570 : lower) = -722.81 W(570 : Upper) = -722.991
+# of Up rod: 8596  # of Hor rod: 4374 # of Ver rod: 3441  S = 0.285693
+Window: 571 : W(571 : lower) = -722.991 W(571 : Upper) = -724.072
+# of Up rod: 8579  # of Hor rod: 4360 # of Ver rod: 3434  S = 0.285959
+Window: 572 : W(572 : lower) = -724.072 W(572 : Upper) = -722.801
+# of Up rod: 8591  # of Hor rod: 4361 # of Ver rod: 3431  S = 0.286578
+Window: 573 : W(573 : lower) = -722.801 W(573 : Upper) = -723.836
+# of Up rod: 8608  # of Hor rod: 4372 # of Ver rod: 3422  S = 0.287221
+Window: 574 : W(574 : lower) = -723.836 W(574 : Upper) = -723.557
+# of Up rod: 8615  # of Hor rod: 4372 # of Ver rod: 3418  S = 0.287717
+Window: 575 : W(575 : lower) = -723.557 W(575 : Upper) = -723.321
+# of Up rod: 8618  # of Hor rod: 4383 # of Ver rod: 3404  S = 0.287991
+Window: 576 : W(576 : lower) = -723.321 W(576 : Upper) = -721.267
+# of Up rod: 8609  # of Hor rod: 4375 # of Ver rod: 3403  S = 0.288033
+Window: 577 : W(577 : lower) = -721.267 W(577 : Upper) = -722.007
+# of Up rod: 8606  # of Hor rod: 4349 # of Ver rod: 3406  S = 0.28901
+Window: 578 : W(578 : lower) = -722.007 W(578 : Upper) = -726.143
+# of Up rod: 8633  # of Hor rod: 4355 # of Ver rod: 3421  S = 0.289171
+Window: 579 : W(579 : lower) = -726.143 W(579 : Upper) = -726.57
+# of Up rod: 8666  # of Hor rod: 4369 # of Ver rod: 3424  S = 0.289781
+Window: 580 : W(580 : lower) = -726.57 W(580 : Upper) = -733.06
+# of Up rod: 8676  # of Hor rod: 4355 # of Ver rod: 3431  S = 0.290548
+Window: 581 : W(581 : lower) = -733.06 W(581 : Upper) = -733.476
+# of Up rod: 8680  # of Hor rod: 4352 # of Ver rod: 3430  S = 0.290912
+Window: 582 : W(582 : lower) = -733.476 W(582 : Upper) = -738.785
+# of Up rod: 8693  # of Hor rod: 4356 # of Ver rod: 3429  S = 0.291328
+Window: 583 : W(583 : lower) = -738.785 W(583 : Upper) = -743.104
+# of Up rod: 8704  # of Hor rod: 4362 # of Ver rod: 3419  S = 0.291993
+Window: 584 : W(584 : lower) = -743.104 W(584 : Upper) = -745.092
+# of Up rod: 8699  # of Hor rod: 4352 # of Ver rod: 3424  S = 0.292018
+Window: 585 : W(585 : lower) = -745.092 W(585 : Upper) = -746.528
+# of Up rod: 8711  # of Hor rod: 4353 # of Ver rod: 3409  S = 0.293207
+Window: 586 : W(586 : lower) = -746.528 W(586 : Upper) = -746.19
+# of Up rod: 8693  # of Hor rod: 4339 # of Ver rod: 3406  S = 0.293253
+Window: 587 : W(587 : lower) = -746.19 W(587 : Upper) = -746.924
+# of Up rod: 8693  # of Hor rod: 4342 # of Ver rod: 3395  S = 0.29364
+Window: 588 : W(588 : lower) = -746.924 W(588 : Upper) = -748.234
+# of Up rod: 8714  # of Hor rod: 4339 # of Ver rod: 3393  S = 0.294783
+Window: 589 : W(589 : lower) = -748.234 W(589 : Upper) = -747.838
+# of Up rod: 8732  # of Hor rod: 4348 # of Ver rod: 3393  S = 0.295119
+Window: 590 : W(590 : lower) = -747.838 W(590 : Upper) = -747.572
+# of Up rod: 8737  # of Hor rod: 4339 # of Ver rod: 3391  S = 0.295864
+Window: 591 : W(591 : lower) = -747.572 W(591 : Upper) = -749.466
+# of Up rod: 8732  # of Hor rod: 4341 # of Ver rod: 3383  S = 0.295941
+Window: 592 : W(592 : lower) = -749.466 W(592 : Upper) = -749.776
+# of Up rod: 8716  # of Hor rod: 4318 # of Ver rod: 3388  S = 0.296127
+Window: 593 : W(593 : lower) = -749.776 W(593 : Upper) = -754.013
+# of Up rod: 8744  # of Hor rod: 4330 # of Ver rod: 3381  S = 0.297083
+Window: 594 : W(594 : lower) = -754.013 W(594 : Upper) = -756.085
+# of Up rod: 8735  # of Hor rod: 4324 # of Ver rod: 3363  S = 0.297863
+Window: 595 : W(595 : lower) = -756.085 W(595 : Upper) = -756.985
+# of Up rod: 8745  # of Hor rod: 4330 # of Ver rod: 3366  S = 0.297853
+Window: 596 : W(596 : lower) = -756.985 W(596 : Upper) = -759.376
+# of Up rod: 8766  # of Hor rod: 4339 # of Ver rod: 3372  S = 0.298021
+Window: 597 : W(597 : lower) = -759.376 W(597 : Upper) = -761.312
+# of Up rod: 8749  # of Hor rod: 4325 # of Ver rod: 3357  S = 0.298704
+Window: 598 : W(598 : lower) = -761.312 W(598 : Upper) = -763.514
+# of Up rod: 8767  # of Hor rod: 4337 # of Ver rod: 3347  S = 0.299374
+Window: 599 : W(599 : lower) = -763.514 W(599 : Upper) = -763.426
+# of Up rod: 8766  # of Hor rod: 4324 # of Ver rod: 3348  S = 0.299915
+Window: 600 : W(600 : lower) = -763.426 W(600 : Upper) = -768.423
+# of Up rod: 8769  # of Hor rod: 4306 # of Ver rod: 3350  S = 0.300822
+Window: 601 : W(601 : lower) = -768.423 W(601 : Upper) = -768.68
+# of Up rod: 8759  # of Hor rod: 4297 # of Ver rod: 3349  S = 0.300884
+Window: 602 : W(602 : lower) = -768.68 W(602 : Upper) = -769.979
+# of Up rod: 8792  # of Hor rod: 4294 # of Ver rod: 3359  S = 0.301946
+Window: 603 : W(603 : lower) = -769.979 W(603 : Upper) = -771.91
+# of Up rod: 8812  # of Hor rod: 4303 # of Ver rod: 3367  S = 0.301966
+Window: 604 : W(604 : lower) = -771.91 W(604 : Upper) = -771.397
+# of Up rod: 8823  # of Hor rod: 4310 # of Ver rod: 3361  S = 0.302383
+Window: 605 : W(605 : lower) = -771.397 W(605 : Upper) = -772.849
+# of Up rod: 8829  # of Hor rod: 4305 # of Ver rod: 3357  S = 0.303074
+Window: 606 : W(606 : lower) = -772.849 W(606 : Upper) = -774.951
+# of Up rod: 8838  # of Hor rod: 4294 # of Ver rod: 3361  S = 0.303796
+Window: 607 : W(607 : lower) = -774.951 W(607 : Upper) = -775.771
+# of Up rod: 8831  # of Hor rod: 4281 # of Ver rod: 3372  S = 0.303597
+Window: 608 : W(608 : lower) = -775.771 W(608 : Upper) = -781.797
+# of Up rod: 8847  # of Hor rod: 4265 # of Ver rod: 3378  S = 0.30476
+Window: 609 : W(609 : lower) = -781.797 W(609 : Upper) = -780.861
+# of Up rod: 8854  # of Hor rod: 4269 # of Ver rod: 3379  S = 0.304812
+Window: 610 : W(610 : lower) = -780.861 W(610 : Upper) = -783.546
+# of Up rod: 8863  # of Hor rod: 4263 # of Ver rod: 3377  S = 0.305581
+Window: 611 : W(611 : lower) = -783.546 W(611 : Upper) = -784.625
+# of Up rod: 8891  # of Hor rod: 4279 # of Ver rod: 3379  S = 0.30588
+Window: 612 : W(612 : lower) = -784.625 W(612 : Upper) = -786.734
+# of Up rod: 8892  # of Hor rod: 4277 # of Ver rod: 3371  S = 0.306409
+Window: 613 : W(613 : lower) = -786.734 W(613 : Upper) = -789.021
+# of Up rod: 8886  # of Hor rod: 4266 # of Ver rod: 3362  S = 0.307133
+Window: 614 : W(614 : lower) = -789.021 W(614 : Upper) = -790.982
+# of Up rod: 8886  # of Hor rod: 4256 # of Ver rod: 3369  S = 0.30728
+Window: 615 : W(615 : lower) = -790.982 W(615 : Upper) = -791.77
+# of Up rod: 8918  # of Hor rod: 4260 # of Ver rod: 3387  S = 0.307546
+Window: 616 : W(616 : lower) = -791.77 W(616 : Upper) = -795.583
+# of Up rod: 8907  # of Hor rod: 4253 # of Ver rod: 3368  S = 0.308356
+Window: 617 : W(617 : lower) = -795.583 W(617 : Upper) = -797.59
+# of Up rod: 8916  # of Hor rod: 4258 # of Ver rod: 3366  S = 0.308585
+Window: 618 : W(618 : lower) = -797.59 W(618 : Upper) = -800.721
+# of Up rod: 8948  # of Hor rod: 4258 # of Ver rod: 3370  S = 0.309725
+Window: 619 : W(619 : lower) = -800.721 W(619 : Upper) = -801.147
+# of Up rod: 8929  # of Hor rod: 4254 # of Ver rod: 3356  S = 0.309813
+Window: 620 : W(620 : lower) = -801.147 W(620 : Upper) = -802.024
+# of Up rod: 8942  # of Hor rod: 4254 # of Ver rod: 3359  S = 0.310208
+Window: 621 : W(621 : lower) = -802.024 W(621 : Upper) = -801.221
+# of Up rod: 8942  # of Hor rod: 4249 # of Ver rod: 3357  S = 0.310551
+Window: 622 : W(622 : lower) = -801.221 W(622 : Upper) = -801.285
+# of Up rod: 8944  # of Hor rod: 4253 # of Ver rod: 3338  S = 0.31137
+Window: 623 : W(623 : lower) = -801.285 W(623 : Upper) = -801.411
+# of Up rod: 8965  # of Hor rod: 4235 # of Ver rod: 3352  S = 0.31244
+Window: 624 : W(624 : lower) = -801.411 W(624 : Upper) = -800.786
+# of Up rod: 8968  # of Hor rod: 4230 # of Ver rod: 3361  S = 0.312368
+Window: 625 : W(625 : lower) = -800.786 W(625 : Upper) = -803.142
+# of Up rod: 8950  # of Hor rod: 4214 # of Ver rod: 3351  S = 0.312897
+Window: 626 : W(626 : lower) = -803.142 W(626 : Upper) = -807.445
+# of Up rod: 8955  # of Hor rod: 4217 # of Ver rod: 3337  S = 0.313647
+Window: 627 : W(627 : lower) = -807.445 W(627 : Upper) = -808.495
+# of Up rod: 8954  # of Hor rod: 4221 # of Ver rod: 3324  S = 0.314049
+Window: 628 : W(628 : lower) = -808.495 W(628 : Upper) = -810.74
+# of Up rod: 8974  # of Hor rod: 4237 # of Ver rod: 3315  S = 0.314535
+Window: 629 : W(629 : lower) = -810.74 W(629 : Upper) = -808.697
+# of Up rod: 8994  # of Hor rod: 4231 # of Ver rod: 3322  S = 0.315314
+Window: 630 : W(630 : lower) = -808.697 W(630 : Upper) = -807.667
+# of Up rod: 9002  # of Hor rod: 4232 # of Ver rod: 3332  S = 0.315103
+Window: 631 : W(631 : lower) = -807.667 W(631 : Upper) = -807.701
+# of Up rod: 9018  # of Hor rod: 4228 # of Ver rod: 3328  S = 0.316158
+Window: 632 : W(632 : lower) = -807.701 W(632 : Upper) = -807.925
+# of Up rod: 9017  # of Hor rod: 4227 # of Ver rod: 3330  S = 0.316067
+Window: 633 : W(633 : lower) = -807.925 W(633 : Upper) = -809.249
+# of Up rod: 9028  # of Hor rod: 4232 # of Ver rod: 3312  S = 0.317161
+Window: 634 : W(634 : lower) = -809.249 W(634 : Upper) = -813.893
+# of Up rod: 9022  # of Hor rod: 4206 # of Ver rod: 3328  S = 0.317408
+Window: 635 : W(635 : lower) = -813.893 W(635 : Upper) = -814.871
+# of Up rod: 9038  # of Hor rod: 4207 # of Ver rod: 3334  S = 0.317721
+Window: 636 : W(636 : lower) = -814.871 W(636 : Upper) = -814.143
+# of Up rod: 9042  # of Hor rod: 4206 # of Ver rod: 3323  S = 0.318478
+Window: 637 : W(637 : lower) = -814.143 W(637 : Upper) = -815.771
+# of Up rod: 9031  # of Hor rod: 4194 # of Ver rod: 3324  S = 0.318569
+Window: 638 : W(638 : lower) = -815.771 W(638 : Upper) = -818.298
+# of Up rod: 9041  # of Hor rod: 4199 # of Ver rod: 3305  S = 0.319674
+Window: 639 : W(639 : lower) = -818.298 W(639 : Upper) = -821.876
+# of Up rod: 9041  # of Hor rod: 4190 # of Ver rod: 3313  S = 0.319723
+Window: 640 : W(640 : lower) = -821.876 W(640 : Upper) = -824.512
+# of Up rod: 9053  # of Hor rod: 4195 # of Ver rod: 3303  S = 0.320464
+Window: 641 : W(641 : lower) = -824.512 W(641 : Upper) = -825.839
+# of Up rod: 9054  # of Hor rod: 4182 # of Ver rod: 3314  S = 0.320604
+Window: 642 : W(642 : lower) = -825.839 W(642 : Upper) = -831.668
+# of Up rod: 9082  # of Hor rod: 4185 # of Ver rod: 3314  S = 0.321603
+Window: 643 : W(643 : lower) = -831.668 W(643 : Upper) = -834.416
+# of Up rod: 9077  # of Hor rod: 4185 # of Ver rod: 3294  S = 0.322391
+Window: 644 : W(644 : lower) = -834.416 W(644 : Upper) = -834.689
+# of Up rod: 9073  # of Hor rod: 4182 # of Ver rod: 3295  S = 0.322326
+Window: 645 : W(645 : lower) = -834.689 W(645 : Upper) = -835.646
+# of Up rod: 9101  # of Hor rod: 4197 # of Ver rod: 3289  S = 0.323024
+Window: 646 : W(646 : lower) = -835.646 W(646 : Upper) = -837.322
+# of Up rod: 9102  # of Hor rod: 4200 # of Ver rod: 3274  S = 0.323661
+Window: 647 : W(647 : lower) = -837.322 W(647 : Upper) = -837.597
+# of Up rod: 9110  # of Hor rod: 4200 # of Ver rod: 3278  S = 0.323788
+Window: 648 : W(648 : lower) = -837.597 W(648 : Upper) = -838.343
+# of Up rod: 9100  # of Hor rod: 4187 # of Ver rod: 3267  S = 0.324574
+Window: 649 : W(649 : lower) = -838.343 W(649 : Upper) = -843.833
+# of Up rod: 9095  # of Hor rod: 4179 # of Ver rod: 3268  S = 0.324719
+Window: 650 : W(650 : lower) = -843.833 W(650 : Upper) = -844.917
+# of Up rod: 9123  # of Hor rod: 4210 # of Ver rod: 3254  S = 0.325014
+Window: 651 : W(651 : lower) = -844.917 W(651 : Upper) = -846.369
+# of Up rod: 9123  # of Hor rod: 4214 # of Ver rod: 3233  S = 0.32586
+Window: 652 : W(652 : lower) = -846.369 W(652 : Upper) = -846.514
+# of Up rod: 9119  # of Hor rod: 4216 # of Ver rod: 3224  S = 0.326046
+Window: 653 : W(653 : lower) = -846.514 W(653 : Upper) = -849.346
+# of Up rod: 9146  # of Hor rod: 4237 # of Ver rod: 3205  S = 0.327044
+Window: 654 : W(654 : lower) = -849.346 W(654 : Upper) = -850.896
+# of Up rod: 9158  # of Hor rod: 4229 # of Ver rod: 3206  S = 0.327879
+Window: 655 : W(655 : lower) = -850.896 W(655 : Upper) = -851.598
+# of Up rod: 9157  # of Hor rod: 4224 # of Ver rod: 3204  S = 0.328188
+Window: 656 : W(656 : lower) = -851.598 W(656 : Upper) = -850.943
+# of Up rod: 9161  # of Hor rod: 4218 # of Ver rod: 3204  S = 0.32865
+Window: 657 : W(657 : lower) = -850.943 W(657 : Upper) = -851.812
+# of Up rod: 9159  # of Hor rod: 4213 # of Ver rod: 3209  S = 0.328569
+Window: 658 : W(658 : lower) = -851.812 W(658 : Upper) = -852.741
+# of Up rod: 9170  # of Hor rod: 4208 # of Ver rod: 3204  S = 0.329514
+Window: 659 : W(659 : lower) = -852.741 W(659 : Upper) = -852.994
+# of Up rod: 9155  # of Hor rod: 4194 # of Ver rod: 3199  S = 0.329859
+Window: 660 : W(660 : lower) = -852.994 W(660 : Upper) = -856.495
+# of Up rod: 9152  # of Hor rod: 4188 # of Ver rod: 3197  S = 0.330138
+Window: 661 : W(661 : lower) = -856.495 W(661 : Upper) = -858.253
+# of Up rod: 9153  # of Hor rod: 4190 # of Ver rod: 3184  S = 0.330732
+Window: 662 : W(662 : lower) = -858.253 W(662 : Upper) = -858.14
+# of Up rod: 9147  # of Hor rod: 4181 # of Ver rod: 3175  S = 0.331394
+Window: 663 : W(663 : lower) = -858.14 W(663 : Upper) = -860.483
+# of Up rod: 9158  # of Hor rod: 4181 # of Ver rod: 3168  S = 0.332192
+Window: 664 : W(664 : lower) = -860.483 W(664 : Upper) = -862.728
+# of Up rod: 9157  # of Hor rod: 4169 # of Ver rod: 3170  S = 0.332656
+Window: 665 : W(665 : lower) = -862.728 W(665 : Upper) = -864.327
+# of Up rod: 9168  # of Hor rod: 4180 # of Ver rod: 3166  S = 0.332748
+Window: 666 : W(666 : lower) = -864.327 W(666 : Upper) = -865.887
+# of Up rod: 9167  # of Hor rod: 4189 # of Ver rod: 3151  S = 0.33301
+Window: 667 : W(667 : lower) = -865.887 W(667 : Upper) = -868.316
+# of Up rod: 9174  # of Hor rod: 4186 # of Ver rod: 3136  S = 0.334202
+Window: 668 : W(668 : lower) = -868.316 W(668 : Upper) = -870.768
+# of Up rod: 9190  # of Hor rod: 4193 # of Ver rod: 3144  S = 0.33409
+Window: 669 : W(669 : lower) = -870.768 W(669 : Upper) = -871.544
+# of Up rod: 9200  # of Hor rod: 4192 # of Ver rod: 3140  S = 0.334745
+Window: 670 : W(670 : lower) = -871.544 W(670 : Upper) = -872.984
+# of Up rod: 9209  # of Hor rod: 4199 # of Ver rod: 3131  S = 0.335208
+Window: 671 : W(671 : lower) = -872.984 W(671 : Upper) = -874.456
+# of Up rod: 9228  # of Hor rod: 4202 # of Ver rod: 3134  S = 0.335668
+Window: 672 : W(672 : lower) = -874.456 W(672 : Upper) = -875.437
+# of Up rod: 9233  # of Hor rod: 4202 # of Ver rod: 3123  S = 0.336423
+Window: 673 : W(673 : lower) = -875.437 W(673 : Upper) = -881.449
+# of Up rod: 9225  # of Hor rod: 4200 # of Ver rod: 3116  S = 0.336558
+Window: 674 : W(674 : lower) = -881.449 W(674 : Upper) = -884.322
+# of Up rod: 9236  # of Hor rod: 4201 # of Ver rod: 3113  S = 0.3371
+Window: 675 : W(675 : lower) = -884.322 W(675 : Upper) = -885.833
+# of Up rod: 9226  # of Hor rod: 4179 # of Ver rod: 3113  S = 0.337813
+Window: 676 : W(676 : lower) = -885.833 W(676 : Upper) = -887.677
+# of Up rod: 9240  # of Hor rod: 4180 # of Ver rod: 3102  S = 0.338881
+Window: 677 : W(677 : lower) = -887.677 W(677 : Upper) = -887.712
+# of Up rod: 9239  # of Hor rod: 4176 # of Ver rod: 3112  S = 0.338537
+Window: 678 : W(678 : lower) = -887.712 W(678 : Upper) = -891.604
+# of Up rod: 9236  # of Hor rod: 4166 # of Ver rod: 3101  S = 0.339484
+Window: 679 : W(679 : lower) = -891.604 W(679 : Upper) = -894.387
+# of Up rod: 9253  # of Hor rod: 4152 # of Ver rod: 3109  S = 0.340469
+Window: 680 : W(680 : lower) = -894.387 W(680 : Upper) = -892.458
+# of Up rod: 9250  # of Hor rod: 4147 # of Ver rod: 3117  S = 0.340196
+Window: 681 : W(681 : lower) = -892.458 W(681 : Upper) = -893.498
+# of Up rod: 9257  # of Hor rod: 4149 # of Ver rod: 3106  S = 0.340934
+Window: 682 : W(682 : lower) = -893.498 W(682 : Upper) = -896.605
+# of Up rod: 9250  # of Hor rod: 4146 # of Ver rod: 3099  S = 0.341164
+Window: 683 : W(683 : lower) = -896.605 W(683 : Upper) = -899.679
+# of Up rod: 9248  # of Hor rod: 4143 # of Ver rod: 3091  S = 0.341645
+Window: 684 : W(684 : lower) = -899.679 W(684 : Upper) = -902.231
+# of Up rod: 9285  # of Hor rod: 4147 # of Ver rod: 3101  S = 0.342406
+Window: 685 : W(685 : lower) = -902.231 W(685 : Upper) = -902.064
+# of Up rod: 9290  # of Hor rod: 4148 # of Ver rod: 3101  S = 0.342554
+Window: 686 : W(686 : lower) = -902.064 W(686 : Upper) = -906.24
+# of Up rod: 9290  # of Hor rod: 4147 # of Ver rod: 3092  S = 0.343064
+Window: 687 : W(687 : lower) = -906.24 W(687 : Upper) = -906.962
+# of Up rod: 9293  # of Hor rod: 4150 # of Ver rod: 3079  S = 0.343693
+Window: 688 : W(688 : lower) = -906.962 W(688 : Upper) = -907.548
+# of Up rod: 9301  # of Hor rod: 4150 # of Ver rod: 3078  S = 0.344062
+Window: 689 : W(689 : lower) = -907.548 W(689 : Upper) = -911.39
+# of Up rod: 9318  # of Hor rod: 4145 # of Ver rod: 3075  S = 0.345145
+Window: 690 : W(690 : lower) = -911.39 W(690 : Upper) = -911.745
+# of Up rod: 9344  # of Hor rod: 4151 # of Ver rod: 3088  S = 0.345203
+Window: 691 : W(691 : lower) = -911.745 W(691 : Upper) = -912.164
+# of Up rod: 9358  # of Hor rod: 4154 # of Ver rod: 3077  S = 0.346163
+Window: 692 : W(692 : lower) = -912.164 W(692 : Upper) = -911.51
+# of Up rod: 9372  # of Hor rod: 4156 # of Ver rod: 3084  S = 0.346256
+Window: 693 : W(693 : lower) = -911.51 W(693 : Upper) = -912.308
+# of Up rod: 9384  # of Hor rod: 4156 # of Ver rod: 3075  S = 0.347186
+Window: 694 : W(694 : lower) = -912.308 W(694 : Upper) = -912.048
+# of Up rod: 9395  # of Hor rod: 4162 # of Ver rod: 3078  S = 0.34716
+Window: 695 : W(695 : lower) = -912.048 W(695 : Upper) = -914.203
+# of Up rod: 9401  # of Hor rod: 4149 # of Ver rod: 3075  S = 0.348211
+Window: 696 : W(696 : lower) = -914.203 W(696 : Upper) = -916.131
+# of Up rod: 9414  # of Hor rod: 4162 # of Ver rod: 3074  S = 0.348108
+Window: 697 : W(697 : lower) = -916.131 W(697 : Upper) = -920.692
+# of Up rod: 9435  # of Hor rod: 4179 # of Ver rod: 3058  S = 0.348878
+Window: 698 : W(698 : lower) = -920.692 W(698 : Upper) = -922.296
+# of Up rod: 9435  # of Hor rod: 4166 # of Ver rod: 3059  S = 0.34949
+Window: 699 : W(699 : lower) = -922.296 W(699 : Upper) = -923.986
+# of Up rod: 9411  # of Hor rod: 4146 # of Ver rod: 3042  S = 0.350443
+Window: 700 : W(700 : lower) = -923.986 W(700 : Upper) = -925.095
+# of Up rod: 9415  # of Hor rod: 4157 # of Ver rod: 3042  S = 0.350036
+Window: 701 : W(701 : lower) = -925.095 W(701 : Upper) = -925.629
+# of Up rod: 9410  # of Hor rod: 4142 # of Ver rod: 3042  S = 0.350609
+Window: 702 : W(702 : lower) = -925.629 W(702 : Upper) = -927.971
+# of Up rod: 9414  # of Hor rod: 4127 # of Ver rod: 3050  S = 0.351124
+Window: 703 : W(703 : lower) = -927.971 W(703 : Upper) = -930.411
+# of Up rod: 9405  # of Hor rod: 4109 # of Ver rod: 3038  S = 0.352314
+Window: 704 : W(704 : lower) = -930.411 W(704 : Upper) = -929.585
+# of Up rod: 9412  # of Hor rod: 4108 # of Ver rod: 3037  S = 0.352691
+Window: 705 : W(705 : lower) = -929.585 W(705 : Upper) = -931.692
+# of Up rod: 9408  # of Hor rod: 4121 # of Ver rod: 3021  S = 0.352689
+Window: 706 : W(706 : lower) = -931.692 W(706 : Upper) = -932.314
+# of Up rod: 9433  # of Hor rod: 4122 # of Ver rod: 3026  S = 0.353356
+Window: 707 : W(707 : lower) = -932.314 W(707 : Upper) = -932.078
+# of Up rod: 9455  # of Hor rod: 4128 # of Ver rod: 3033  S = 0.353545
+Window: 708 : W(708 : lower) = -932.078 W(708 : Upper) = -934.043
+# of Up rod: 9436  # of Hor rod: 4104 # of Ver rod: 3033  S = 0.35404
+Window: 709 : W(709 : lower) = -934.043 W(709 : Upper) = -938.871
+# of Up rod: 9438  # of Hor rod: 4101 # of Ver rod: 3026  S = 0.354633
+Window: 710 : W(710 : lower) = -938.871 W(710 : Upper) = -939.996
+# of Up rod: 9431  # of Hor rod: 4078 # of Ver rod: 3028  S = 0.355445
+Window: 711 : W(711 : lower) = -939.996 W(711 : Upper) = -944.787
+# of Up rod: 9437  # of Hor rod: 4072 # of Ver rod: 3028  S = 0.35599
+Window: 712 : W(712 : lower) = -944.787 W(712 : Upper) = -946.325
+# of Up rod: 9435  # of Hor rod: 4072 # of Ver rod: 3023  S = 0.356171
+Window: 713 : W(713 : lower) = -946.325 W(713 : Upper) = -946.418
+# of Up rod: 9422  # of Hor rod: 4053 # of Ver rod: 3020  S = 0.356805
+Window: 714 : W(714 : lower) = -946.418 W(714 : Upper) = -949.948
+# of Up rod: 9444  # of Hor rod: 4064 # of Ver rod: 3013  S = 0.357454
+Window: 715 : W(715 : lower) = -949.948 W(715 : Upper) = -953.178
+# of Up rod: 9476  # of Hor rod: 4072 # of Ver rod: 3012  S = 0.358333
+Window: 716 : W(716 : lower) = -953.178 W(716 : Upper) = -953.792
+# of Up rod: 9474  # of Hor rod: 4066 # of Ver rod: 3017  S = 0.358308
+Window: 717 : W(717 : lower) = -953.792 W(717 : Upper) = -955.556
+# of Up rod: 9492  # of Hor rod: 4071 # of Ver rod: 3015  S = 0.358849
+Window: 718 : W(718 : lower) = -955.556 W(718 : Upper) = -961.022
+# of Up rod: 9491  # of Hor rod: 4063 # of Ver rod: 3010  S = 0.359484
+Window: 719 : W(719 : lower) = -961.022 W(719 : Upper) = -961.031
+# of Up rod: 9492  # of Hor rod: 4068 # of Ver rod: 3002  S = 0.359679
+Window: 720 : W(720 : lower) = -961.031 W(720 : Upper) = -961.905
+# of Up rod: 9507  # of Hor rod: 4062 # of Ver rod: 2997  S = 0.360829
+Window: 721 : W(721 : lower) = -961.905 W(721 : Upper) = -963.29
+# of Up rod: 9517  # of Hor rod: 4062 # of Ver rod: 3008  S = 0.360644
+Window: 722 : W(722 : lower) = -963.29 W(722 : Upper) = -963.711
+# of Up rod: 9526  # of Hor rod: 4053 # of Ver rod: 3002  S = 0.361769
+Window: 723 : W(723 : lower) = -963.711 W(723 : Upper) = -964.023
+# of Up rod: 9514  # of Hor rod: 4045 # of Ver rod: 2996  S = 0.362036
+Window: 724 : W(724 : lower) = -964.023 W(724 : Upper) = -962.882
+# of Up rod: 9523  # of Hor rod: 4049 # of Ver rod: 2994  S = 0.362278
+Window: 725 : W(725 : lower) = -962.882 W(725 : Upper) = -961.896
+# of Up rod: 9548  # of Hor rod: 4046 # of Ver rod: 2998  S = 0.363187
+Window: 726 : W(726 : lower) = -961.896 W(726 : Upper) = -961.537
+# of Up rod: 9540  # of Hor rod: 4053 # of Ver rod: 2988  S = 0.363036
+Window: 727 : W(727 : lower) = -961.537 W(727 : Upper) = -963.034
+# of Up rod: 9529  # of Hor rod: 4042 # of Ver rod: 2977  S = 0.36376
+Window: 728 : W(728 : lower) = -963.034 W(728 : Upper) = -967.456
+# of Up rod: 9537  # of Hor rod: 4050 # of Ver rod: 2969  S = 0.364067
+Window: 729 : W(729 : lower) = -967.456 W(729 : Upper) = -969.554
+# of Up rod: 9559  # of Hor rod: 4053 # of Ver rod: 2955  S = 0.365486
+Window: 730 : W(730 : lower) = -969.554 W(730 : Upper) = -970.256
+# of Up rod: 9571  # of Hor rod: 4067 # of Ver rod: 2950  S = 0.365475
+Window: 731 : W(731 : lower) = -970.256 W(731 : Upper) = -972.942
+# of Up rod: 9582  # of Hor rod: 4078 # of Ver rod: 2946  S = 0.365531
+Window: 732 : W(732 : lower) = -972.942 W(732 : Upper) = -973.497
+# of Up rod: 9590  # of Hor rod: 4074 # of Ver rod: 2943  S = 0.366201
+Window: 733 : W(733 : lower) = -973.497 W(733 : Upper) = -977.684
+# of Up rod: 9597  # of Hor rod: 4073 # of Ver rod: 2925  S = 0.36746
+Window: 734 : W(734 : lower) = -977.684 W(734 : Upper) = -978.088
+# of Up rod: 9601  # of Hor rod: 4072 # of Ver rod: 2926  S = 0.367613
+Window: 735 : W(735 : lower) = -978.088 W(735 : Upper) = -979.031
+# of Up rod: 9609  # of Hor rod: 4075 # of Ver rod: 2927  S = 0.367708
+Window: 736 : W(736 : lower) = -979.031 W(736 : Upper) = -980.474
+# of Up rod: 9621  # of Hor rod: 4084 # of Ver rod: 2916  S = 0.368269
+Window: 737 : W(737 : lower) = -980.474 W(737 : Upper) = -981.285
+# of Up rod: 9626  # of Hor rod: 4077 # of Ver rod: 2915  S = 0.368877
+Window: 738 : W(738 : lower) = -981.285 W(738 : Upper) = -986.196
+# of Up rod: 9634  # of Hor rod: 4071 # of Ver rod: 2914  S = 0.369547
+Window: 739 : W(739 : lower) = -986.196 W(739 : Upper) = -990.163
+# of Up rod: 9635  # of Hor rod: 4063 # of Ver rod: 2919  S = 0.369742
+Window: 740 : W(740 : lower) = -990.163 W(740 : Upper) = -991.327
+# of Up rod: 9640  # of Hor rod: 4069 # of Ver rod: 2910  S = 0.370088
+Window: 741 : W(741 : lower) = -991.327 W(741 : Upper) = -993.079
+# of Up rod: 9654  # of Hor rod: 4081 # of Ver rod: 2886  S = 0.371247
+Window: 742 : W(742 : lower) = -993.079 W(742 : Upper) = -994.999
+# of Up rod: 9655  # of Hor rod: 4074 # of Ver rod: 2888  S = 0.371547
+Window: 743 : W(743 : lower) = -994.999 W(743 : Upper) = -997.534
+# of Up rod: 9661  # of Hor rod: 4074 # of Ver rod: 2890  S = 0.371669
+Window: 744 : W(744 : lower) = -997.534 W(744 : Upper) = -999.696
+# of Up rod: 9681  # of Hor rod: 4075 # of Ver rod: 2886  S = 0.372581
+Window: 745 : W(745 : lower) = -999.696 W(745 : Upper) = -1000.91
+# of Up rod: 9704  # of Hor rod: 4078 # of Ver rod: 2895  S = 0.372819
+Window: 746 : W(746 : lower) = -1000.91 W(746 : Upper) = -1002.05
+# of Up rod: 9706  # of Hor rod: 4073 # of Ver rod: 2897  S = 0.373051
+Window: 747 : W(747 : lower) = -1002.05 W(747 : Upper) = -1004.95
+# of Up rod: 9710  # of Hor rod: 4064 # of Ver rod: 2891  S = 0.373987
+Window: 748 : W(748 : lower) = -1004.95 W(748 : Upper) = -1007.13
+# of Up rod: 9737  # of Hor rod: 4066 # of Ver rod: 2901  S = 0.374371
+Window: 749 : W(749 : lower) = -1007.13 W(749 : Upper) = -1009.53
+# of Up rod: 9738  # of Hor rod: 4053 # of Ver rod: 2905  S = 0.37488
+Window: 750 : W(750 : lower) = -1009.53 W(750 : Upper) = -1010.89
+# of Up rod: 9736  # of Hor rod: 4049 # of Ver rod: 2897  S = 0.375435
+Window: 751 : W(751 : lower) = -1010.89 W(751 : Upper) = -1012.3
+# of Up rod: 9741  # of Hor rod: 4039 # of Ver rod: 2902  S = 0.375884
+Window: 752 : W(752 : lower) = -1012.3 W(752 : Upper) = -1012.34
+# of Up rod: 9736  # of Hor rod: 4021 # of Ver rod: 2896  S = 0.376959
+Window: 753 : W(753 : lower) = -1012.34 W(753 : Upper) = -1011.98
+# of Up rod: 9741  # of Hor rod: 4017 # of Ver rod: 2908  S = 0.376725
+Window: 754 : W(754 : lower) = -1011.98 W(754 : Upper) = -1014.81
+# of Up rod: 9758  # of Hor rod: 4023 # of Ver rod: 2899  S = 0.377518
+Window: 755 : W(755 : lower) = -1014.81 W(755 : Upper) = -1013.85
+# of Up rod: 9782  # of Hor rod: 4024 # of Ver rod: 2912  S = 0.377677
+Window: 756 : W(756 : lower) = -1013.85 W(756 : Upper) = -1014.98
+# of Up rod: 9792  # of Hor rod: 4022 # of Ver rod: 2910  S = 0.378259
+Window: 757 : W(757 : lower) = -1014.98 W(757 : Upper) = -1016.43
+# of Up rod: 9804  # of Hor rod: 4015 # of Ver rod: 2912  S = 0.378967
+Window: 758 : W(758 : lower) = -1016.43 W(758 : Upper) = -1017.76
+# of Up rod: 9788  # of Hor rod: 4005 # of Ver rod: 2902  S = 0.379425
+Window: 759 : W(759 : lower) = -1017.76 W(759 : Upper) = -1019.21
+# of Up rod: 9812  # of Hor rod: 3996 # of Ver rod: 2910  S = 0.380368
+Window: 760 : W(760 : lower) = -1019.21 W(760 : Upper) = -1018.79
+# of Up rod: 9786  # of Hor rod: 3985 # of Ver rod: 2903  S = 0.380353
+Window: 761 : W(761 : lower) = -1018.79 W(761 : Upper) = -1022.91
+# of Up rod: 9797  # of Hor rod: 3988 # of Ver rod: 2900  S = 0.380761
+Window: 762 : W(762 : lower) = -1022.91 W(762 : Upper) = -1022.62
+# of Up rod: 9798  # of Hor rod: 3983 # of Ver rod: 2893  S = 0.381432
+Window: 763 : W(763 : lower) = -1022.62 W(763 : Upper) = -1023.45
+# of Up rod: 9807  # of Hor rod: 3977 # of Ver rod: 2896  S = 0.381924
+Window: 764 : W(764 : lower) = -1023.45 W(764 : Upper) = -1024.61
+# of Up rod: 9810  # of Hor rod: 3978 # of Ver rod: 2893  S = 0.382141
+Window: 765 : W(765 : lower) = -1024.61 W(765 : Upper) = -1027.8
+# of Up rod: 9830  # of Hor rod: 3984 # of Ver rod: 2884  S = 0.38304
+Window: 766 : W(766 : lower) = -1027.8 W(766 : Upper) = -1029.64
+# of Up rod: 9847  # of Hor rod: 3981 # of Ver rod: 2886  S = 0.38372
+Window: 767 : W(767 : lower) = -1029.64 W(767 : Upper) = -1031.25
+# of Up rod: 9836  # of Hor rod: 3971 # of Ver rod: 2892  S = 0.383526
+Window: 768 : W(768 : lower) = -1031.25 W(768 : Upper) = -1034.73
+# of Up rod: 9858  # of Hor rod: 3971 # of Ver rod: 2887  S = 0.384602
+Window: 769 : W(769 : lower) = -1034.73 W(769 : Upper) = -1034.25
+# of Up rod: 9888  # of Hor rod: 3980 # of Ver rod: 2900  S = 0.384542
+Window: 770 : W(770 : lower) = -1034.25 W(770 : Upper) = -1036.22
+# of Up rod: 9901  # of Hor rod: 3977 # of Ver rod: 2887  S = 0.385863
+Window: 771 : W(771 : lower) = -1036.22 W(771 : Upper) = -1037.85
+# of Up rod: 9898  # of Hor rod: 3984 # of Ver rod: 2867  S = 0.386441
+Window: 772 : W(772 : lower) = -1037.85 W(772 : Upper) = -1037.62
+# of Up rod: 9894  # of Hor rod: 3980 # of Ver rod: 2875  S = 0.386083
+Window: 773 : W(773 : lower) = -1037.62 W(773 : Upper) = -1036.89
+# of Up rod: 9908  # of Hor rod: 3966 # of Ver rod: 2882  S = 0.386966
+Window: 774 : W(774 : lower) = -1036.89 W(774 : Upper) = -1040.67
+# of Up rod: 9889  # of Hor rod: 3958 # of Ver rod: 2859  S = 0.387915
+Window: 775 : W(775 : lower) = -1040.67 W(775 : Upper) = -1041.89
+# of Up rod: 9884  # of Hor rod: 3965 # of Ver rod: 2846  S = 0.38805
+Window: 776 : W(776 : lower) = -1041.89 W(776 : Upper) = -1043.22
+# of Up rod: 9871  # of Hor rod: 3939 # of Ver rod: 2850  S = 0.388745
+Window: 777 : W(777 : lower) = -1043.22 W(777 : Upper) = -1043.08
+# of Up rod: 9860  # of Hor rod: 3928 # of Ver rod: 2849  S = 0.388982
+Window: 778 : W(778 : lower) = -1043.08 W(778 : Upper) = -1044.22
+# of Up rod: 9899  # of Hor rod: 3943 # of Ver rod: 2849  S = 0.389611
+Window: 779 : W(779 : lower) = -1044.22 W(779 : Upper) = -1042.15
+# of Up rod: 9882  # of Hor rod: 3935 # of Ver rod: 2847  S = 0.389522
+Window: 780 : W(780 : lower) = -1042.15 W(780 : Upper) = -1044.78
+# of Up rod: 9906  # of Hor rod: 3931 # of Ver rod: 2853  S = 0.390294
+Window: 781 : W(781 : lower) = -1044.78 W(781 : Upper) = -1046.27
+# of Up rod: 9904  # of Hor rod: 3936 # of Ver rod: 2835  S = 0.390915
+Window: 782 : W(782 : lower) = -1046.27 W(782 : Upper) = -1048.7
+# of Up rod: 9903  # of Hor rod: 3927 # of Ver rod: 2824  S = 0.391948
+Window: 783 : W(783 : lower) = -1048.7 W(783 : Upper) = -1049.46
+# of Up rod: 9928  # of Hor rod: 3942 # of Ver rod: 2832  S = 0.39163
+Window: 784 : W(784 : lower) = -1049.46 W(784 : Upper) = -1055.08
+# of Up rod: 9933  # of Hor rod: 3937 # of Ver rod: 2828  S = 0.392292
+Window: 785 : W(785 : lower) = -1055.08 W(785 : Upper) = -1054.28
+# of Up rod: 9938  # of Hor rod: 3934 # of Ver rod: 2814  S = 0.393384
+Window: 786 : W(786 : lower) = -1054.28 W(786 : Upper) = -1054.85
+# of Up rod: 9943  # of Hor rod: 3927 # of Ver rod: 2824  S = 0.393405
+Window: 787 : W(787 : lower) = -1054.85 W(787 : Upper) = -1058.41
+# of Up rod: 9949  # of Hor rod: 3935 # of Ver rod: 2813  S = 0.393783
+Window: 788 : W(788 : lower) = -1058.41 W(788 : Upper) = -1061.91
+# of Up rod: 9947  # of Hor rod: 3945 # of Ver rod: 2795  S = 0.394139
+Window: 789 : W(789 : lower) = -1061.91 W(789 : Upper) = -1062.86
+# of Up rod: 9975  # of Hor rod: 3942 # of Ver rod: 2797  S = 0.395208
+Window: 790 : W(790 : lower) = -1062.86 W(790 : Upper) = -1064.33
+# of Up rod: 9962  # of Hor rod: 3942 # of Ver rod: 2784  S = 0.395434
+Window: 791 : W(791 : lower) = -1064.33 W(791 : Upper) = -1066.28
+# of Up rod: 9979  # of Hor rod: 3937 # of Ver rod: 2781  S = 0.396478
+Window: 792 : W(792 : lower) = -1066.28 W(792 : Upper) = -1067.12
+# of Up rod: 9965  # of Hor rod: 3928 # of Ver rod: 2785  S = 0.396241
+Window: 793 : W(793 : lower) = -1067.12 W(793 : Upper) = -1070.44
+# of Up rod: 9984  # of Hor rod: 3915 # of Ver rod: 2795  S = 0.397089
+Window: 794 : W(794 : lower) = -1070.44 W(794 : Upper) = -1071.77
+# of Up rod: 9986  # of Hor rod: 3917 # of Ver rod: 2791  S = 0.397268
+Window: 795 : W(795 : lower) = -1071.77 W(795 : Upper) = -1072.09
+# of Up rod: 9993  # of Hor rod: 3908 # of Ver rod: 2783  S = 0.398436
+Window: 796 : W(796 : lower) = -1072.09 W(796 : Upper) = -1071.76
+# of Up rod: 9984  # of Hor rod: 3899 # of Ver rod: 2782  S = 0.39865
+Window: 797 : W(797 : lower) = -1071.76 W(797 : Upper) = -1072.6
+# of Up rod: 9994  # of Hor rod: 3899 # of Ver rod: 2791  S = 0.398526
+Window: 798 : W(798 : lower) = -1072.6 W(798 : Upper) = -1074.2
+# of Up rod: 10017  # of Hor rod: 3907 # of Ver rod: 2788  S = 0.399084
+Window: 799 : W(799 : lower) = -1074.2 W(799 : Upper) = -1075.96
+# of Up rod: 10033  # of Hor rod: 3898 # of Ver rod: 2789  S = 0.40009
+Window: 800 : W(800 : lower) = -1075.96 W(800 : Upper) = -1075.84
+# of Up rod: 10053  # of Hor rod: 3884 # of Ver rod: 2810  S = 0.40043
+Window: 801 : W(801 : lower) = -1075.84 W(801 : Upper) = -1078.47
+# of Up rod: 10057  # of Hor rod: 3874 # of Ver rod: 2821  S = 0.400519
+Window: 802 : W(802 : lower) = -1078.47 W(802 : Upper) = -1079.79
+# of Up rod: 10067  # of Hor rod: 3870 # of Ver rod: 2815  S = 0.401415
+Window: 803 : W(803 : lower) = -1079.79 W(803 : Upper) = -1082.91
+# of Up rod: 10080  # of Hor rod: 3873 # of Ver rod: 2819  S = 0.401503
+Window: 804 : W(804 : lower) = -1082.91 W(804 : Upper) = -1084.93
+# of Up rod: 10083  # of Hor rod: 3869 # of Ver rod: 2813  S = 0.402147
+Window: 805 : W(805 : lower) = -1084.93 W(805 : Upper) = -1089.22
+# of Up rod: 10105  # of Hor rod: 3865 # of Ver rod: 2819  S = 0.402823
+Window: 806 : W(806 : lower) = -1089.22 W(806 : Upper) = -1090.56
+# of Up rod: 10108  # of Hor rod: 3862 # of Ver rod: 2808  S = 0.403683
+Window: 807 : W(807 : lower) = -1090.56 W(807 : Upper) = -1093.01
+# of Up rod: 10097  # of Hor rod: 3856 # of Ver rod: 2805  S = 0.403777
+Window: 808 : W(808 : lower) = -1093.01 W(808 : Upper) = -1094.15
+# of Up rod: 10107  # of Hor rod: 3859 # of Ver rod: 2796  S = 0.404457
+Window: 809 : W(809 : lower) = -1094.15 W(809 : Upper) = -1096.95
+# of Up rod: 10112  # of Hor rod: 3861 # of Ver rod: 2795  S = 0.40458
+Window: 810 : W(810 : lower) = -1096.95 W(810 : Upper) = -1103.51
+# of Up rod: 10121  # of Hor rod: 3862 # of Ver rod: 2788  S = 0.405223
+Window: 811 : W(811 : lower) = -1103.51 W(811 : Upper) = -1105.11
+# of Up rod: 10125  # of Hor rod: 3860 # of Ver rod: 2774  S = 0.406229
+Window: 812 : W(812 : lower) = -1105.11 W(812 : Upper) = -1107.27
+# of Up rod: 10141  # of Hor rod: 3871 # of Ver rod: 2764  S = 0.406742
+Window: 813 : W(813 : lower) = -1107.27 W(813 : Upper) = -1107.99
+# of Up rod: 10126  # of Hor rod: 3864 # of Ver rod: 2755  S = 0.407077
+Window: 814 : W(814 : lower) = -1107.99 W(814 : Upper) = -1110.88
+# of Up rod: 10153  # of Hor rod: 3861 # of Ver rod: 2773  S = 0.40722
+Window: 815 : W(815 : lower) = -1110.88 W(815 : Upper) = -1112.95
+# of Up rod: 10166  # of Hor rod: 3858 # of Ver rod: 2770  S = 0.408003
+Window: 816 : W(816 : lower) = -1112.95 W(816 : Upper) = -1113.95
+# of Up rod: 10172  # of Hor rod: 3857 # of Ver rod: 2764  S = 0.408593
+Window: 817 : W(817 : lower) = -1113.95 W(817 : Upper) = -1115.66
+# of Up rod: 10194  # of Hor rod: 3853 # of Ver rod: 2769  S = 0.409313
+Window: 818 : W(818 : lower) = -1115.66 W(818 : Upper) = -1116.46
+# of Up rod: 10188  # of Hor rod: 3852 # of Ver rod: 2765  S = 0.409372
+Window: 819 : W(819 : lower) = -1116.46 W(819 : Upper) = -1122.16
+# of Up rod: 10173  # of Hor rod: 3848 # of Ver rod: 2753  S = 0.409711
+Window: 820 : W(820 : lower) = -1122.16 W(820 : Upper) = -1124.33
+# of Up rod: 10152  # of Hor rod: 3855 # of Ver rod: 2727  S = 0.410004
+Window: 821 : W(821 : lower) = -1124.33 W(821 : Upper) = -1125.58
+# of Up rod: 10163  # of Hor rod: 3842 # of Ver rod: 2720  S = 0.41148
+Window: 822 : W(822 : lower) = -1125.58 W(822 : Upper) = -1126.48
+# of Up rod: 10176  # of Hor rod: 3843 # of Ver rod: 2728  S = 0.411447
+Window: 823 : W(823 : lower) = -1126.48 W(823 : Upper) = -1125.94
+# of Up rod: 10180  # of Hor rod: 3831 # of Ver rod: 2731  S = 0.412077
+Window: 824 : W(824 : lower) = -1125.94 W(824 : Upper) = -1125.1
+# of Up rod: 10184  # of Hor rod: 3831 # of Ver rod: 2730  S = 0.412272
+Window: 825 : W(825 : lower) = -1125.1 W(825 : Upper) = -1126.9
+# of Up rod: 10186  # of Hor rod: 3826 # of Ver rod: 2729  S = 0.412669
+Window: 826 : W(826 : lower) = -1126.9 W(826 : Upper) = -1129.62
+# of Up rod: 10179  # of Hor rod: 3816 # of Ver rod: 2715  S = 0.413734
+Window: 827 : W(827 : lower) = -1129.62 W(827 : Upper) = -1129.76
+# of Up rod: 10193  # of Hor rod: 3826 # of Ver rod: 2715  S = 0.413679
+Window: 828 : W(828 : lower) = -1129.76 W(828 : Upper) = -1130.98
+# of Up rod: 10205  # of Hor rod: 3821 # of Ver rod: 2713  S = 0.414481
+Window: 829 : W(829 : lower) = -1130.98 W(829 : Upper) = -1135.76
+# of Up rod: 10220  # of Hor rod: 3825 # of Ver rod: 2718  S = 0.414514
+Window: 830 : W(830 : lower) = -1135.76 W(830 : Upper) = -1137.88
+# of Up rod: 10233  # of Hor rod: 3816 # of Ver rod: 2714  S = 0.415677
+Window: 831 : W(831 : lower) = -1137.88 W(831 : Upper) = -1137.72
+# of Up rod: 10258  # of Hor rod: 3833 # of Ver rod: 2707  S = 0.416002
+Window: 832 : W(832 : lower) = -1137.72 W(832 : Upper) = -1138.3
+# of Up rod: 10286  # of Hor rod: 3821 # of Ver rod: 2723  S = 0.416756
+Window: 833 : W(833 : lower) = -1138.3 W(833 : Upper) = -1139.92
+# of Up rod: 10281  # of Hor rod: 3823 # of Ver rod: 2721  S = 0.416582
+Window: 834 : W(834 : lower) = -1139.92 W(834 : Upper) = -1141.21
+# of Up rod: 10294  # of Hor rod: 3824 # of Ver rod: 2711  S = 0.417523
+Window: 835 : W(835 : lower) = -1141.21 W(835 : Upper) = -1144.84
+# of Up rod: 10307  # of Hor rod: 3824 # of Ver rod: 2712  S = 0.417918
+Window: 836 : W(836 : lower) = -1144.84 W(836 : Upper) = -1146.14
+# of Up rod: 10318  # of Hor rod: 3824 # of Ver rod: 2707  S = 0.418571
+Window: 837 : W(837 : lower) = -1146.14 W(837 : Upper) = -1147.26
+# of Up rod: 10300  # of Hor rod: 3804 # of Ver rod: 2704  S = 0.419205
+Window: 838 : W(838 : lower) = -1147.26 W(838 : Upper) = -1146.94
+# of Up rod: 10301  # of Hor rod: 3792 # of Ver rod: 2719  S = 0.419076
+Window: 839 : W(839 : lower) = -1146.94 W(839 : Upper) = -1150.46
+# of Up rod: 10332  # of Hor rod: 3795 # of Ver rod: 2723  S = 0.419763
+Window: 840 : W(840 : lower) = -1150.46 W(840 : Upper) = -1150.36
+# of Up rod: 10342  # of Hor rod: 3793 # of Ver rod: 2722  S = 0.420271
+Window: 841 : W(841 : lower) = -1150.36 W(841 : Upper) = -1153.97
+# of Up rod: 10354  # of Hor rod: 3789 # of Ver rod: 2726  S = 0.420683
+Window: 842 : W(842 : lower) = -1153.97 W(842 : Upper) = -1156.58
+# of Up rod: 10352  # of Hor rod: 3779 # of Ver rod: 2723  S = 0.421324
+Window: 843 : W(843 : lower) = -1156.58 W(843 : Upper) = -1162.95
+# of Up rod: 10365  # of Hor rod: 3774 # of Ver rod: 2732  S = 0.421552
+Window: 844 : W(844 : lower) = -1162.95 W(844 : Upper) = -1170.77
+# of Up rod: 10377  # of Hor rod: 3777 # of Ver rod: 2728  S = 0.422018
+Window: 845 : W(845 : lower) = -1170.77 W(845 : Upper) = -1173.47
+# of Up rod: 10369  # of Hor rod: 3767 # of Ver rod: 2709  S = 0.42333
+Window: 846 : W(846 : lower) = -1173.47 W(846 : Upper) = -1174
+# of Up rod: 10367  # of Hor rod: 3766 # of Ver rod: 2709  S = 0.423317
+Window: 847 : W(847 : lower) = -1174 W(847 : Upper) = -1176.68
+# of Up rod: 10379  # of Hor rod: 3766 # of Ver rod: 2702  S = 0.424111
+Window: 848 : W(848 : lower) = -1176.68 W(848 : Upper) = -1176.71
+# of Up rod: 10399  # of Hor rod: 3764 # of Ver rod: 2717  S = 0.424082
+Window: 849 : W(849 : lower) = -1176.71 W(849 : Upper) = -1177.2
+# of Up rod: 10402  # of Hor rod: 3757 # of Ver rod: 2704  S = 0.42528
+Window: 850 : W(850 : lower) = -1177.2 W(850 : Upper) = -1178.89
+# of Up rod: 10410  # of Hor rod: 3757 # of Ver rod: 2703  S = 0.425608
+Window: 851 : W(851 : lower) = -1178.89 W(851 : Upper) = -1178.44
+# of Up rod: 10408  # of Hor rod: 3755 # of Ver rod: 2705  S = 0.425539
+Window: 852 : W(852 : lower) = -1178.44 W(852 : Upper) = -1183.03
+# of Up rod: 10419  # of Hor rod: 3758 # of Ver rod: 2687  S = 0.426737
+Window: 853 : W(853 : lower) = -1183.03 W(853 : Upper) = -1185.17
+# of Up rod: 10403  # of Hor rod: 3750 # of Ver rod: 2678  S = 0.427129
+Window: 854 : W(854 : lower) = -1185.17 W(854 : Upper) = -1185.44
+# of Up rod: 10410  # of Hor rod: 3752 # of Ver rod: 2677  S = 0.427312
+Window: 855 : W(855 : lower) = -1185.44 W(855 : Upper) = -1185.49
+# of Up rod: 10409  # of Hor rod: 3750 # of Ver rod: 2674  S = 0.427553
+Window: 856 : W(856 : lower) = -1185.49 W(856 : Upper) = -1188.26
+# of Up rod: 10410  # of Hor rod: 3744 # of Ver rod: 2670  S = 0.428138
+Window: 857 : W(857 : lower) = -1188.26 W(857 : Upper) = -1194.64
+# of Up rod: 10436  # of Hor rod: 3746 # of Ver rod: 2663  S = 0.429297
+Window: 858 : W(858 : lower) = -1194.64 W(858 : Upper) = -1193.66
+# of Up rod: 10442  # of Hor rod: 3752 # of Ver rod: 2656  S = 0.429555
+Window: 859 : W(859 : lower) = -1193.66 W(859 : Upper) = -1194.67
+# of Up rod: 10426  # of Hor rod: 3750 # of Ver rod: 2647  S = 0.42962
+Window: 860 : W(860 : lower) = -1194.67 W(860 : Upper) = -1197.5
+# of Up rod: 10456  # of Hor rod: 3752 # of Ver rod: 2647  S = 0.430525
+Window: 861 : W(861 : lower) = -1197.5 W(861 : Upper) = -1197.85
+# of Up rod: 10462  # of Hor rod: 3756 # of Ver rod: 2640  S = 0.430893
+Window: 862 : W(862 : lower) = -1197.85 W(862 : Upper) = -1202.54
+# of Up rod: 10460  # of Hor rod: 3752 # of Ver rod: 2637  S = 0.431213
+Window: 863 : W(863 : lower) = -1202.54 W(863 : Upper) = -1204.1
+# of Up rod: 10470  # of Hor rod: 3737 # of Ver rod: 2635  S = 0.43249
+Window: 864 : W(864 : lower) = -1204.1 W(864 : Upper) = -1203.93
+# of Up rod: 10459  # of Hor rod: 3718 # of Ver rod: 2641  S = 0.43284
+Window: 865 : W(865 : lower) = -1203.93 W(865 : Upper) = -1205.5
+# of Up rod: 10448  # of Hor rod: 3713 # of Ver rod: 2639  S = 0.432857
+Window: 866 : W(866 : lower) = -1205.5 W(866 : Upper) = -1207.49
+# of Up rod: 10448  # of Hor rod: 3706 # of Ver rod: 2643  S = 0.433024
+Window: 867 : W(867 : lower) = -1207.49 W(867 : Upper) = -1212.76
+# of Up rod: 10468  # of Hor rod: 3694 # of Ver rod: 2643  S = 0.434365
+Window: 868 : W(868 : lower) = -1212.76 W(868 : Upper) = -1213.66
+# of Up rod: 10479  # of Hor rod: 3701 # of Ver rod: 2646  S = 0.434179
+Window: 869 : W(869 : lower) = -1213.66 W(869 : Upper) = -1214.67
+# of Up rod: 10484  # of Hor rod: 3688 # of Ver rod: 2645  S = 0.435125
+Window: 870 : W(870 : lower) = -1214.67 W(870 : Upper) = -1217.04
+# of Up rod: 10482  # of Hor rod: 3683 # of Ver rod: 2642  S = 0.435503
+Window: 871 : W(871 : lower) = -1217.04 W(871 : Upper) = -1217.94
+# of Up rod: 10479  # of Hor rod: 3680 # of Ver rod: 2642  S = 0.435569
+Window: 872 : W(872 : lower) = -1217.94 W(872 : Upper) = -1217.12
+# of Up rod: 10470  # of Hor rod: 3674 # of Ver rod: 2632  S = 0.436159
+Window: 873 : W(873 : lower) = -1217.12 W(873 : Upper) = -1221.02
+# of Up rod: 10490  # of Hor rod: 3673 # of Ver rod: 2635  S = 0.436719
+Window: 874 : W(874 : lower) = -1221.02 W(874 : Upper) = -1222.46
+# of Up rod: 10484  # of Hor rod: 3665 # of Ver rod: 2625  S = 0.437522
+Window: 875 : W(875 : lower) = -1222.46 W(875 : Upper) = -1222.96
+# of Up rod: 10516  # of Hor rod: 3684 # of Ver rod: 2616  S = 0.438035
+Window: 876 : W(876 : lower) = -1222.96 W(876 : Upper) = -1224.4
+# of Up rod: 10564  # of Hor rod: 3680 # of Ver rod: 2632  S = 0.438967
+Window: 877 : W(877 : lower) = -1224.4 W(877 : Upper) = -1223.15
+# of Up rod: 10568  # of Hor rod: 3679 # of Ver rod: 2627  S = 0.439433
+Window: 878 : W(878 : lower) = -1223.15 W(878 : Upper) = -1222.84
+# of Up rod: 10562  # of Hor rod: 3679 # of Ver rod: 2629  S = 0.439123
+Window: 879 : W(879 : lower) = -1222.84 W(879 : Upper) = -1222.63
+# of Up rod: 10591  # of Hor rod: 3672 # of Ver rod: 2634  S = 0.440196
+Window: 880 : W(880 : lower) = -1222.63 W(880 : Upper) = -1223.18
+# of Up rod: 10621  # of Hor rod: 3689 # of Ver rod: 2630  S = 0.440466
+Window: 881 : W(881 : lower) = -1223.18 W(881 : Upper) = -1225.19
+# of Up rod: 10628  # of Hor rod: 3704 # of Ver rod: 2613  S = 0.440808
+Window: 882 : W(882 : lower) = -1225.19 W(882 : Upper) = -1227.68
+# of Up rod: 10666  # of Hor rod: 3704 # of Ver rod: 2626  S = 0.441339
+Window: 883 : W(883 : lower) = -1227.68 W(883 : Upper) = -1230.07
+# of Up rod: 10682  # of Hor rod: 3700 # of Ver rod: 2622  S = 0.442308
+Window: 884 : W(884 : lower) = -1230.07 W(884 : Upper) = -1230.01
+# of Up rod: 10692  # of Hor rod: 3700 # of Ver rod: 2631  S = 0.442137
+Window: 885 : W(885 : lower) = -1230.01 W(885 : Upper) = -1232.02
+# of Up rod: 10701  # of Hor rod: 3698 # of Ver rod: 2620  S = 0.443152
+Window: 886 : W(886 : lower) = -1232.02 W(886 : Upper) = -1232.88
+# of Up rod: 10718  # of Hor rod: 3702 # of Ver rod: 2615  S = 0.443763
+Window: 887 : W(887 : lower) = -1232.88 W(887 : Upper) = -1231.5
+# of Up rod: 10691  # of Hor rod: 3697 # of Ver rod: 2598  S = 0.444101
+Window: 888 : W(888 : lower) = -1231.5 W(888 : Upper) = -1236.46
+# of Up rod: 10680  # of Hor rod: 3699 # of Ver rod: 2590  S = 0.444074
+Window: 889 : W(889 : lower) = -1236.46 W(889 : Upper) = -1242.78
+# of Up rod: 10709  # of Hor rod: 3700 # of Ver rod: 2582  S = 0.445412
+Window: 890 : W(890 : lower) = -1242.78 W(890 : Upper) = -1243.28
+# of Up rod: 10720  # of Hor rod: 3692 # of Ver rod: 2591  S = 0.445715
+Window: 891 : W(891 : lower) = -1243.28 W(891 : Upper) = -1242.83
+# of Up rod: 10708  # of Hor rod: 3680 # of Ver rod: 2589  S = 0.446104
+Window: 892 : W(892 : lower) = -1242.83 W(892 : Upper) = -1245.73
+# of Up rod: 10730  # of Hor rod: 3683 # of Ver rod: 2588  S = 0.446709
+Window: 893 : W(893 : lower) = -1245.73 W(893 : Upper) = -1244.36
+# of Up rod: 10713  # of Hor rod: 3671 # of Ver rod: 2590  S = 0.446713
+Window: 894 : W(894 : lower) = -1244.36 W(894 : Upper) = -1246.65
+# of Up rod: 10732  # of Hor rod: 3677 # of Ver rod: 2575  S = 0.447833
+Window: 895 : W(895 : lower) = -1246.65 W(895 : Upper) = -1247.42
+# of Up rod: 10757  # of Hor rod: 3685 # of Ver rod: 2579  S = 0.447976
+Window: 896 : W(896 : lower) = -1247.42 W(896 : Upper) = -1245.24
+# of Up rod: 10763  # of Hor rod: 3679 # of Ver rod: 2574  S = 0.448783
+Window: 897 : W(897 : lower) = -1245.24 W(897 : Upper) = -1245.65
+# of Up rod: 10771  # of Hor rod: 3684 # of Ver rod: 2569  S = 0.449043
+Window: 898 : W(898 : lower) = -1245.65 W(898 : Upper) = -1248.08
+# of Up rod: 10772  # of Hor rod: 3688 # of Ver rod: 2563  S = 0.449186
+Window: 899 : W(899 : lower) = -1248.08 W(899 : Upper) = -1250.31
+# of Up rod: 10789  # of Hor rod: 3668 # of Ver rod: 2573  S = 0.450294
+Window: 900 : W(900 : lower) = -1250.31 W(900 : Upper) = -1249.81
+# of Up rod: 10795  # of Hor rod: 3674 # of Ver rod: 2569  S = 0.450376
+Window: 901 : W(901 : lower) = -1249.81 W(901 : Upper) = -1252.17
+# of Up rod: 10810  # of Hor rod: 3667 # of Ver rod: 2582  S = 0.450525
+Window: 902 : W(902 : lower) = -1252.17 W(902 : Upper) = -1256.23
+# of Up rod: 10821  # of Hor rod: 3649 # of Ver rod: 2582  S = 0.451882
+Window: 903 : W(903 : lower) = -1256.23 W(903 : Upper) = -1255.87
+# of Up rod: 10839  # of Hor rod: 3661 # of Ver rod: 2579  S = 0.451959
+Window: 904 : W(904 : lower) = -1255.87 W(904 : Upper) = -1257.59
+# of Up rod: 10830  # of Hor rod: 3647 # of Ver rod: 2586  S = 0.45206
+Window: 905 : W(905 : lower) = -1257.59 W(905 : Upper) = -1256.78
+# of Up rod: 10850  # of Hor rod: 3645 # of Ver rod: 2576  S = 0.453371
+Window: 906 : W(906 : lower) = -1256.78 W(906 : Upper) = -1257.35
+# of Up rod: 10856  # of Hor rod: 3655 # of Ver rod: 2575  S = 0.453061
+Window: 907 : W(907 : lower) = -1257.35 W(907 : Upper) = -1260.92
+# of Up rod: 10846  # of Hor rod: 3645 # of Ver rod: 2566  S = 0.453802
+Window: 908 : W(908 : lower) = -1260.92 W(908 : Upper) = -1264.65
+# of Up rod: 10840  # of Hor rod: 3644 # of Ver rod: 2553  S = 0.454393
+Window: 909 : W(909 : lower) = -1264.65 W(909 : Upper) = -1266.62
+# of Up rod: 10846  # of Hor rod: 3636 # of Ver rod: 2549  S = 0.455258
+Window: 910 : W(910 : lower) = -1266.62 W(910 : Upper) = -1266.64
+# of Up rod: 10837  # of Hor rod: 3628 # of Ver rod: 2549  S = 0.455419
+Window: 911 : W(911 : lower) = -1266.64 W(911 : Upper) = -1267.92
+# of Up rod: 10838  # of Hor rod: 3619 # of Ver rod: 2541  S = 0.456407
+Window: 912 : W(912 : lower) = -1267.92 W(912 : Upper) = -1268.26
+# of Up rod: 10850  # of Hor rod: 3612 # of Ver rod: 2552  S = 0.456565
+Window: 913 : W(913 : lower) = -1268.26 W(913 : Upper) = -1267.12
+# of Up rod: 10845  # of Hor rod: 3605 # of Ver rod: 2548  S = 0.457024
+Window: 914 : W(914 : lower) = -1267.12 W(914 : Upper) = -1267.31
+# of Up rod: 10858  # of Hor rod: 3601 # of Ver rod: 2554  S = 0.457327
+Window: 915 : W(915 : lower) = -1267.31 W(915 : Upper) = -1269.19
+# of Up rod: 10880  # of Hor rod: 3603 # of Ver rod: 2552  S = 0.458028
+Window: 916 : W(916 : lower) = -1269.19 W(916 : Upper) = -1269.96
+# of Up rod: 10880  # of Hor rod: 3589 # of Ver rod: 2552  S = 0.458816
+Window: 917 : W(917 : lower) = -1269.96 W(917 : Upper) = -1271.62
+# of Up rod: 10891  # of Hor rod: 3594 # of Ver rod: 2554  S = 0.458771
+Window: 918 : W(918 : lower) = -1271.62 W(918 : Upper) = -1273.65
+# of Up rod: 10889  # of Hor rod: 3589 # of Ver rod: 2547  S = 0.459383
+Window: 919 : W(919 : lower) = -1273.65 W(919 : Upper) = -1276.49
+# of Up rod: 10882  # of Hor rod: 3586 # of Ver rod: 2534  S = 0.460064
+Window: 920 : W(920 : lower) = -1276.49 W(920 : Upper) = -1278.85
+# of Up rod: 10890  # of Hor rod: 3599 # of Ver rod: 2522  S = 0.460261
+Window: 921 : W(921 : lower) = -1278.85 W(921 : Upper) = -1284.62
+# of Up rod: 10883  # of Hor rod: 3596 # of Ver rod: 2509  S = 0.460943
+Window: 922 : W(922 : lower) = -1284.62 W(922 : Upper) = -1287.7
+# of Up rod: 10894  # of Hor rod: 3590 # of Ver rod: 2512  S = 0.461462
+Window: 923 : W(923 : lower) = -1287.7 W(923 : Upper) = -1290.72
+# of Up rod: 10891  # of Hor rod: 3581 # of Ver rod: 2518  S = 0.461536
+Window: 924 : W(924 : lower) = -1290.72 W(924 : Upper) = -1295.12
+# of Up rod: 10905  # of Hor rod: 3567 # of Ver rod: 2514  S = 0.462999
+Window: 925 : W(925 : lower) = -1295.12 W(925 : Upper) = -1294.8
+# of Up rod: 10908  # of Hor rod: 3575 # of Ver rod: 2509  S = 0.462924
+Window: 926 : W(926 : lower) = -1294.8 W(926 : Upper) = -1296.41
+# of Up rod: 10902  # of Hor rod: 3566 # of Ver rod: 2509  S = 0.463244
+Window: 927 : W(927 : lower) = -1296.41 W(927 : Upper) = -1298.16
+# of Up rod: 10890  # of Hor rod: 3559 # of Ver rod: 2504  S = 0.463546
+Window: 928 : W(928 : lower) = -1298.16 W(928 : Upper) = -1299.76
+# of Up rod: 10918  # of Hor rod: 3566 # of Ver rod: 2501  S = 0.464204
+Window: 929 : W(929 : lower) = -1299.76 W(929 : Upper) = -1305
+# of Up rod: 10932  # of Hor rod: 3563 # of Ver rod: 2490  S = 0.46544
+Window: 930 : W(930 : lower) = -1305 W(930 : Upper) = -1305.47
+# of Up rod: 10894  # of Hor rod: 3555 # of Ver rod: 2478  S = 0.465381
+Window: 931 : W(931 : lower) = -1305.47 W(931 : Upper) = -1305.53
+# of Up rod: 10900  # of Hor rod: 3554 # of Ver rod: 2474  S = 0.465855
+Window: 932 : W(932 : lower) = -1305.53 W(932 : Upper) = -1308.8
+# of Up rod: 10905  # of Hor rod: 3552 # of Ver rod: 2473  S = 0.466184
+Window: 933 : W(933 : lower) = -1308.8 W(933 : Upper) = -1310.67
+# of Up rod: 10912  # of Hor rod: 3546 # of Ver rod: 2464  S = 0.467262
+Window: 934 : W(934 : lower) = -1310.67 W(934 : Upper) = -1311.5
+# of Up rod: 10903  # of Hor rod: 3552 # of Ver rod: 2455  S = 0.46715
+Window: 935 : W(935 : lower) = -1311.5 W(935 : Upper) = -1313.95
+# of Up rod: 10913  # of Hor rod: 3561 # of Ver rod: 2445  S = 0.467522
+Window: 936 : W(936 : lower) = -1313.95 W(936 : Upper) = -1315.46
+# of Up rod: 10915  # of Hor rod: 3555 # of Ver rod: 2435  S = 0.4685
+Window: 937 : W(937 : lower) = -1315.46 W(937 : Upper) = -1319.27
+# of Up rod: 10919  # of Hor rod: 3556 # of Ver rod: 2434  S = 0.468626
+Window: 938 : W(938 : lower) = -1319.27 W(938 : Upper) = -1320.49
+# of Up rod: 10931  # of Hor rod: 3556 # of Ver rod: 2419  S = 0.469863
+Window: 939 : W(939 : lower) = -1320.49 W(939 : Upper) = -1320.24
+# of Up rod: 10923  # of Hor rod: 3553 # of Ver rod: 2416  S = 0.469956
+Window: 940 : W(940 : lower) = -1320.24 W(940 : Upper) = -1320.77
+# of Up rod: 10941  # of Hor rod: 3552 # of Ver rod: 2425  S = 0.470061
+Window: 941 : W(941 : lower) = -1320.77 W(941 : Upper) = -1321.06
+# of Up rod: 10948  # of Hor rod: 3548 # of Ver rod: 2419  S = 0.470854
+Window: 942 : W(942 : lower) = -1321.06 W(942 : Upper) = -1319.75
+# of Up rod: 10977  # of Hor rod: 3545 # of Ver rod: 2428  S = 0.471416
+Window: 943 : W(943 : lower) = -1319.75 W(943 : Upper) = -1321.3
+# of Up rod: 11012  # of Hor rod: 3541 # of Ver rod: 2441  S = 0.47199
+Window: 944 : W(944 : lower) = -1321.3 W(944 : Upper) = -1321.92
+# of Up rod: 11006  # of Hor rod: 3533 # of Ver rod: 2444  S = 0.47209
+Window: 945 : W(945 : lower) = -1321.92 W(945 : Upper) = -1323.04
+# of Up rod: 11044  # of Hor rod: 3551 # of Ver rod: 2439  S = 0.472526
+Window: 946 : W(946 : lower) = -1323.04 W(946 : Upper) = -1327.54
+# of Up rod: 11061  # of Hor rod: 3542 # of Ver rod: 2441  S = 0.473451
+Window: 947 : W(947 : lower) = -1327.54 W(947 : Upper) = -1330.02
+# of Up rod: 11076  # of Hor rod: 3557 # of Ver rod: 2431  S = 0.473629
+Window: 948 : W(948 : lower) = -1330.02 W(948 : Upper) = -1331.88
+# of Up rod: 11077  # of Hor rod: 3552 # of Ver rod: 2425  S = 0.474288
+Window: 949 : W(949 : lower) = -1331.88 W(949 : Upper) = -1334.97
+# of Up rod: 11080  # of Hor rod: 3547 # of Ver rod: 2418  S = 0.475066
+Window: 950 : W(950 : lower) = -1334.97 W(950 : Upper) = -1334.85
+# of Up rod: 11060  # of Hor rod: 3540 # of Ver rod: 2410  S = 0.475309
+Window: 951 : W(951 : lower) = -1334.85 W(951 : Upper) = -1336.68
+# of Up rod: 11091  # of Hor rod: 3541 # of Ver rod: 2417  S = 0.475805
+Window: 952 : W(952 : lower) = -1336.68 W(952 : Upper) = -1337.61
+# of Up rod: 11097  # of Hor rod: 3551 # of Ver rod: 2398  S = 0.476505
+Window: 953 : W(953 : lower) = -1337.61 W(953 : Upper) = -1338.84
+# of Up rod: 11107  # of Hor rod: 3547 # of Ver rod: 2404  S = 0.476697
+Window: 954 : W(954 : lower) = -1338.84 W(954 : Upper) = -1341.83
+# of Up rod: 11097  # of Hor rod: 3546 # of Ver rod: 2389  S = 0.477307
+Window: 955 : W(955 : lower) = -1341.83 W(955 : Upper) = -1346.07
+# of Up rod: 11105  # of Hor rod: 3547 # of Ver rod: 2378  S = 0.478127
+Window: 956 : W(956 : lower) = -1346.07 W(956 : Upper) = -1346.71
+# of Up rod: 11123  # of Hor rod: 3545 # of Ver rod: 2388  S = 0.478219
+Window: 957 : W(957 : lower) = -1346.71 W(957 : Upper) = -1349.76
+# of Up rod: 11139  # of Hor rod: 3545 # of Ver rod: 2387  S = 0.478765
+Window: 958 : W(958 : lower) = -1349.76 W(958 : Upper) = -1350
+# of Up rod: 11163  # of Hor rod: 3545 # of Ver rod: 2392  S = 0.479211
+Window: 959 : W(959 : lower) = -1350 W(959 : Upper) = -1350.38
+# of Up rod: 11172  # of Hor rod: 3542 # of Ver rod: 2386  S = 0.48
+Window: 960 : W(960 : lower) = -1350.38 W(960 : Upper) = -1355.38
+# of Up rod: 11177  # of Hor rod: 3556 # of Ver rod: 2374  S = 0.480037
+Window: 961 : W(961 : lower) = -1355.38 W(961 : Upper) = -1361.69
+# of Up rod: 11200  # of Hor rod: 3558 # of Ver rod: 2362  S = 0.481308
+Window: 962 : W(962 : lower) = -1361.69 W(962 : Upper) = -1362.24
+# of Up rod: 11214  # of Hor rod: 3557 # of Ver rod: 2364  S = 0.481675
+Window: 963 : W(963 : lower) = -1362.24 W(963 : Upper) = -1362.87
+# of Up rod: 11217  # of Hor rod: 3556 # of Ver rod: 2368  S = 0.481594
+Window: 964 : W(964 : lower) = -1362.87 W(964 : Upper) = -1364.03
+# of Up rod: 11208  # of Hor rod: 3550 # of Ver rod: 2361  S = 0.482067
+Window: 965 : W(965 : lower) = -1364.03 W(965 : Upper) = -1365.86
+# of Up rod: 11211  # of Hor rod: 3541 # of Ver rod: 2363  S = 0.482559
+Window: 966 : W(966 : lower) = -1365.86 W(966 : Upper) = -1367.42
+# of Up rod: 11197  # of Hor rod: 3522 # of Ver rod: 2357  S = 0.483573
+Window: 967 : W(967 : lower) = -1367.42 W(967 : Upper) = -1368.5
+# of Up rod: 11191  # of Hor rod: 3514 # of Ver rod: 2356  S = 0.483911
+Window: 968 : W(968 : lower) = -1368.5 W(968 : Upper) = -1369.83
+# of Up rod: 11200  # of Hor rod: 3518 # of Ver rod: 2352  S = 0.484183
+Window: 969 : W(969 : lower) = -1369.83 W(969 : Upper) = -1370.75
+# of Up rod: 11221  # of Hor rod: 3530 # of Ver rod: 2339  S = 0.484874
+Window: 970 : W(970 : lower) = -1370.75 W(970 : Upper) = -1371.2
+# of Up rod: 11237  # of Hor rod: 3530 # of Ver rod: 2328  S = 0.48599
+Window: 971 : W(971 : lower) = -1371.2 W(971 : Upper) = -1370.53
+# of Up rod: 11245  # of Hor rod: 3534 # of Ver rod: 2333  S = 0.485712
+Window: 972 : W(972 : lower) = -1370.53 W(972 : Upper) = -1374.05
+# of Up rod: 11253  # of Hor rod: 3529 # of Ver rod: 2334  S = 0.486183
+Window: 973 : W(973 : lower) = -1374.05 W(973 : Upper) = -1378.55
+# of Up rod: 11259  # of Hor rod: 3529 # of Ver rod: 2326  S = 0.486824
+Window: 974 : W(974 : lower) = -1378.55 W(974 : Upper) = -1380.21
+# of Up rod: 11257  # of Hor rod: 3524 # of Ver rod: 2322  S = 0.487283
+Window: 975 : W(975 : lower) = -1380.21 W(975 : Upper) = -1380.87
+# of Up rod: 11288  # of Hor rod: 3539 # of Ver rod: 2311  S = 0.48798
+Window: 976 : W(976 : lower) = -1380.87 W(976 : Upper) = -1381.98
+# of Up rod: 11293  # of Hor rod: 3540 # of Ver rod: 2308  S = 0.488245
+Window: 977 : W(977 : lower) = -1381.98 W(977 : Upper) = -1382.92
+# of Up rod: 11291  # of Hor rod: 3531 # of Ver rod: 2311  S = 0.488531
+Window: 978 : W(978 : lower) = -1382.92 W(978 : Upper) = -1387.78
+# of Up rod: 11306  # of Hor rod: 3524 # of Ver rod: 2316  S = 0.489094
+Window: 979 : W(979 : lower) = -1387.78 W(979 : Upper) = -1392.26
+# of Up rod: 11315  # of Hor rod: 3536 # of Ver rod: 2301  S = 0.489535
+Window: 980 : W(980 : lower) = -1392.26 W(980 : Upper) = -1394.57
+# of Up rod: 11318  # of Hor rod: 3531 # of Ver rod: 2295  S = 0.490259
+Window: 981 : W(981 : lower) = -1394.57 W(981 : Upper) = -1401.26
+# of Up rod: 11333  # of Hor rod: 3532 # of Ver rod: 2290  S = 0.490936
+Window: 982 : W(982 : lower) = -1401.26 W(982 : Upper) = -1403.15
+# of Up rod: 11348  # of Hor rod: 3529 # of Ver rod: 2290  S = 0.491554
+Window: 983 : W(983 : lower) = -1403.15 W(983 : Upper) = -1404.15
+# of Up rod: 11350  # of Hor rod: 3527 # of Ver rod: 2287  S = 0.491902
+Window: 984 : W(984 : lower) = -1404.15 W(984 : Upper) = -1409.89
+# of Up rod: 11357  # of Hor rod: 3519 # of Ver rod: 2284  S = 0.492745
+Window: 985 : W(985 : lower) = -1409.89 W(985 : Upper) = -1409.12
+# of Up rod: 11367  # of Hor rod: 3518 # of Ver rod: 2286  S = 0.492982
+Window: 986 : W(986 : lower) = -1409.12 W(986 : Upper) = -1408.11
+# of Up rod: 11368  # of Hor rod: 3505 # of Ver rod: 2285  S = 0.493822
+Window: 987 : W(987 : lower) = -1408.11 W(987 : Upper) = -1410.16
+# of Up rod: 11363  # of Hor rod: 3495 # of Ver rod: 2297  S = 0.493559
+Window: 988 : W(988 : lower) = -1410.16 W(988 : Upper) = -1411.57
+# of Up rod: 11368  # of Hor rod: 3491 # of Ver rod: 2295  S = 0.494054
+Window: 989 : W(989 : lower) = -1411.57 W(989 : Upper) = -1412.89
+# of Up rod: 11378  # of Hor rod: 3476 # of Ver rod: 2307  S = 0.494522
+Window: 990 : W(990 : lower) = -1412.89 W(990 : Upper) = -1414.03
+# of Up rod: 11365  # of Hor rod: 3469 # of Ver rod: 2294  S = 0.4953
+Window: 991 : W(991 : lower) = -1414.03 W(991 : Upper) = -1415.37
+# of Up rod: 11371  # of Hor rod: 3472 # of Ver rod: 2283  S = 0.495942
+Window: 992 : W(992 : lower) = -1415.37 W(992 : Upper) = -1416.22
+# of Up rod: 11356  # of Hor rod: 3458 # of Ver rod: 2277  S = 0.496665
+Window: 993 : W(993 : lower) = -1416.22 W(993 : Upper) = -1419.82
+# of Up rod: 11354  # of Hor rod: 3451 # of Ver rod: 2273  S = 0.497248
+Window: 994 : W(994 : lower) = -1419.82 W(994 : Upper) = -1420.28
+# of Up rod: 11346  # of Hor rod: 3449 # of Ver rod: 2271  S = 0.497246
+Window: 995 : W(995 : lower) = -1420.28 W(995 : Upper) = -1422.21
+# of Up rod: 11324  # of Hor rod: 3431 # of Ver rod: 2270  S = 0.497709
+Window: 996 : W(996 : lower) = -1422.21 W(996 : Upper) = -1424.78
+# of Up rod: 11313  # of Hor rod: 3428 # of Ver rod: 2262  S = 0.49803
+Window: 997 : W(997 : lower) = -1424.78 W(997 : Upper) = -1428
+# of Up rod: 11330  # of Hor rod: 3431 # of Ver rod: 2258  S = 0.49859
+Window: 998 : W(998 : lower) = -1428 W(998 : Upper) = -1428.65
+# of Up rod: 11350  # of Hor rod: 3421 # of Ver rod: 2267  S = 0.499237
+Window: 999 : W(999 : lower) = -1428.65 W(999 : Upper) = -1430.77
+# of Up rod: 11338  # of Hor rod: 3417 # of Ver rod: 2257  S = 0.499706
+Window: 1000 : W(1000 : lower) = -1430.77 W(1000 : Upper) = -1429.96
