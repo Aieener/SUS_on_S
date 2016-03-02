@@ -17,23 +17,14 @@ rc('font',**{'family':'serif','serif':['Palatino']})
 rc('text', usetex=True)
 
 def PN():
-	WF = [] # a list of my target Weighting function
 	PN = [] # a list of number distribution
-
-	with open("SUSWeight_function.txt","r") as file:
+	with open("P_N.txt","r") as file:
 		for line in file:
 			words = line.split()
 			n = float(words[0]) #take the value
-			WF.append(n); #append value into my WF list
+			PN.append(n); #append value into my WF list
 
-	maxi = max(WF)
-	if maxi > 500:
-		for i in range(len(WF)):
-			WF[i] = WF[i]-maxi +500
-			PN.append(math.exp(WF[i]));
-
-	PN = [float(i)/sum(PN) for i in PN]
-	return WF,PN
+	return PN
 
 
 def Pplot(PN,z):
@@ -49,8 +40,8 @@ def Pplot(PN,z):
 def enlargePplot(PN,z):
 	fig = plt.figure()	
 	plt.plot(PN,'+b-',markersize=3,linewidth = 0.1)
-	plt.xlim(1800,2200)
-	plt.ylim(0,0.016)
+	plt.xlim(15300,16000)
+	plt.ylim(0,0.006)
 	Z = str(z)
 	ylabel = 'P(N;Z='+ Z + ')'
 	plt.ylabel(ylabel)
@@ -58,43 +49,45 @@ def enlargePplot(PN,z):
 	title = 'ENLP(N;Z='+ Z + ').png'
 	fig.savefig(title, dpi=300, bbox_inches='tight')
 
-def Wplot(WN):
-	fig = plt.figure()	
-	plt.plot(WN,'+r',markersize=1,)
-	plt.ylabel('Weighting Function')
-	plt.xlabel('N')
-	title = 'WeightingFunc.png'
-	fig.savefig(title, dpi=300, bbox_inches='tight')
 
 
-def exploPN(W,z):
-	P = [] # a list of number distribution
+def exploPN(P,z):
+	P_new = [] # a list of number distribution
+	W = [] # the log of P
+	for i in range(len(P)):
+		if P[i] != 0:
+			W.append(math.log(P[i]))
+		else:
+		 W.append(-999)
+
 	for i in range(len(W)):
-		W[i] = W[i] + i*math.log(z)
+
+		W[i] = W[i] + i*math.log(z) # update it
 
 	maxi = max(W)
 	if maxi > 500:
 		for j in range(len(W)):
 			W[j] = W[j]-maxi +500
-			P.append(math.exp(W[j]));
-	P = [float(k)/sum(P) for k in P]
-	return P
+			P_new.append(math.exp(W[j]));
+	P_new = [float(k)/sum(P) for k in P_new]
+	# print P
+	return P_new
 
 
 def main():
 
 
-	P = PN()[1] # take the P(N;z=1)
-	W = PN()[0] # take the original weighting function 
+	P = PN() # take the P(N;z=1)
 
-	Wplot(W)
+	# Pe = exploPN(P,9.33)
 	Pplot(P,"1")
+	# enlargePplot(Pe,"9.33")
 
-	for i in range(10):
-		W = PN()[0] # take the original weighting function 		
-		t = 9.77 + 0.01*i
-		Pe = exploPN(W,t)
-		Pplot(Pe,t)
-		enlargePplot(Pe,t)
+	# for i in range(10):
+	# 	W = PN()[0] # take the original weighting function 		
+	# 	t = 9.77 + 0.01*i
+	# 	Pe = exploPN(W,t)
+	# 	Pplot(Pe,t)
+	# 	enlargePplot(Pe,t)
 
 main()
