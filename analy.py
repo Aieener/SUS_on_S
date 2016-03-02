@@ -26,6 +26,16 @@ def PN():
 
 	return PN
 
+def WN():
+	WN = []
+	with open("SUSWeight_function.txt","r") as file:
+		for line in file:
+			words = line.split()
+			n = float(words[0]) #take the value
+			WN.append(n); #append value into my WF list
+
+	return WN
+
 
 def Pplot(PN,z):
 	fig = plt.figure()	
@@ -78,9 +88,11 @@ def main():
 
 
 	P = PN() # take the P(N;z=1)
+	W = WN()
 
 	# Pe = exploPN(P,9.33)
 	Pplot(P,"1")
+	Pplot(W,"WF")
 	# enlargePplot(Pe,"9.33")
 
 	# for i in range(10):

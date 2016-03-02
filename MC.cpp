@@ -382,13 +382,16 @@ void MC::MCSUS()
 
 	srand(time(NULL));
 	long int i = 0; // counter for each window
+	long int j = 0;
 	double w = 1.0; // a counter that keep track of the index of window
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
 	double N_window = 0.8*1/(0.5*DeltaS);
     array<double,2000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
     vector<double> P_N;
+    vector<double> CN; // an array of normalization constant for P_w
     P_N.resize(n0*n1*n2/length);
+    CN.resize(n0*n1*n2/length);
     // -----------------------The rest arrays are 2D arrays ------------------------------//
 	vector<vector<double>> P_w; // an array that stores the histogram/distribution of ave # of N
 	                            // where P_w^{i}(N) = PH_w^{i}(N) + PL_w^{i+1}(N);
@@ -407,7 +410,7 @@ void MC::MCSUS()
 	}
 
     // ============= Do a GCMC to reach a initial state where S is in [0,deltaS] ==========
-	while (S <= 0 || S>DeltaS )
+	while ((j < step && S <= 0) || (j < step && S>DeltaS) )
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
 		addordel = rand()%2 ; 
@@ -435,6 +438,8 @@ void MC::MCSUS()
 				Del(s,prob,probd,size);
 			}
 		}
+		j++;
+
 		// cout << S << endl;			
 	}
 	//================================Start my SUS_MC simulation=================================
@@ -460,6 +465,12 @@ void MC::MCSUS()
 		    size = nv+nh+nu;
 
 			prob = ((double) rand() / (RAND_MAX)); 
+
+			// aaccp = (z*V)/((size+1.0)*K)*(exp(WF[int(w)] - WF[int(w-1)]));
+			// daccp = (size*K)/(z*V)*(exp(WF[int(w-1)] - WF[int(w)]));	
+
+			// proba = min(1.0,aaccp);
+			// probd = min(1.0,daccp);
 
 	        // ===========================Addition ===================================
 			if(addordel == 0) 
@@ -517,15 +528,11 @@ void MC::MCSUS()
 		// =======================  if fu and fl != 0 Update the upper window side ================================
         if (fu!=0 && fl != 0)
         {
+
 		    WF[w] = WF[w] + log(fu/fl);
 	        // "linearly extrapolate" for WF[w+1] by using W[w] and WF[w-1]
 	        WF[w+1] = WF[w];
 
-			// Store the distribution of PH_w(N) and PL_w(N) and update P_w(N)
-			for(int i =0;i<n0*n1*n2/length; i++)
-			{
-				P_w[w-1][i]= PL_w[w][i] + PH_w[w-1][i];
-			}
 	        cout << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
 	        data_s << "# of Up rod: "<< nu<<"  # of Hor rod: "<<nh <<" # of Ver rod: " <<nv <<"  S = "<<S<<endl;
 
@@ -537,11 +544,51 @@ void MC::MCSUS()
 
 		    w++; // switch into the next window
         }
-        // else do nothing and reset fu and fl and repeat the window simulation
+        // else reset PL_w[w] and PH_w[w], fu and fl and repeat the window simulation
+        else
+        {
+        	for ( int i = 0;i<n0*n1*n2/length; i++ )
+        	{
+	        	PH_w[w][i] = 0;
+	        	PL_w[w][i] = 0;
+        	}
+        }
 	}
 
 	double C=0.0; // the normalization constant for P_N
 
+
+	// Calc the distribution P_w(N) by PH_w(N) and PL_w(N),Then Extrapolate the P_N by P_w and WF;
+	// for(int i =0;i<n0*n1*n2/length; i++)
+	// {
+	// 	for (int w = 1; w<N_window+1; w++)
+	// 	{
+	// 		P_w[w][i] = PL_w[w+1][i] + PH_w[w][i]; //Calc the distribution P_w(N)
+	//         // P_N[i] += P_w[w][i]*exp(WF[w]);  //Extrapolate the P_N by P_w and WF;
+	//         // C+=P_N[i];
+	// 	}
+	// }
+
+	for (int w = 1;w<N_window+1;w++)
+	{
+		for(int i = 0; i<n0*n1*n2/length; i++)
+		{
+			P_w[w][i] = PL_w[w+1][i] + PH_w[w][i]; //Calc the distribution P_w(N)
+			CN[w] += P_w[w][i];
+		}
+		//Normalize P_ws
+		for (int i =0; i<n0*n1*n2/length; i++)
+		{
+			P_w[w][i] = P_w[w][i]/CN[w];
+		}
+	}
+	// for(int w = 1; w< N_window+1,w++)
+	// {
+
+	// }
+
+
+	//Extrapolate the P_N by P_w and WF;
 	for(int k = 0; k<n0*n1*n2/length;k++) 
 	{
 		// Now calc the final P_N by using WF and P_w;
@@ -550,18 +597,9 @@ void MC::MCSUS()
 	        P_N[k] += P_w[i][k]*exp(WF[i]);
 		}
         C+=P_N[k];
+    }
 
 
-        //==========================================
-		// for(int k = 0; k<n0*n1*n2/length; k++)
-		// {
-		// 	ph<< P_w[i][k] <<" ";
-		// }
-		// ph<<endl;
-		//==========================================
-		// ph<<P_N[k]<<endl;
-
-	}
 	for (int i = 1; i< N_window+1; i++)
 	{
 		sh<<WF[i]<<endl; // record WF into a text file;
