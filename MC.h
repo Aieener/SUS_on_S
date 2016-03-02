@@ -40,12 +40,14 @@ class MC
         const vector<HR>& getURodlist() const;
 
     	// ******** Other Functianality *******//
+        void Add(Cells &s,double &prob,double &proba);
+        void Del(Cells &s,double &prob,double &probd, double &size);
         // void Add(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
         // void Del(Cells &s,array<double,100000> &WF,double &prob,double &size,double &S,double &deltaS);
-        std::tuple<int,int,int,int> Add(Cells &s,double &prob,double &proba);
+        std::tuple<int,int,int,int> AddSUS(Cells &s,double &prob,double &proba,double &w,double &DeltaS);
         void Add_redo(Cells &s,std::tuple<int,int,int,int> Ad);
 
-        std::tuple<int,int,int,int> Del(Cells &s,double &prob,double &probd, double &size);
+        std::tuple<int,int,int,int> DelSUS(Cells &s,double &prob,double &probd, double &size,double &w,double &DeltaS);
         void Del_redo(Cells &s,std::tuple<int,int,int,int> De);
 
     	

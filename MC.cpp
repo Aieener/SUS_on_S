@@ -41,14 +41,13 @@ const vector<HR>& MC::getURodlist() const
 	return URodlist;
 }
 
-
-std::tuple<int,int,int,int> MC::Add(Cells &s,double &prob,double &proba)
+void MC::Add(Cells &s,double &prob,double &proba)
 {
 	int x,y,z,o; // pick a random position and orientation for the HR to be added;
 	x = rand()%n0; // x range[0,n0-1]
 	y = rand()%n1; // y range[0,n1-1]
 	z = rand()%n2; // z range[0,n2-1]
-	o = rand()%3  ; // 0 range {0,1,2}
+	o = rand()%2  ; // 0 range {0,1,2}
 
 	if(s.getSquare(x,y,z).isEmpty()) // if it's open, try to do Addition;
 	{
@@ -83,8 +82,7 @@ std::tuple<int,int,int,int> MC::Add(Cells &s,double &prob,double &proba)
 					for (int i = 0; i < length; i++)
 					{	
 						s.getSquare(x,(y+i)%n1,z).setStatus(1);
-					}
-				    return std::make_tuple(x,y,z,o);					
+					}					
 				}		
 			}									
 		}
@@ -117,7 +115,6 @@ std::tuple<int,int,int,int> MC::Add(Cells &s,double &prob,double &proba)
 					{
 						s.getSquare((x+i)%n0,y,z).setStatus(1);
 					}
-				    return std::make_tuple(x,y,z,o);
 				}
 			}
 		}
@@ -149,80 +146,30 @@ std::tuple<int,int,int,int> MC::Add(Cells &s,double &prob,double &proba)
 					{
 						s.getSquare(x,y,(z+i)%n2).setStatus(1);
 					}
-				    return std::make_tuple(x,y,z,o);
 				}
 			}							
 		}
     }
-    return std::make_tuple(-1,-1,-1,-1);
 }
-void MC::Add_redo(Cells &s, std::tuple<int,int,int,int> Ad)
+
+void MC::Del(Cells &s,double &prob,double &probd, double &size)
 {
-	int x,y,z,o;
-	x = std::get<0>(Ad);
-	y = std::get<1>(Ad);
-	z = std::get<2>(Ad);
-	o = std::get<3>(Ad);
-	// delete the rod we just added;
-	if(o == 0)
-	{
-		// --------------------- it's a vertical rod -----------------------
-		for(int i = 0; i<length; i++)
-		{
-			// update the new config of cells
-			s.getSquare(x,(y+i)%n1,z).setStatus(0);
-		}
-		// remove the target rod from the vector Rodlist;
-		VRodlist.pop_back();
-		av--;
-		nv--;// cancel the earlier accumulate the # of ver rod;
-	}
-	
-	else if (o == 1)
-	{
-		// --------------------- it's a horizontal rod -----------------------
-
-		for(int i = 0; i<length; i++)
-		{
-			// update the new config of cells
-			s.getSquare((x+i)%n0,y,z).setStatus(0);
-		}
-		// remove the target rod from the vector Rodlist;
-		HRodlist.pop_back();		
-		ah--;
-		nh--;// cancel the earlier accumulate the # of hor rod;
-	}
-	else
-	{
-		// --------------------- it's a up rod -----------------------
-		for(int i = 0; i<length; i++)
-		{
-			// update the new config of cells
-			s.getSquare(x,y,(z+i)%n2).setStatus(0);
-		}
-		// remove the target rod from the vector Rodlist;
-		URodlist.pop_back();
-		au--;
-		nu--;// cancel the earlier accumulate the # of hor rod;
-	}	
-}
-
-std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double &size)
-{		
-	int x,y,z,indx;// the position of the target on the cells;
-	x=y=z=indx=0;
 
 	if(nv + nh + nu >0)// make sure there are Vertical rod;
-	{	
+	{
+		int indx; // pick a random index from the Rodlist;
+		indx = rand()%int(nv+nh+nu);
+
+		//remove Rodlist[indx];
+		int x,y,z;// the position of the target on the cells;
+
 		if(prob <= probd)
-		{
-			indx = rand()%int(nv+nh+nu);; // pick a random index from the Rodlist;
-			if(indx < nv && nv !=0)
+		{					
+			if(indx < nv)
 			{
 				x = VRodlist[indx].getX();
 				y = VRodlist[indx].getY();
 				z = VRodlist[indx].getZ();	
-
 				// --------------------- it's a vertical rod -----------------------
 
 				for(int i = 0; i<VRodlist[indx].getLength(); i++)
@@ -236,12 +183,11 @@ std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double 
 				dv++;
 			}
 			
-			else if (indx < nv + nh && nh !=0)
+			else if (indx < nv + nh)
 			{
 				x = HRodlist[indx - nv].getX();
 				y = HRodlist[indx - nv].getY();
 				z = HRodlist[indx - nv].getZ();	
-
 				// --------------------- it's a horizontal rod -----------------------
 
 				for(int i = 0; i<HRodlist[indx-nv].getLength(); i++)
@@ -253,14 +199,12 @@ std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double 
 				HRodlist.erase(HRodlist.begin() + indx - nv);
 				nh--;// substract the # of ver rod;
 				dh++;
-
 			}
-			else if(nu !=0)
+			else
 			{
 				x = URodlist[indx - nv - nh].getX();
 				y = URodlist[indx - nv - nh].getY();
 				z = URodlist[indx - nv - nh].getZ();	
-
 				// --------------------- it's a up rod -----------------------
 				for(int i = 0; i<URodlist[indx-nv-nh].getLength(); i++)
 				{
@@ -270,7 +214,278 @@ std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double 
 				// remove the target rod from the vector Rodlist;
 				URodlist.erase(URodlist.begin()+indx-nv-nh);
 				nu--;// substract the # of ver rod;
-				du++;	
+				du++;
+			}
+		}
+	}	
+}
+
+
+
+std::tuple<int,int,int,int> MC::AddSUS(Cells &s,double &prob,double &proba,double &w,double &DeltaS)
+{
+	int x,y,z,o; // pick a random position and orientation for the HR to be added;
+	x = rand()%n0; // x range[0,n0-1]
+	y = rand()%n1; // y range[0,n1-1]
+	z = rand()%n2; // z range[0,n2-1]
+	o = rand()%3  ; // 0 range {0,1,2}
+	double S = 0;
+
+	if(s.getSquare(x,y,z).isEmpty()) // if it's open, try to do Addition;
+	{
+		HR rod(x,y,z,length,o);
+
+		if(o == 0)
+		{
+		//======================== Vertical ===============================
+			// the vertical case
+			int counter = 0;
+
+			for (int j = 0; j < length-1; j++)
+			{
+				// check if the vertical space is wide open
+				if(s.getSquare(x,(y+j+1)%n1,z).isOccupied())
+				{
+					counter++;
+					break;
+				}						
+			}
+			// cout <<"counter = "<< counter<< endl;
+			if (counter == 0)
+			{
+				if(prob<=proba)
+				{
+					S = (nu-(nv+1+nh)*0.5)/(nu+nv+1+nh);
+
+					// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+					if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) // update the fu after each step.
+					{
+						// Do addition;
+						// push the new rod into the VRodlist;
+						VRodlist.push_back(rod);
+						av++;
+						nv++;// accumulate the # of ver rod;
+						// update new N, E and new config;
+						for (int i = 0; i < length; i++)
+						{	
+							s.getSquare(x,(y+i)%n1,z).setStatus(1);
+						}
+					    return std::make_tuple(x,y,z,o);	
+					}				
+				}		
+			}									
+		}
+
+		else if(o == 1)
+		{
+        //======================= Horizontal  ============================
+			int counter = 0;
+			for (int j = 0; j< length-1 ; j++)
+			{
+				// check if the horizontal space is wide open
+				if(s.getSquare((x+1+j)%n0,y,z).isOccupied())
+				{
+					counter++;
+					break;
+				}							
+			}
+			if (counter == 0)
+			{
+				if(prob<= proba)
+				{
+					S = (nu-(nv+1+nh)*0.5)/(nu+nv+1+nh);
+
+					// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+					if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) 
+					{
+						//Do addition;
+						//push the new rod into the HRodlist;
+						HRodlist.push_back(rod);
+						ah++;
+						nh++;// accumulate the # of hor rod;
+
+						// update new N, E and new config;
+						for (int i = 0; i < length; i++)
+						{
+							s.getSquare((x+i)%n0,y,z).setStatus(1);
+						}
+					    return std::make_tuple(x,y,z,o);
+					}
+				}
+			}
+		}
+		else 
+		{
+        //======================= Up  ============================
+			int counter = 0;
+			for (int j = 0; j< length-1 ; j++)
+			{
+				// check if the horizontal space is wide open
+				if(s.getSquare(x,y,(z+j+1)%n2).isOccupied())
+				{
+					counter++;
+					break;
+				}							
+			}
+			if (counter == 0)
+			{
+				if(prob<= proba)
+				{
+					S = (nu+1-(nv+nh)*0.5)/(nu+nv+1+nh);
+
+					// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+					if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) 
+					{
+						//Do addition;
+						//push the new rod into the HRodlist;
+						URodlist.push_back(rod);
+						au++;
+						nu++;// accumulate the # of hor rod;
+
+						// update new N, E and new config;
+						for (int i = 0; i < length; i++)
+						{
+							s.getSquare(x,y,(z+i)%n2).setStatus(1);
+						}
+					    return std::make_tuple(x,y,z,o);
+					}
+				}
+			}							
+		}
+    }
+    return std::make_tuple(-1,-1,-1,-1);
+}
+// void MC::Add_redo(Cells &s, std::tuple<int,int,int,int> Ad)
+// {
+// 	int x,y,z,o;
+// 	x = std::get<0>(Ad);
+// 	y = std::get<1>(Ad);
+// 	z = std::get<2>(Ad);
+// 	o = std::get<3>(Ad);
+// 	// delete the rod we just added;
+// 	if(o == 0)
+// 	{
+// 		// --------------------- it's a vertical rod -----------------------
+// 		for(int i = 0; i<length; i++)
+// 		{
+// 			// update the new config of cells
+// 			s.getSquare(x,(y+i)%n1,z).setStatus(0);
+// 		}
+// 		// remove the target rod from the vector Rodlist;
+// 		VRodlist.pop_back();
+// 		av--;
+// 		nv--;// cancel the earlier accumulate the # of ver rod;
+// 	}
+	
+// 	else if (o == 1)
+// 	{
+// 		// --------------------- it's a horizontal rod -----------------------
+
+// 		for(int i = 0; i<length; i++)
+// 		{
+// 			// update the new config of cells
+// 			s.getSquare((x+i)%n0,y,z).setStatus(0);
+// 		}
+// 		// remove the target rod from the vector Rodlist;
+// 		HRodlist.pop_back();		
+// 		ah--;
+// 		nh--;// cancel the earlier accumulate the # of hor rod;
+// 	}
+// 	else
+// 	{
+// 		// --------------------- it's a up rod -----------------------
+// 		for(int i = 0; i<length; i++)
+// 		{
+// 			// update the new config of cells
+// 			s.getSquare(x,y,(z+i)%n2).setStatus(0);
+// 		}
+// 		// remove the target rod from the vector Rodlist;
+// 		URodlist.pop_back();
+// 		au--;
+// 		nu--;// cancel the earlier accumulate the # of hor rod;
+// 	}	
+// }
+
+std::tuple<int,int,int,int> MC::DelSUS(Cells &s,double &prob,double &probd, double &size,double&w,double&DeltaS)
+{		
+	int x,y,z,indx;// the position of the target on the cells;
+	x=y=z=indx=0;
+	double S = 0;
+
+	if(nv + nh + nu >0)// make sure there are Vertical rod;
+	{	
+		if(prob <= probd)
+		{
+			indx = rand()%int(nv+nh+nu);; // pick a random index from the Rodlist;
+			if(indx < nv && nv !=0)
+			{
+				x = VRodlist[indx].getX();
+				y = VRodlist[indx].getY();
+				z = VRodlist[indx].getZ();	
+
+				// --------------------- it's a vertical rod -----------------------
+				S = (nu-(nv-1+nh)*0.5)/(nu+nv-1+nh);
+
+				// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+				if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) 
+				{
+					for(int i = 0; i<VRodlist[indx].getLength(); i++)
+					{
+						// update the new config of cells
+						s.getSquare(x,(y+i)%n1,z).setStatus(0);
+					}
+					// remove the target rod from the vector Rodlist;
+					VRodlist.erase(VRodlist.begin() + indx);
+					nv--;// substract the # of ver rod;
+					dv++;
+				}
+			}
+			
+			else if (indx < nv + nh && nh !=0)
+			{
+				x = HRodlist[indx - nv].getX();
+				y = HRodlist[indx - nv].getY();
+				z = HRodlist[indx - nv].getZ();	
+
+				// --------------------- it's a horizontal rod -----------------------
+				S = (nu-(nv-1+nh)*0.5)/(nu+nv-1+nh);
+
+				// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+				if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) 
+				{
+					for(int i = 0; i<HRodlist[indx-nv].getLength(); i++)
+					{
+						// update the new config of cells
+						s.getSquare((x+i)%n0,y,z).setStatus(0);
+					}
+					// remove the target rod from the vector Rodlist;
+					HRodlist.erase(HRodlist.begin() + indx - nv);
+					nh--;// substract the # of ver rod;
+					dh++;
+				}
+			}
+			else if(nu !=0)
+			{
+				x = URodlist[indx - nv - nh].getX();
+				y = URodlist[indx - nv - nh].getY();
+				z = URodlist[indx - nv - nh].getZ();	
+
+				// --------------------- it's a up rod -----------------------
+				S = (nu-1-(nv+nh)*0.5)/(nu+nv-1+nh);
+
+				// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
+				if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) 
+				{
+					for(int i = 0; i<URodlist[indx-nv-nh].getLength(); i++)
+					{
+						// update the new config of cells
+						s.getSquare(x,y,(z+i)%n2).setStatus(0);
+					}
+					// remove the target rod from the vector Rodlist;
+					URodlist.erase(URodlist.begin()+indx-nv-nh);
+					nu--;// substract the # of ver rod;
+					du++;	
+				}
 			}
 			return std::make_tuple(x,y,z,indx);					
 		}
@@ -278,67 +493,67 @@ std::tuple<int,int,int,int> MC::Del(Cells &s,double &prob,double &probd, double 
 	}
 }
 
-void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
-{
-	int x,y,z,indx,o;
-	x = std::get<0>(De);
-	y = std::get<1>(De);
-	z = std::get<2>(De);
-	indx = std::get<3>(De);
+// void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
+// {
+// 	int x,y,z,indx,o;
+// 	x = std::get<0>(De);
+// 	y = std::get<1>(De);
+// 	z = std::get<2>(De);
+// 	indx = std::get<3>(De);
 
-	if(indx < nv)
-	{
-		o = 0;
-		HR rod(x,y,z,length,o);		
-	//======================== Vertical ===============================
-		// Do addition to put the deleted rod back;
-		// push the rod back into the VRodlist;
-		VRodlist.insert(VRodlist.begin() + indx,rod);
-		// VRodlist.push_back(rod);
-		nv++;
-		dv--;
-		// update new N, E and new config;
-		for (int i = 0; i < length; i++)
-		{	
-			s.getSquare(x,(y+i)%n1,z).setStatus(1);
-		}													
-	}
+// 	if(indx < nv)
+// 	{
+// 		o = 0;
+// 		HR rod(x,y,z,length,o);		
+// 	//======================== Vertical ===============================
+// 		// Do addition to put the deleted rod back;
+// 		// push the rod back into the VRodlist;
+// 		VRodlist.insert(VRodlist.begin() + indx,rod);
+// 		// VRodlist.push_back(rod);
+// 		nv++;
+// 		dv--;
+// 		// update new N, E and new config;
+// 		for (int i = 0; i < length; i++)
+// 		{	
+// 			s.getSquare(x,(y+i)%n1,z).setStatus(1);
+// 		}													
+// 	}
 
-	else if(indx < nv + nh)
-	{
-		o = 1;
-		HR rod(x,y,z,length,o);		
-    //======================= Horizontal  ============================
-		// Do addition to put the deleted rod back;
-		// push the rod into the HRodlist;
-		HRodlist.insert(HRodlist.begin() + indx - nv,rod);
-		// HRodlist.push_back(rod);
-		nh++;
-		dh--;
-		// update new N, E and new config;
-		for (int i = 0; i < length; i++)
-		{
-			s.getSquare((x+i)%n0,y,z).setStatus(1);
-		}
-	}
-	else 
-	{
-		o = 2;
-		HR rod(x,y,z,length,o);		
-    //======================= Up  ============================
-		// Do addition to put the deleted rod back;
-		// push the rod into the URodlist;
-		URodlist.insert(URodlist.begin()+indx-nv-nh,rod);
-		// URodlist.push_back(rod);
-		nu++;
-		du--;
-		// update new N, E and new config;
-		for (int i = 0; i < length; i++)
-		{
-			s.getSquare(x,y,(z+i)%n2).setStatus(1);
-		}						
-	}
-}
+// 	else if(indx < nv + nh)
+// 	{
+// 		o = 1;
+// 		HR rod(x,y,z,length,o);		
+//     //======================= Horizontal  ============================
+// 		// Do addition to put the deleted rod back;
+// 		// push the rod into the HRodlist;
+// 		HRodlist.insert(HRodlist.begin() + indx - nv,rod);
+// 		// HRodlist.push_back(rod);
+// 		nh++;
+// 		dh--;
+// 		// update new N, E and new config;
+// 		for (int i = 0; i < length; i++)
+// 		{
+// 			s.getSquare((x+i)%n0,y,z).setStatus(1);
+// 		}
+// 	}
+// 	else 
+// 	{
+// 		o = 2;
+// 		HR rod(x,y,z,length,o);		
+//     //======================= Up  ============================
+// 		// Do addition to put the deleted rod back;
+// 		// push the rod into the URodlist;
+// 		URodlist.insert(URodlist.begin()+indx-nv-nh,rod);
+// 		// URodlist.push_back(rod);
+// 		nu++;
+// 		du--;
+// 		// update new N, E and new config;
+// 		for (int i = 0; i < length; i++)
+// 		{
+// 			s.getSquare(x,y,(z+i)%n2).setStatus(1);
+// 		}						
+// 	}
+// }
 
 /*
 ***************************** The idea of weight on S **************************
@@ -410,7 +625,8 @@ void MC::MCSUS()
 	}
 
     // ============= Do a GCMC to reach a initial state where S is in [0,deltaS] ==========
-	while ((j < step && S <= 0) || (j < step && S>DeltaS) )
+	// while ((j < step && S <= 0) || (j < step && S>DeltaS) )
+	while(j<step)
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
 		addordel = rand()%2 ; 
@@ -464,18 +680,21 @@ void MC::MCSUS()
 			addordel = rand()%2;
 		    size = nv+nh+nu;
 
+    		aaccp = z*double(n0*n1*n2)/(double(nh+nv+nu+1.0)*double(length));
+			daccp = (double(nh+nv+nu)*double(length))/(z*double(n0*n1*n2));
+
 			prob = ((double) rand() / (RAND_MAX)); 
 
 			// aaccp = (z*V)/((size+1.0)*K)*(exp(WF[int(w)] - WF[int(w-1)]));
 			// daccp = (size*K)/(z*V)*(exp(WF[int(w-1)] - WF[int(w)]));	
 
-			// proba = min(1.0,aaccp);
-			// probd = min(1.0,daccp);
+			proba = min(1.0,aaccp);
+			probd = min(1.0,daccp);
 
 	        // ===========================Addition ===================================
 			if(addordel == 0) 
 			{
-				Ad = Add(s,prob,proba);
+				Ad = AddSUS(s,prob,proba,w,DeltaS);
 				// cout << (nu-(nv+nh)*0.5)/(nu+nv+nh)<<endl;
 			}
 			// ============================Deletion=============================
@@ -483,7 +702,7 @@ void MC::MCSUS()
 			{
 				if (size != 0) // make sure there are rods to be del;
 				{
-					De = Del(s,prob,probd,size);	
+					De = DelSUS(s,prob,probd,size,w,DeltaS);	
 					// cout << std::get<0>(De) <<"  "<<std::get<1>(De)<<"  "<< std::get<2>(De)<<"  "<<std::get<3>(De)<<endl;
 				}
 			}	
@@ -491,42 +710,20 @@ void MC::MCSUS()
 			S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
 
 			// Now check S, only accept move when S is inside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
-			// if ((w-1.0)*DeltaS/2.0<= S && S <= (w+1.0)*DeltaS/2.0)
-			// {
-			if ((w/2.0)*DeltaS <= S && S <= (w+1.0)*DeltaS/2.0) // update the fu after each step.
+			if (-0.5+(w/2.0)*DeltaS <= S && S <= -0.5+(w+1.0)*DeltaS/2.0) // update the fu after each step.
 			{
 				fu++; // if at the upper window, update fu
 				PH_w[w][size]++; // update the distribution/histogram of PH;
 			}
-			else if ((w-1.0)*DeltaS/2.0 <= S && S < (w/2.0)*DeltaS)  // update the fl after each step.
+			else if (-0.5+(w-1.0)*DeltaS/2.0 <= S && S <= -0.5+(w/2.0)*DeltaS)  // update the fl after each step.
 			{
 				fl++;//if at the lower window, update fl
 				PL_w[w][size]++; // update the distribution/histogram of PL;
 			}	
-			// }
-			else
-			{	
-				// the case that S is outside [(w-1.0)*DeltaS/2.0 , (w+1.0)*DeltaS/2.0)]
-				if(addordel == 0) 
-				{
-					if(std::get<0>(Ad) !=-1 && std::get<1>(Ad) !=-1 && std::get<2>(Ad) !=-1 && std::get<3>(Ad) !=-1)
-					{ 
-						//make sure we did Add successfully before;
-						Add_redo(s,Ad);
-					}
-				}
-				else 
-				{
-					if(std::get<0>(De) !=-1 && std::get<1>(De) !=-1 && std::get<2>(De) !=-1 && std::get<3>(De) !=-1)
-					{
-						//make sure we did Del successfully before;
-						Del_redo(s,De);
-					}
-				}	
-			} 
 		}
+		// cout << fu<< "  "<<fl<<"  "<<S<<endl;
 		// =======================  if fu and fl != 0 Update the upper window side ================================
-        if (fu!=0 && fl != 0)
+        if (fu!=0 && fl != 0 && (-0.5+(w/2.0)*DeltaS <= S))
         {
 
 		    WF[w] = WF[w] + log(fu/fl);
@@ -559,15 +756,6 @@ void MC::MCSUS()
 
 
 	// Calc the distribution P_w(N) by PH_w(N) and PL_w(N),Then Extrapolate the P_N by P_w and WF;
-	// for(int i =0;i<n0*n1*n2/length; i++)
-	// {
-	// 	for (int w = 1; w<N_window+1; w++)
-	// 	{
-	// 		P_w[w][i] = PL_w[w+1][i] + PH_w[w][i]; //Calc the distribution P_w(N)
-	//         // P_N[i] += P_w[w][i]*exp(WF[w]);  //Extrapolate the P_N by P_w and WF;
-	//         // C+=P_N[i];
-	// 	}
-	// }
 
 	for (int w = 1;w<N_window+1;w++)
 	{
@@ -582,11 +770,6 @@ void MC::MCSUS()
 			P_w[w][i] = P_w[w][i]/CN[w];
 		}
 	}
-	// for(int w = 1; w< N_window+1,w++)
-	// {
-
-	// }
-
 
 	//Extrapolate the P_N by P_w and WF;
 	for(int k = 0; k<n0*n1*n2/length;k++) 
