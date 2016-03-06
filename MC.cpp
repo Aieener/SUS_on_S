@@ -626,8 +626,8 @@ void MC::MCSUS()
 		// cout<< "LOL: "<<i<<endl;
 	}
 
-    // ============= Do a GCMC to reach a initial state where S is in [0,deltaS] ==========
-	// while ((j < step && S <= 0) || (j < step && S>DeltaS) )
+    // ============= Do a GCMC to reach a initial state where S is -0.5==========
+	
 	while(j<step)
 	{
 		S = (nu-(nv+nh)*0.5)/(nu+nv+nh);
@@ -661,9 +661,9 @@ void MC::MCSUS()
 		// cout << S << endl;			
 	}
 	//================================Start my SUS_MC simulation=================================
-    // Weights WF = [(s=0.0005),(s=0.001),(s=0.0015),(s=0.002) ... , (s=0.5)] ---> say 0.5/0.0005 = 1000 components
-    // Windows = [{(s=0.0005),(s=0.001)}; {(s=0.001),(s=0.0015)};...;{(s=0.4995),(s=0.5)}] ---> 0.4995/0.0005 = 999 windows
-    // !! the while loop start from a state that when S is in [0,deltaS] !! NOT EMPTY!!!
+    // Weights WF = [(s=-0.4995),(s=-0.4990),(s=0.4985),(s=0.4980) ... , (s=0.3)] ---> say 0.8/0.0005 = 1600 components
+    // Windows = [{(s=-0.4995),(s=0.4985)}; {(s=-0.4990),(s=0.4980)};...;{(s=0.2990),(s=0.3)}] ---> 0.8/0.0005 = 1600 windows
+    // !! the while loop start from a state that when S is in -0.5 !! NOT EMPTY!!!
 	//===========================================================================================
 	std::tuple<int,int,int,int> Ad;
 	std::tuple<int,int,int,int> De;
