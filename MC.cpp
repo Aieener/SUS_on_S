@@ -582,7 +582,7 @@ void MC::MCSUS()
 {
 	Cells s(n0,n1,n2,EMPTY,length);  //  setting the lattice;
 	//================= declare instance variables ============================= 
-	stringstream sh,ph,data_s;
+	stringstream sh,ph,data_s,extrap;
 	sh.precision(20);
 	ph.precision(20);
 	double addordel;           // the prob to decide either add or del;
@@ -601,10 +601,12 @@ void MC::MCSUS()
 	double w = 1.0; // a counter that keep track of the index of window
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
-	double N_window = 0.8*1/(0.5*DeltaS);
-    array<double,2000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
+	double N_window = 0.8*1.5/(0.5*DeltaS);
+    array<double,3000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
     vector<double> P_N;
+    vector<double> P_ext;
     vector<double> CN; // an array of normalization constant for P_w
+    P_ext.resize(n0*n1*n2/length);
     P_N.resize(n0*n1*n2/length);
     CN.resize(n0*n1*n2/length);
     // -----------------------The rest arrays are 2D arrays ------------------------------//
@@ -612,11 +614,11 @@ void MC::MCSUS()
 	                            // where P_w^{i}(N) = PH_w^{i}(N) + PL_w^{i+1}(N);
 	vector<vector<double>> PH_w; // an array that stores the histogram/distribution of Higher window in terms of # of N
 	vector<vector<double>> PL_w; // an array that stores the histogram/distribution of Lower window in terms of # of N
-	PH_w.resize(2000);
-	PL_w.resize(2000);
-	P_w.resize(2000);
+	PH_w.resize(3000);
+	PL_w.resize(3000);
+	P_w.resize(3000);
 
-	for(int i =0; i<2000; i++)
+	for(int i =0; i<3000; i++)
 	{
 		PH_w[i].resize(n0*n1*n2/length);
 		PL_w[i].resize(n0*n1*n2/length);
@@ -772,13 +774,17 @@ void MC::MCSUS()
 	}
 
 	//Extrapolate the P_N by P_w and WF;
+	// assume P_N start with actually an array of Ln(P_N)
 	for(int k = 0; k<n0*n1*n2/length;k++) 
 	{
 		// Now calc the final P_N by using WF and P_w;
 		for (int i = 1; i< N_window+1; i++)
 		{
-	        P_N[k] += P_w[i][k]*exp(WF[i]);
+	        P_N[k] += P_w[i][k]*exp(WF[i]-1900);
+	        // P_ext[k] += P_N[k]*pow(1.33,k - 34500);
+	        
 		}
+
         C+=P_N[k];
     }
 
@@ -788,43 +794,67 @@ void MC::MCSUS()
 		sh<<WF[i]<<endl; // record WF into a text file;
 	}
 
+	double max = 0;
+	double Coutsum = 0;
 
 	for (int i =0; i<n0*n1*n2/length; i++)
 	{
-		P_N[i]=P_N[i]/C;
+		// P_N[i]=P_N[i]/C;
 		ph<<P_N[i]<<endl;
+		// P_ext[i] = log(P_N[i]) + i*log(9.33);
+		// if (P_ext[i]>=max)
+		// {
+		// 	max = P_ext[i];
+		// }
 	}
+
+	// for(int i =0; i<n0*n1*n2/length; i++)
+	// {
+	// 	P_ext[i] = P_ext[i] - max + 500;
+	// 	P_ext[i] = exp(P_ext[i]);
+	// 	Coutsum += P_ext[i];
+	// }
+
+	// for(int i =0; i<n0*n1*n2/length; i++)
+	// {
+	// // 	P_ext[i] = P_ext[i]/Coutsum;
+	// 	extrap <<P_ext[i]<<endl;
+	// }
+
 
 	ofstream myfile ("SUSWeight_function.txt");
 	ofstream data ("Data.txt");
 	// ofstream myfile2("P_w.txt");
 	ofstream myfile3("P_N.txt");
+	// ofstream myfile4("P_9_33.txt");
 
 	// myfile2.precision(20);
 	myfile3.precision(20);
 	data.precision(20);
 	myfile.precision(20);
+	// myfile4.precision(20);
 
 	string data4 = data_s.str();
 	// string data3 = ph.str();
 	string data5 = ph.str();
 	string data2 = sh.str();
+	// string data6 = extrap.str();
 
 	data << data4;
 	myfile << data2;
 	// myfile2 << data3;
 	myfile3 << data5;
+	// myfile4 << data6;
 
 	myfile.close();
 	// myfile2.close();
 	myfile3.close();
 	data.close();
+	// myfile4.close();
 
-	// for(int i = 0; i<)
 
 
 	return ;  
-	// return std::make_tuple(WF,P_w);
 }
 
 
