@@ -601,7 +601,7 @@ void MC::MCSUS()
 	double w = 1.0; // a counter that keep track of the index of window
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
-	double N_window = 0.8*1.5/(0.5*DeltaS);
+	double N_window = 0.8*1.2/(0.5*DeltaS);
     array<double,3000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
     vector<double> P_N;
     vector<double> P_ext;

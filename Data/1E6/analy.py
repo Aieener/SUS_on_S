@@ -42,9 +42,11 @@ def Pplot(PN,z):
 	plt.plot(PN,'+b',markersize=3)
 	Z = str(z)
 	ylabel = 'P(N;Z='+ Z + ')'
-	plt.ylabel(ylabel)
-	plt.xlabel('N')
-	title = 'P(N;Z='+ Z + ').png'
+	plt.ylabel('W(index)')
+	# plt.xlabel('S')
+	plt.xlabel('index; S = -0.5 + index/2000')
+
+	title = Z + ').png'
 	fig.savefig(title, dpi=300, bbox_inches='tight')
 
 def enlargePplot(PN,z):
@@ -93,9 +95,9 @@ def main():
 
 	# Pe = exploPN(P,9.33)
 	# Pplot(P,"1")
-	# Pplot(W,"WF")
-	Pe = exploPN(P,1.33)
-	Pplot(Pe,1.33)
+	Pplot(W,"Weighting_function")
+	# Pe = exploPN(P,1.33)
+	# Pplot(Pe,1.33)
 
 	# enlargePplot(Pe,"9.33")
 
