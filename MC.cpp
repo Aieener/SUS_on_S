@@ -222,7 +222,7 @@ void MC::Del(Cells &s,double &prob,double &probd, double &size)
 
 
 
-std::tuple<int,int,int,int> MC::AddSUS(Cells &s,double &prob,double &proba,double &w,double &DeltaS)
+void MC::AddSUS(Cells &s,double &prob,double &proba,double &w,double &DeltaS)
 {
 	int x,y,z,o; // pick a random position and orientation for the HR to be added;
 	x = rand()%n0; // x range[0,n0-1]
@@ -270,7 +270,7 @@ std::tuple<int,int,int,int> MC::AddSUS(Cells &s,double &prob,double &proba,doubl
 						{	
 							s.getSquare(x,(y+i)%n1,z).setStatus(1);
 						}
-					    return std::make_tuple(x,y,z,o);	
+					    return ;	
 					}				
 				}		
 			}									
@@ -309,7 +309,7 @@ std::tuple<int,int,int,int> MC::AddSUS(Cells &s,double &prob,double &proba,doubl
 						{
 							s.getSquare((x+i)%n0,y,z).setStatus(1);
 						}
-					    return std::make_tuple(x,y,z,o);
+					    return ;
 					}
 				}
 			}
@@ -347,66 +347,17 @@ std::tuple<int,int,int,int> MC::AddSUS(Cells &s,double &prob,double &proba,doubl
 						{
 							s.getSquare(x,y,(z+i)%n2).setStatus(1);
 						}
-					    return std::make_tuple(x,y,z,o);
+					    return ;
 					}
 				}
 			}							
 		}
     }
-    return std::make_tuple(-1,-1,-1,-1);
+    return ;
 }
-// void MC::Add_redo(Cells &s, std::tuple<int,int,int,int> Ad)
-// {
-// 	int x,y,z,o;
-// 	x = std::get<0>(Ad);
-// 	y = std::get<1>(Ad);
-// 	z = std::get<2>(Ad);
-// 	o = std::get<3>(Ad);
-// 	// delete the rod we just added;
-// 	if(o == 0)
-// 	{
-// 		// --------------------- it's a vertical rod -----------------------
-// 		for(int i = 0; i<length; i++)
-// 		{
-// 			// update the new config of cells
-// 			s.getSquare(x,(y+i)%n1,z).setStatus(0);
-// 		}
-// 		// remove the target rod from the vector Rodlist;
-// 		VRodlist.pop_back();
-// 		av--;
-// 		nv--;// cancel the earlier accumulate the # of ver rod;
-// 	}
-	
-// 	else if (o == 1)
-// 	{
-// 		// --------------------- it's a horizontal rod -----------------------
 
-// 		for(int i = 0; i<length; i++)
-// 		{
-// 			// update the new config of cells
-// 			s.getSquare((x+i)%n0,y,z).setStatus(0);
-// 		}
-// 		// remove the target rod from the vector Rodlist;
-// 		HRodlist.pop_back();		
-// 		ah--;
-// 		nh--;// cancel the earlier accumulate the # of hor rod;
-// 	}
-// 	else
-// 	{
-// 		// --------------------- it's a up rod -----------------------
-// 		for(int i = 0; i<length; i++)
-// 		{
-// 			// update the new config of cells
-// 			s.getSquare(x,y,(z+i)%n2).setStatus(0);
-// 		}
-// 		// remove the target rod from the vector Rodlist;
-// 		URodlist.pop_back();
-// 		au--;
-// 		nu--;// cancel the earlier accumulate the # of hor rod;
-// 	}	
-// }
 
-std::tuple<int,int,int,int> MC::DelSUS(Cells &s,double &prob,double &probd, double &size,double&w,double&DeltaS)
+void MC::DelSUS(Cells &s,double &prob,double &probd, double &size,double&w,double&DeltaS)
 {		
 	int x,y,z,indx;// the position of the target on the cells;
 	x=y=z=indx=0;
@@ -487,73 +438,11 @@ std::tuple<int,int,int,int> MC::DelSUS(Cells &s,double &prob,double &probd, doub
 					du++;	
 				}
 			}
-			return std::make_tuple(x,y,z,indx);					
+			return ;					
 		}
-		return std::make_tuple(-1,-1,-1,-1); // if delesion failed, return -1,-1,-1,-1
+		return ; // if delesion failed, return -1,-1,-1,-1
 	}
 }
-
-// void MC::Del_redo(Cells &s,std::tuple<int,int,int,int> De)
-// {
-// 	int x,y,z,indx,o;
-// 	x = std::get<0>(De);
-// 	y = std::get<1>(De);
-// 	z = std::get<2>(De);
-// 	indx = std::get<3>(De);
-
-// 	if(indx < nv)
-// 	{
-// 		o = 0;
-// 		HR rod(x,y,z,length,o);		
-// 	//======================== Vertical ===============================
-// 		// Do addition to put the deleted rod back;
-// 		// push the rod back into the VRodlist;
-// 		VRodlist.insert(VRodlist.begin() + indx,rod);
-// 		// VRodlist.push_back(rod);
-// 		nv++;
-// 		dv--;
-// 		// update new N, E and new config;
-// 		for (int i = 0; i < length; i++)
-// 		{	
-// 			s.getSquare(x,(y+i)%n1,z).setStatus(1);
-// 		}													
-// 	}
-
-// 	else if(indx < nv + nh)
-// 	{
-// 		o = 1;
-// 		HR rod(x,y,z,length,o);		
-//     //======================= Horizontal  ============================
-// 		// Do addition to put the deleted rod back;
-// 		// push the rod into the HRodlist;
-// 		HRodlist.insert(HRodlist.begin() + indx - nv,rod);
-// 		// HRodlist.push_back(rod);
-// 		nh++;
-// 		dh--;
-// 		// update new N, E and new config;
-// 		for (int i = 0; i < length; i++)
-// 		{
-// 			s.getSquare((x+i)%n0,y,z).setStatus(1);
-// 		}
-// 	}
-// 	else 
-// 	{
-// 		o = 2;
-// 		HR rod(x,y,z,length,o);		
-//     //======================= Up  ============================
-// 		// Do addition to put the deleted rod back;
-// 		// push the rod into the URodlist;
-// 		URodlist.insert(URodlist.begin()+indx-nv-nh,rod);
-// 		// URodlist.push_back(rod);
-// 		nu++;
-// 		du--;
-// 		// update new N, E and new config;
-// 		for (int i = 0; i < length; i++)
-// 		{
-// 			s.getSquare(x,y,(z+i)%n2).setStatus(1);
-// 		}						
-// 	}
-// }
 
 /*
 ***************************** The idea of weight on S **************************
@@ -601,28 +490,32 @@ void MC::MCSUS()
 	double w = 1.0; // a counter that keep track of the index of window
 	double fu,fl; // occurrence counter
 	double DeltaS = 0.001; // Declare the DeltaS Here!
-	double N_window = 0.8*1.2/(0.5*DeltaS);
+	double N_window = 0.8*1.3/(0.5*DeltaS);
     array<double,3000> WF; // NOTICED THAT THE # OF WEIGHTS IS NOT THE TOTAL NUMBER ANYMORE!!!!   --> 1D array
     vector<double> P_N;
-    vector<double> P_ext;
+    // vector<double> P_N_Z2;
     vector<double> CN; // an array of normalization constant for P_w
-    P_ext.resize(n0*n1*n2/length);
+    // P_ext.resize(n0*n1*n2/length);
     P_N.resize(n0*n1*n2/length);
+    // P_N_Z2.resize(n0*n1*n2/length);
     CN.resize(n0*n1*n2/length);
     // -----------------------The rest arrays are 2D arrays ------------------------------//
 	vector<vector<double>> P_w; // an array that stores the histogram/distribution of ave # of N
 	                            // where P_w^{i}(N) = PH_w^{i}(N) + PL_w^{i+1}(N);
+	// vector<vector<double>> P_w_Z2;
 	vector<vector<double>> PH_w; // an array that stores the histogram/distribution of Higher window in terms of # of N
 	vector<vector<double>> PL_w; // an array that stores the histogram/distribution of Lower window in terms of # of N
 	PH_w.resize(3000);
 	PL_w.resize(3000);
 	P_w.resize(3000);
+	// P_w_Z2.resize(3000);
 
 	for(int i =0; i<3000; i++)
 	{
 		PH_w[i].resize(n0*n1*n2/length);
 		PL_w[i].resize(n0*n1*n2/length);
 		P_w[i].resize(n0*n1*n2/length);
+		// P_w_Z2[i].resize(n0*n1*n2/length);
 		// cout<< "LOL: "<<i<<endl;
 	}
 
@@ -665,8 +558,8 @@ void MC::MCSUS()
     // Windows = [{(s = -0.5),(s = -0.4990)},{(s=-0.4995),(s=0.4985)}; {(s=-0.4990),(s=0.4980)};...;{(s=0.2990),(s=0.3)}] ---> 0.8/0.0005 = 1600 windows
     // !! the while loop start from a state that when S is in -0.5 !! NOT EMPTY!!!
 	//===========================================================================================
-	std::tuple<int,int,int,int> Ad;
-	std::tuple<int,int,int,int> De;
+	// std::tuple<int,int,int,int> Ad;
+	// std::tuple<int,int,int,int> De;
     
 	// ================================== THE SUS on S simulation starts ==================================
 	while (w <= N_window)// the while loop terminates when finish simulating the last window: window[V/K]; !!!for rods: window[0.8*V/K]
@@ -696,7 +589,7 @@ void MC::MCSUS()
 	        // ===========================Addition ===================================
 			if(addordel == 0) 
 			{
-				Ad = AddSUS(s,prob,proba,w,DeltaS);
+				AddSUS(s,prob,proba,w,DeltaS);
 				// cout << (nu-(nv+nh)*0.5)/(nu+nv+nh)<<endl;
 			}
 			// ============================Deletion=============================
@@ -704,7 +597,7 @@ void MC::MCSUS()
 			{
 				if (size != 0) // make sure there are rods to be del;
 				{
-					De = DelSUS(s,prob,probd,size,w,DeltaS);	
+					DelSUS(s,prob,probd,size,w,DeltaS);	
 					// cout << std::get<0>(De) <<"  "<<std::get<1>(De)<<"  "<< std::get<2>(De)<<"  "<<std::get<3>(De)<<endl;
 				}
 			}	
@@ -758,9 +651,14 @@ void MC::MCSUS()
 
 
 	// Calc the distribution P_w(N) by PH_w(N) and PL_w(N),Then Extrapolate the P_N by P_w and WF;
-
+    double WFMAX = 0.0;
 	for (int w = 1;w<N_window+1;w++)
 	{
+		if(WF[w] >WFMAX )
+		{
+			WFMAX = WF[w];
+		}
+
 		for(int i = 0; i<n0*n1*n2/length; i++)
 		{
 			P_w[w][i] = PL_w[w+1][i] + PH_w[w][i]; //Calc the distribution P_w(N)
@@ -773,18 +671,57 @@ void MC::MCSUS()
 		}
 	}
 
-	//Extrapolate the P_N by P_w and WF;
-	// assume P_N start with actually an array of Ln(P_N)
+/*
+    Extrapolate P_w_Z2 by assumming P_w_Z2[i] = P_w[i]*Z2^{i} and P_w(S) = C*exp(W(S))
+    Then lnP_w_Z2[i] = lnP_w[i] + i *ln(Z2);
+*/
+
+ //    for (int w = 1;w<N_window+1;w++)
+	// {
+	//     vector<double> NORlnP_w, NORP_w; // an array of normalization constant for ln(P_w_Z2) and P_w_Z2
+	//     NORP_w.resize(n0*n1*n2/length);
+	//     NORlnP_w.resize(n0*n1*n2/length);
+
+	// 	for(int i = 0; i<n0*n1*n2/length; i++)
+	// 	{
+	// 	    P_w_Z2[w][i] = log(P_w[i]) + i*log(9.33); // P_w_Z2 is actually ln(P_w_Z2) + C now;
+	// 	    NORlnP_w[w] +=P_w_Z2[w][i];
+	// 	}
+	// 	//Normalize ln(P_w_Z2) + C 
+	// 	for (int i =0; i<n0*n1*n2/length; i++)
+	// 	{
+	// 		P_w_Z2[w][i] = P_w_Z2[w][i]/NORlnP_w[w];
+	// 		P_w_Z2[w][i] = exp(P_w_Z2[w][i]);
+	// 		NORP_w[w] +=P_w_Z2[w][i];
+	// 	}
+	// 	for (int i =0; i<n0*n1*n2/length; i++)
+	// 	{
+	// 		P_w_Z2[w][i] = P_w_Z2[w][i]/NORP_w[w];
+	// 	}
+	// }
+
+//Extrapolate the P_N by P_w and WF;
+
+/*	
+	    P(N) = C*Σ_{i=1}^{w_max} {P(i,N)e^{W(i)}} 
+             = C*(P(1;N)*e^{W(1)} + P(2;N)*e^{W(2)} + ... +P(w_max;N)*e^{W(w_max)})
+	P(N; Z2) = P(N)*Z2^{N} 
+	         = C*Σ_{i=1}^{w_max} {P(i,N)e^{W(i)}}*Z2^{N}
+  lnP(N; Z2) = lnC + ln(Σ_{i=1}^{w_max} {P(i,N)e^{W(i)}}) + ln(Z2^{N}) 
+             = lnC + ln(P(1;N)*e^{W(1)} + P(2;N)*e^{W(2)} + ... +P(w_max;N)*e^{W(w_max)}) + N*ln(Z2)
+             = lnC + ln(P(N)) + N*ln(Z2) -->but we can do this because P(N) has 0s and ln0 gives -inf
+
+*/
+
+
 	for(int k = 0; k<n0*n1*n2/length;k++) 
 	{
 		// Now calc the final P_N by using WF and P_w;
 		for (int i = 1; i< N_window+1; i++)
 		{
-	        P_N[k] += P_w[i][k]*exp(WF[i]-1900);
-	        // P_ext[k] += P_N[k]*pow(1.33,k - 34500);
-	        
+	        P_N[k] += P_w[i][k]*exp(WF[i]-WFMAX + 400);
+	        // P_N_Z2[k] += P_w_Z2[i][k]*exp(WF[i]-1900);
 		}
-
         C+=P_N[k];
     }
 
@@ -799,13 +736,8 @@ void MC::MCSUS()
 
 	for (int i =0; i<n0*n1*n2/length; i++)
 	{
-		// P_N[i]=P_N[i]/C;
+		P_N[i] = P_N[i]/C; // Normalized it
 		ph<<P_N[i]<<endl;
-		// P_ext[i] = log(P_N[i]) + i*log(9.33);
-		// if (P_ext[i]>=max)
-		// {
-		// 	max = P_ext[i];
-		// }
 	}
 
 	// for(int i =0; i<n0*n1*n2/length; i++)
@@ -817,8 +749,8 @@ void MC::MCSUS()
 
 	// for(int i =0; i<n0*n1*n2/length; i++)
 	// {
-	// // 	P_ext[i] = P_ext[i]/Coutsum;
-	// 	extrap <<P_ext[i]<<endl;
+	// 	P_ext[i] = P_ext[i]/Coutsum;
+	// 	// extrap <<P_ext[i]<<endl;
 	// }
 
 
