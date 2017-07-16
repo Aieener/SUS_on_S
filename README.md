@@ -1,2 +1,2 @@
 # SUS_3D on order parameter
-The Successive umbrella sampling for 3D rods on order parameter S
+Simulating thin film growth with 3-D Rod like particles: Using the SUS Algorithm on order parameter S
